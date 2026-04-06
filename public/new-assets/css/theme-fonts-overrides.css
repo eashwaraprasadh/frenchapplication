@@ -1,0 +1,36 @@
+/* Theme fonts override: Noto Serif for body, Merriweather for headings */
+/* Load fonts from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&family=Noto+Serif:ital,wght@0,300;0,400;0,700;1,400&display=swap');
+
+:root{
+  --site-font-body: 'Noto Serif', Georgia, 'Times New Roman', Times, serif;
+  --site-font-headings: 'Merriweather', Georgia, 'Times New Roman', serif;
+}
+
+/* Apply readable serif for body/content */
+html, body, .main-wrapper, .page-wrapper {
+  font-family: var(--site-font-body) !important;
+  -webkit-font-smoothing: antialiased !important;
+  -moz-osx-font-smoothing: grayscale !important;
+}
+
+/* Headings: use Merriweather for strong display */
+h1 {
+  font-family: var(--site-font-headings) !important;
+  font-weight: 700 !important;
+}
+
+h2, h3, h4, h5, h6 {
+  font-family: var(--site-font-headings) !important;
+}
+
+/* Form elements and smaller text should also use readable body font */
+p, li, label, input, select, textarea, .text-style-balance {
+  font-family: var(--site-font-body) !important;
+}
+
+/* Slightly larger base size and relaxed measure for readability */
+body {
+  font-size: 18px !important;
+  line-height: 1.6 !important;
+}

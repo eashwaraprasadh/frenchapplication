@@ -1,0 +1,7 @@
+<IfModule mod_rewrite.c>
+  Options -MultiViews
+  RewriteEngine On
+  # Send all requests under /student to Laravel front controller one level up
+  RewriteRule ^(.*)$ ../index.php [L]
+</IfModule>
+

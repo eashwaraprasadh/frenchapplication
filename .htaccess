@@ -1,0 +1,50 @@
+<IfModule mod_rewrite.c>
+    <IfModule mod_negotiation.c>
+        Options -MultiViews -Indexes
+    </IfModule>
+
+    RewriteEngine On
+
+    # Redirect only auth paths; allow static pages (about, media, certification, membership, contact, exams, courses/french)
+    RewriteRule ^auth/sign-in/?$ /login [R=302,L]
+    RewriteRule ^auth/register/?$ /register [R=302,L]
+
+
+    # Force Laravel to handle app areas even if physical folders exist
+    RewriteRule ^(student|teacher|admin)(/.*)?$ index.php [L]
+
+
+    # Handle Authorization Header
+    RewriteCond %{HTTP:Authorization} .
+    RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+
+    # Redirect Trailing Slashes If Not A Folder...
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_URI} (.+)/$
+    RewriteRule ^ %1 [L,R=301]
+
+    # Send Requests To Front Controller...
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteRule ^ index.php [L]
+</IfModule>
+
+# Security Headers
+<IfModule mod_headers.c>
+    Header always set X-Content-Type-Options nosniff
+    Header always set X-Frame-Options DENY
+    Header always set X-XSS-Protection "1; mode=block"
+</IfModule>
+
+# File Upload Limits - Allow 100MB file uploads
+php_value upload_max_filesize 100M
+php_value post_max_size 100M
+php_value max_execution_time 600
+php_value max_input_time 600
+php_value memory_limit 512M
+
+# LiteSpeed specific directives for request body size
+# Note: LiteSpeed may not support these directives, contact Hostinger support if uploads still fail
+<IfModule mod_litespeed>
+    LimitRequestBody 104857600
+</IfModule>
