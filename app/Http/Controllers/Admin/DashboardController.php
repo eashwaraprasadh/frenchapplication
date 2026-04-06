@@ -44,13 +44,16 @@ class DashboardController extends Controller
             ->get();
 
         // Monthly Growth Data
-        $monthlyUsers = User::selectRaw('MONTH(created_at) as month, COUNT(*) as count')
+        $isSqlite = DB::connection()->getDriverName() === 'sqlite';
+        $monthExpr = $isSqlite ? 'strftime("%m", created_at)' : 'MONTH(created_at)';
+        
+        $monthlyUsers = User::selectRaw($monthExpr . ' as month, COUNT(*) as count')
             ->whereYear('created_at', date('Y'))
             ->groupBy('month')
             ->orderBy('month')
             ->get();
 
-        $monthlyEnrollments = Enrollment::selectRaw('MONTH(created_at) as month, COUNT(*) as count')
+        $monthlyEnrollments = Enrollment::selectRaw($monthExpr . ' as month, COUNT(*) as count')
             ->whereYear('created_at', date('Y'))
             ->groupBy('month')
             ->orderBy('month')

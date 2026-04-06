@@ -11,10 +11,8 @@ return new class extends Migration {
      */
     public function up(): void
     {
-        // Update the enum to include new question types (MySQL only)
-        if (DB::getDriverName() !== 'sqlite') {
-            DB::statement("ALTER TABLE test_questions MODIFY COLUMN type ENUM('mcq', 'mcq_image', 'audio', 'video', 'drag_drop', 'text_input', 'fill_blanks', 'image_mcq', 'image_audio_mcq', 'passage_mcq') NOT NULL");
-        }
+        // Update the enum to include new question types
+        DB::statement("ALTER TABLE test_questions MODIFY COLUMN type ENUM('mcq', 'mcq_image', 'audio', 'video', 'drag_drop', 'text_input', 'fill_blanks', 'image_mcq', 'image_audio_mcq', 'passage_mcq') NOT NULL");
     }
 
     /**
@@ -22,10 +20,8 @@ return new class extends Migration {
      */
     public function down(): void
     {
-        // Revert to old enum (MySQL only)
-        if (DB::getDriverName() !== 'sqlite') {
-            DB::statement("ALTER TABLE test_questions MODIFY COLUMN type ENUM('mcq', 'mcq_image', 'audio', 'video', 'drag_drop', 'text_input', 'fill_blanks') NOT NULL");
-        }
+        // Revert to old enum
+        DB::statement("ALTER TABLE test_questions MODIFY COLUMN type ENUM('mcq', 'mcq_image', 'audio', 'video', 'drag_drop', 'text_input', 'fill_blanks') NOT NULL");
     }
 };
 

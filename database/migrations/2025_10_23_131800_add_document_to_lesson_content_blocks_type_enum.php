@@ -9,10 +9,8 @@ return new class extends Migration {
      */
     public function up(): void
     {
-        // Include all existing types plus the new 'document' (MySQL only)
-        if (DB::getDriverName() !== 'sqlite') {
-            DB::statement("ALTER TABLE lesson_content_blocks MODIFY COLUMN type ENUM('title','text','image','audio','video','exercise','document')");
-        }
+        // Include all existing types plus the new 'document'
+        DB::statement("ALTER TABLE lesson_content_blocks MODIFY COLUMN type ENUM('title','text','image','audio','video','exercise','document')");
     }
 
     /**
@@ -20,10 +18,8 @@ return new class extends Migration {
      */
     public function down(): void
     {
-        // Revert by removing 'document' (MySQL only)
-        if (DB::getDriverName() !== 'sqlite') {
-            DB::statement("ALTER TABLE lesson_content_blocks MODIFY COLUMN type ENUM('title','text','image','audio','video','exercise')");
-        }
+        // Revert by removing 'document' (keeps previous values)
+        DB::statement("ALTER TABLE lesson_content_blocks MODIFY COLUMN type ENUM('title','text','image','audio','video','exercise')");
     }
 };
 

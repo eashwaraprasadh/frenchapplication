@@ -73,6 +73,12 @@
                                 </a>
                             </li>
                             <li class="nav-item">
+                                <a class="nav-link {{ request()->routeIs('student.attendance.*') ? 'active' : '' }}"
+                                    href="{{ route('student.attendance.index') }}">
+                                    <i class="bi bi-check2-square me-1"></i>Attendance
+                                </a>
+                            </li>
+                            <li class="nav-item">
                                 <a class="nav-link {{ request()->routeIs('student.courses') ? 'active' : '' }}"
                                     href="{{ route('student.courses') }}">
                                     <i class="bi bi-book me-1"></i>My Courses

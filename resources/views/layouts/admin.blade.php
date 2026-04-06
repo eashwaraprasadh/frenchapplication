@@ -251,6 +251,10 @@
                 href="{{ route('admin.status.index') }}">
                 <i class="bi bi-clipboard-data-fill"></i> Status Reports
             </a>
+            <a class="nav-link {{ request()->routeIs('admin.attendance*') ? 'active' : '' }}"
+                href="{{ route('admin.attendance.index') }}">
+                <i class="bi bi-person-check-fill"></i> Attendance
+            </a>
 
             <div class="sidebar-category">Learning</div>
             <a class="nav-link {{ request()->routeIs('admin.courses*') ? 'active' : '' }}"

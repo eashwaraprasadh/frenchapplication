@@ -22,3 +22,21 @@
 Homestead.json
 Homestead.yaml
 Thumbs.db
+database/*.sqlite
+public/assets
+public/index-cn-tower.html
+public/index-next.html
+research-visualization 2/dist
+research-visualization 2/node_modules
+FrenchWebsite2/
+deployment-package/
+.next copy/
+out/
+out copy/
+deploy_staging/
+*.sql
+*.tar.gz
+node_modules/
+vendor/
+research-visualization 2/node_modules/
+storage/framework/views/

@@ -95,7 +95,7 @@ class User extends Authenticatable
      */
     public function isAdmin()
     {
-        return $this->role === 'admin';
+        return in_array(strtolower($this->role), ['admin', 'super-admin', 'super_admin', 'sub-admin']);
     }
 
     /**
@@ -229,5 +229,13 @@ class User extends Authenticatable
     public function dailyStatuses()
     {
         return $this->hasMany(StudentDailyStatus::class);
+    }
+
+    /**
+     * Get user's attendances
+     */
+    public function attendances()
+    {
+        return $this->hasMany(StudentAttendance::class);
     }
 }

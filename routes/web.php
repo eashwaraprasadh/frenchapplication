@@ -10,8 +10,65 @@ use Illuminate\Support\Facades\Route;
 
 // Public Routes
 Route::get('/', function () {
-    return view('home');
+    return file_get_contents(public_path('index-cn-tower.html'));
 })->name('home');
+
+// Fix nav links from Next.js landing page
+Route::get('/media-library', function () {
+    return redirect('/courses');
+});
+Route::get('/media-library/', function () {
+    return redirect('/courses');
+});
+
+Route::get('/certification', function () {
+    return redirect('/courses');
+});
+Route::get('/certification/', function () {
+    return redirect('/courses');
+});
+
+Route::get('/membership', function () {
+    return redirect('/join-now');
+});
+Route::get('/membership/', function () {
+    return redirect('/join-now');
+});
+
+Route::get('/contact', function () {
+    return redirect('/about');
+});
+Route::get('/contact/', function () {
+    return redirect('/about');
+});
+
+Route::get('/courses/french', function () {
+    return redirect('/courses');
+});
+Route::get('/courses/french/', function () {
+    return redirect('/courses');
+});
+
+Route::get('/exams/orientation-test', function () {
+    return redirect('/test');
+});
+Route::get('/exams/orientation-test/', function () {
+    return redirect('/test');
+});
+
+Route::get('/auth/sign-in', function () {
+    return redirect('/login');
+});
+Route::get('/auth/sign-in/', function () {
+    return redirect('/login');
+});
+
+Route::get('/auth/register', function () {
+    return redirect('/register');
+});
+Route::get('/auth/register/', function () {
+    return redirect('/register');
+});
 
 // Additional static pages
 Route::get('/about', function () {
@@ -134,6 +191,10 @@ Route::middleware(['auth', 'verified'])->prefix('student')->name('student.')->gr
     Route::post('/status/topic/store', [\App\Http\Controllers\Student\StudentStatusController::class, 'storeTopic'])->name('status.topic.store');
     Route::post('/status/topic/update', [\App\Http\Controllers\Student\StudentStatusController::class, 'updateTopic'])->name('status.topic.update');
     Route::delete('/status/topic/delete', [\App\Http\Controllers\Student\StudentStatusController::class, 'deleteTopic'])->name('status.topic.delete');
+
+    // Attendance
+    Route::get('/attendance', [\App\Http\Controllers\Student\AttendanceController::class, 'index'])->name('attendance.index');
+    Route::post('/attendance/store', [\App\Http\Controllers\Student\AttendanceController::class, 'store'])->name('attendance.store');
 });
 
 // Teacher Routes
@@ -276,6 +337,15 @@ Route::middleware(['auth', 'verified', 'admin'])->prefix('admin')->name('admin.'
     Route::post('/status/topic/store', [\App\Http\Controllers\Admin\AdminStatusController::class, 'storeTopic'])->name('status.topic.store');
     Route::post('/status/topic/update', [\App\Http\Controllers\Admin\AdminStatusController::class, 'updateTopic'])->name('status.topic.update');
     Route::delete('/status/topic/delete', [\App\Http\Controllers\Admin\AdminStatusController::class, 'deleteTopic'])->name('status.topic.delete');
+
+    // Attendance Management
+    Route::get('/attendance/sessions', [\App\Http\Controllers\Admin\AttendanceSessionController::class, 'index'])->name('attendance.sessions.index');
+    Route::post('/attendance/sessions', [\App\Http\Controllers\Admin\AttendanceSessionController::class, 'store'])->name('attendance.sessions.store');
+    Route::delete('/attendance/sessions/{id}', [\App\Http\Controllers\Admin\AttendanceSessionController::class, 'destroy'])->name('attendance.sessions.destroy');
+    
+    Route::get('/attendance', [\App\Http\Controllers\Admin\AttendanceController::class, 'index'])->name('attendance.index');
+    Route::post('/attendance/{id}/status', [\App\Http\Controllers\Admin\AttendanceController::class, 'updateStatus'])->name('attendance.status');
+    Route::post('/attendance/bulk-approve', [\App\Http\Controllers\Admin\AttendanceController::class, 'bulkApprove'])->name('attendance.bulk-approve');
 });
 
 // Profile Routes
