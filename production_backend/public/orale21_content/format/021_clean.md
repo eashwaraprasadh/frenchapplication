@@ -1,0 +1,857 @@
+**Question Number: 1**
+
+**Question:**
+
+Écoutez les 4 propositions. Choisissez celle qui correspond à l’image.
+
+**Options:**
+
+A) A
+
+B) B
+
+C) C
+
+D) D
+
+**Correct option :** C
+
+**answer:** C
+
+--------------------------------------------------------------------------------
+
+**Question Number: 2**
+
+**Question:**
+
+Écoutez l’extrait sonore et les 4 propositions. Choisissez la bonne réponse.
+
+**Options:**
+
+A) A
+
+B) B
+
+C) C
+
+D) D
+
+**Correct option :** A
+
+**answer:** A
+
+--------------------------------------------------------------------------------
+
+**Question Number: 3**
+
+**Question:**
+
+Écoutez l’extrait sonore et les 4 propositions. Choisissez la bonne réponse.
+
+**Options:**
+
+A) A
+
+B) B
+
+C) C
+
+D) D
+
+**Correct option :** C
+
+**answer:** C
+
+--------------------------------------------------------------------------------
+
+**Question Number: 4**
+
+**Question:**
+
+Écoutez l’extrait sonore et les 4 propositions. Choisissez la bonne réponse.
+
+**Options:**
+
+A) A
+
+B) B
+
+C) C
+
+D) D
+
+**Correct option :** A
+
+**answer:** A
+
+--------------------------------------------------------------------------------
+
+**Question Number: 5**
+
+**Question:**
+
+Écoutez l’extrait sonore et les 4 propositions. Choisissez la bonne réponse.
+
+**Options:**
+
+A) A
+
+B) B
+
+C) C
+
+D) D
+
+**Correct option :** B
+
+**answer:** B
+
+--------------------------------------------------------------------------------
+
+**Question Number: 6**
+
+**Question:**
+
+Écoutez l’extrait sonore et les 4 propositions. Choisissez la bonne réponse.
+
+**Options:**
+
+A) A
+
+B) B
+
+C) C
+
+D) D
+
+**Correct option :** A
+
+**answer:** A
+
+--------------------------------------------------------------------------------
+
+**Question Number: 7**
+
+**Question:**
+
+Écoutez l’extrait sonore et les 4 propositions. Choisissez la bonne réponse.
+
+**Options:**
+
+A) A
+
+B) B
+
+C) C
+
+D) D
+
+**Correct option :** C
+
+**answer:** C
+
+--------------------------------------------------------------------------------
+
+**Question Number: 8**
+
+**Question:**
+
+Écoutez le document sonore et la question. Choisissez la bonne réponse.
+
+**Options:**
+
+A) Un film.
+
+B) Un livre.
+
+C) Un vêtement.
+
+D) Un voyage.
+
+**Correct option :** B
+
+**answer:** Un livre.
+
+--------------------------------------------------------------------------------
+
+**Question Number: 9**
+
+**Question:**
+
+Écoutez le document sonore et la question. Choisissez la bonne réponse.
+
+**Options:**
+
+A) La publication de son CV en ligne.
+
+B) Un remplacement dans son entreprise.
+
+C) Une formation gratuite à l’université.
+
+D) Une rencontre avec son patron.
+
+**Correct option :** D
+
+**answer:** Une rencontre avec son patron.
+
+--------------------------------------------------------------------------------
+
+**Question Number: 10**
+
+**Question:**
+
+Écoutez le document sonore et la question. Choisissez la bonne réponse.
+
+**Options:**
+
+A) La communication avec ses clients.
+
+B) La recherche d’un nouveau travail.
+
+C) L’achat d’un nouveau téléphone fixe.
+
+D) L’utilisation de son ordinateur portable.
+
+**Correct option :** A
+
+**answer:** La communication avec ses clients.
+
+--------------------------------------------------------------------------------
+
+**Question Number: 11**
+
+**Question:**
+
+Écoutez le document sonore et la question. Choisissez la bonne réponse.
+
+**Options:**
+
+A) Elle a oublié un objet important.
+
+B) Elle a raté son bus ce matin.
+
+C) Elle doit s’absenter du bureau.
+
+D) Elle est en retard à une réunion.
+
+**Correct option :** A
+
+**answer:** Elle a oublié un objet important.
+
+--------------------------------------------------------------------------------
+
+**Question Number: 12**
+
+**Question:**
+
+Écoutez le document sonore et la question. Choisissez la bonne réponse.
+
+**Options:**
+
+A) D’apprendre une langue.
+
+B) D’arrêter ses études.
+
+C) De partir à l’étranger.
+
+D) De rencontrer du monde.
+
+**Correct option :** C
+
+**answer:** De partir à l’étranger.
+
+--------------------------------------------------------------------------------
+
+**Question Number: 13**
+
+**Question:**
+
+Écoutez le document sonore et la question. Choisissez la bonne réponse.
+
+**Options:**
+
+A) La date de départ.
+
+B) La durée du voyage.
+
+C) La situation de l’hôtel.
+
+D) Le prix du séjour.
+
+**Correct option :** D
+
+**answer:** Le prix du séjour.
+
+--------------------------------------------------------------------------------
+
+**Question Number: 14**
+
+**Question:**
+
+Écoutez le document sonore et la question. Choisissez la bonne réponse.
+
+**Options:**
+
+A) L’intérêt pour le cinéma.
+
+B) Les activités de loisirs.
+
+C) Les habitudes de transport.
+
+D) L’utilisation des médias.
+
+**Correct option :** D
+
+**answer:** L’utilisation des médias.
+
+--------------------------------------------------------------------------------
+
+**Question Number: 15**
+
+**Question:**
+
+Écoutez le document sonore et la question. Choisissez la bonne réponse.
+
+**Options:**
+
+A) La répartition des horaires.
+
+B) Le contact avec les élèves.
+
+C) Les activités pédagogiques.
+
+D) L’organisation des leçons.
+
+**Correct option :** B
+
+**answer:** Le contact avec les élèves.
+
+--------------------------------------------------------------------------------
+
+**Question Number: 16**
+
+**Question:**
+
+Écoutez le document sonore et la question. Choisissez la bonne réponse.
+
+**Options:**
+
+A) Pour l’inviter au restaurant.
+
+B) Pour le remercier de son accueil.
+
+C) Pour lui conseiller un logement.
+
+D) Pour lui donner des informations.
+
+**Correct option :** D
+
+**answer:** Pour lui donner des informations.
+
+--------------------------------------------------------------------------------
+
+**Question Number: 17**
+
+**Question:**
+
+Écoutez le document sonore et la question. Choisissez la bonne réponse.
+
+**Options:**
+
+A) L’histoire est compliquée.
+
+B) La musique est ennuyeuse.
+
+C) Le réalisateur est mauvais.
+
+D) Les acteurs sont inconnus.
+
+**Correct option :** A
+
+**answer:** L’histoire est compliquée.
+
+--------------------------------------------------------------------------------
+
+**Question Number: 18**
+
+**Question:**
+
+Écoutez le document sonore et la question. Choisissez la bonne réponse.
+
+**Options:**
+
+A) Pour confirmer un rendez-vous.
+
+B) Pour demander un entretien.
+
+C) Pour proposer un service.
+
+D) Pour signaler un retard.
+
+**Correct option :** C
+
+**answer:** Pour proposer un service.
+
+--------------------------------------------------------------------------------
+
+**Question Number: 19**
+
+**Question:**
+
+Écoutez le document sonore et la question. Choisissez la bonne réponse.
+
+**Options:**
+
+A) Le recrutement se fonde sur l’expérience.
+
+B) Les salaires à l’embauche sont très élevés.
+
+C) L’évolution professionnelle est très lente.
+
+D) L’obtention d’un premier emploi est aisée.
+
+**Correct option :** A
+
+**answer:** Le recrutement se fonde sur l’expérience.
+
+--------------------------------------------------------------------------------
+
+**Question Number: 20**
+
+**Question:**
+
+Écoutez le document sonore et la question. Choisissez la bonne réponse.
+
+**Options:**
+
+A) Elle veut faire du vélo.
+
+B) Elle a horreur du volley.
+
+C) Elle trouve le vent trop fort.
+
+D) Elle se sent fatiguée.
+
+**Correct option :** C
+
+**answer:** Elle trouve le vent trop fort.
+
+--------------------------------------------------------------------------------
+
+**Question Number: 21**
+
+**Question:**
+
+Écoutez le document sonore et la question. Choisissez la bonne réponse.
+
+**Options:**
+
+A) D’un projet de voyage.
+
+B) D’un changement de travail.
+
+C) D’un futur déménagement.
+
+D) D’une sortie au cinéma.
+
+**Correct option :** A
+
+**answer:** D’un projet de voyage.
+
+--------------------------------------------------------------------------------
+
+**Question Number: 22**
+
+**Question:**
+
+Écoutez le document sonore et la question. Choisissez la bonne réponse.
+
+**Options:**
+
+A) Leur public est en diminution.
+
+B) Leur salaire est insuffisant.
+
+C) Leur savoir est peu transmis
+
+D) Leur talent est dévalorisé.
+
+**Correct option :** B
+
+**answer:** Leur salaire est insuffisant.
+
+--------------------------------------------------------------------------------
+
+**Question Number: 23**
+
+**Question:**
+
+Écoutez le document sonore et la question. Choisissez la bonne réponse.
+
+**Options:**
+
+A) L’écologie.
+
+B) La puissance.
+
+C) La sécurité.
+
+D) Les équipements.
+
+**Correct option :** D
+
+**answer:** Les équipements.
+
+--------------------------------------------------------------------------------
+
+**Question Number: 24**
+
+**Question:**
+
+Écoutez le document sonore et la question. Choisissez la bonne réponse.
+
+**Options:**
+
+A) Il a répondu à une demande de ses patients.
+
+B) Il consacre son temps à son nouveau métier.
+
+C) Il s’est remis en question suite à un échec.
+
+D) Il veut éviter toute publicité personnelle.
+
+**Correct option :** D
+
+**answer:** Il veut éviter toute publicité personnelle.
+
+--------------------------------------------------------------------------------
+
+**Question Number: 25**
+
+**Question:**
+
+Écoutez le document sonore et la question. Choisissez la bonne réponse.
+
+**Options:**
+
+A) Augmenter le nombre des surfaces exploitables.
+
+B) Développer la production des fruits et légumes.
+
+C) Diffuser des procédés en accord avec la nature.
+
+D) Introduire la plantation de nouvelles espèces.
+
+**Correct option :** C
+
+**answer:** Diffuser des procédés en accord avec la nature.
+
+--------------------------------------------------------------------------------
+
+**Question Number: 26**
+
+**Question:**
+
+Écoutez le document sonore et la question. Choisissez la bonne réponse.
+
+**Options:**
+
+A) De la préparation des vacances.
+
+B) Des révisions d’un examen.
+
+C) D’un anniversaire surpris.
+
+D) D’un projet de visites culturelles.
+
+**Correct option :** B
+
+**answer:** Des révisions d’un examen.
+
+--------------------------------------------------------------------------------
+
+**Question Number: 27**
+
+**Question:**
+
+Écoutez le document sonore et la question. Choisissez la bonne réponse.
+
+**Options:**
+
+A) Revendre des livres d’occasion auprès des finissants.
+
+B) Rencontrer les étudiants nouvellement inscrits.
+
+C) Se rendre à une vente de livres universitaires d’occasion à la faculté.
+
+D) Aller acheter des livres pour réviser avec son ami avant leurs examens
+
+**Correct option :** C
+
+**answer:** Se rendre à une vente de livres universitaires d’occasion à la faculté.
+
+--------------------------------------------------------------------------------
+
+**Question Number: 28**
+
+**Question:**
+
+Écoutez le document sonore et la question. Choisissez la bonne réponse.
+
+**Options:**
+
+A) Elle est sortie en boîte de nuit.
+
+B) Elle a diné avec sa famille.
+
+C) Elle est restée toute seule.
+
+D) Elle a vu un mauvais film.
+
+**Correct option :** C
+
+**answer:** Elle est restée toute seule.
+
+--------------------------------------------------------------------------------
+
+**Question Number: 29**
+
+**Question:**
+
+Écoutez le document sonore et la question. Choisissez la bonne réponse.
+
+**Options:**
+
+A) Une ascension professionnelle accompagnée de revenus confortables.
+
+B) Une nomination à un premier poste valorisant au sein de l’entreprise.
+
+C) Une opportunité de multiplier les contrats dans différentes entreprises.
+
+D) Une reconnaissance rapide de leurs supérieurs sur les résultats obtenus.
+
+**Correct option :** A
+
+**answer:** Une ascension professionnelle accompagnée de revenus confortables.
+
+--------------------------------------------------------------------------------
+
+**Question Number: 30**
+
+**Question:**
+
+Écoutez le document sonore et la question. Choisissez la bonne réponse.
+
+**Options:**
+
+A) Adopter un mode de vie collectif responsable.
+
+B) Construire un réseau d’assainissement des eaux.
+
+C) Faire la promotion de logements écologiques.
+
+D) Mener une politique d’aménagement des villes.
+
+**Correct option :** A
+
+**answer:** Adopter un mode de vie collectif responsable.
+
+--------------------------------------------------------------------------------
+
+**Question Number: 31**
+
+**Question:**
+
+Écoutez le document sonore et la question. Choisissez la bonne réponse.
+
+**Options:**
+
+A) D’un appel à projets imaginaires.
+
+B) D’un examen de fin d’études.
+
+C) D’un nouveau plan d’urbanisme.
+
+D) D’une rénovation d’un monument.
+
+**Correct option :** A
+
+**answer:** D’un appel à projets imaginaires.
+
+--------------------------------------------------------------------------------
+
+**Question Number: 32**
+
+**Question:**
+
+Écoutez le document sonore et la question. Choisissez la bonne réponse.
+
+**Options:**
+
+A) Elle est dans l’innovation constante.
+
+B) Elle est tournée vers l’exotisme.
+
+C) Elle fait la part belle à la tradition.
+
+D) Elle nécessite un service très rapide.
+
+**Correct option :** A
+
+**answer:** Elle est dans l’innovation constante.
+
+--------------------------------------------------------------------------------
+
+**Question Number: 33**
+
+**Question:**
+
+Écoutez le document sonore et la question. Choisissez la bonne réponse.
+
+**Options:**
+
+A) Donner des conseils de préparation.
+
+B) Éviter de faire attendre les acheteurs.
+
+C) Faire connaître des aliments oubliés.
+
+D) Respecter le goût des consommateurs.
+
+**Correct option :** A
+
+**answer:** Donner des conseils de préparation.
+
+--------------------------------------------------------------------------------
+
+**Question Number: 34**
+
+**Question:**
+
+Écoutez le document sonore et la question. Choisissez la bonne réponse.
+
+**Options:**
+
+A) Elle crée des discriminations.
+
+B) Elle enrichit les rapports.
+
+C) Elle est utile pour le droit.
+
+D) Elle varie selon les contextes.
+
+**Correct option :** B
+
+**answer:** Elle enrichit les rapports.
+
+--------------------------------------------------------------------------------
+
+**Question Number: 35**
+
+**Question:**
+
+Écoutez le document sonore et la question. Choisissez la bonne réponse.
+
+**Options:**
+
+A) La qualité croissante des résultats.
+
+B) Les aménagements hydrauliques.
+
+C) L’expérience de ses collègues.
+
+D) L’importation de pieds de vigne.
+
+**Correct option :** A
+
+**answer:** La qualité croissante des résultats.
+
+--------------------------------------------------------------------------------
+
+**Question Number: 36**
+
+**Question:**
+
+Écoutez le document sonore et la question. Choisissez la bonne réponse.
+
+**Options:**
+
+A) De voiliers destinés à des particuliers.
+
+B) De navires pour la marine marchande.
+
+C) De paquebots adaptés au tourisme de masse.
+
+D) De bateaux de pêche traditionnels.
+
+**Correct option :** A
+
+**answer:** De voiliers destinés à des particuliers.
+
+--------------------------------------------------------------------------------
+
+**Question Number: 37**
+
+**Question:**
+
+Écoutez le document sonore et la question. Choisissez la bonne réponse.
+
+**Options:**
+
+A) Une diminution de la longueur des entretiens.
+
+B) Une meilleure diffusion des offres d’emploi.
+
+C) Une plus grande équité entre les candidats.
+
+D) Une protection accrue des données personnelles.
+
+**Correct option :** C
+
+**answer:** Une plus grande équité entre les candidats.
+
+--------------------------------------------------------------------------------
+
+**Question Number: 38**
+
+**Question:**
+
+Écoutez le document sonore et la question. Choisissez la bonne réponse.
+
+**Options:**
+
+A) Devenir plus attrayantes aux yeux des étrangers.
+
+B) Diminuer le nombre d’inscrits d’origine française.
+
+C) Diversifier les nationalités au sein de chaque cursus
+
+D) Intégrer de préférence des étudiants anglophones.
+
+**Correct option :** A
+
+**answer:** Devenir plus attrayantes aux yeux des étrangers.
+
+--------------------------------------------------------------------------------
+
+**Question Number: 39**
+
+**Question:**
+
+Écoutez le document sonore et la question. Choisissez la bonne réponse.
+
+**Options:**
+
+A) Les bâtiments restaurés sont en nombre insuffisant.
+
+B) Les cités réaménagées sont surtout résidentielles.
+
+C) Les municipalités privilégient les projets coûteux.
+
+D) Les réhabilitations ont une portée limitée.
+
+**Correct option :** D
+
+**answer:** Les réhabilitations ont une portée limitée.
+
+--------------------------------------------------------------------------------

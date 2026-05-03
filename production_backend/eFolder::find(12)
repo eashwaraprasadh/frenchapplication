@@ -1,0 +1,19 @@
+[90m= [39m[34;4mIlluminate\Support\Collection[39;24m {#5333
+    [34mall[39m: [
+      {#5335
+        +"[1mid[22m": [35m1[39m,
+        +"[1mcourse_id[22m": [35m14[39m,
+        +"[1mfolder_id[22m": [35m12[39m,
+        +"[1muploaded_by[22m": [35m2[39m,
+        +"[1moriginal_name[22m": "[32msample_presentation.pptx[39m",
+        +"[1mfilename[22m": "[32msample-presentation_1760819390.pptx[39m",
+        +"[1mpath[22m": "[32mcourses/14/files/sample-presentation_1760819390.pptx[39m",
+        +"[1msize[22m": [35m29190[39m,
+        +"[1mmime_type[22m": "[32mapplication/octet-stream[39m",
+        +"[1morder_index[22m": [35m0[39m,
+        +"[1mcreated_at[22m": "[32m2025-10-18 20:29:50[39m",
+        +"[1mupdated_at[22m": "[32m2025-10-18 20:29:50[39m",
+      },
+    ],
+  }
+

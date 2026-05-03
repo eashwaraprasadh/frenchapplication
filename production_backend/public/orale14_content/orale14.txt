@@ -1,0 +1,507 @@
+Question Number: 1
+Image URL: https://examens.preptcfcanada.com/wp-content/uploads/2023/01/1q14.jpg
+Audio URL: https://examens.preptcfcanada.com/wp-content/uploads/2023/01/CO14Q01.mp3?_=1
+Local Image: images/q1.jpg
+Local Audio: audio/q1.mp3
+Question: https://examens.preptcfcanada.com/wp-content/uploads/2023/01/CO14Q01.mp3Écoutez les 4 propositions. Choisissez celle qui correspond à l’image.
+Options:
+A) A
+B) B
+C) C
+D) D
+Correct option : B
+----------------------------------------
+Question Number: 2
+Image URL: https://examens.preptcfcanada.com/wp-content/uploads/2023/01/2q14.jpg
+Audio URL: https://examens.preptcfcanada.com/wp-content/uploads/2023/01/CO14Q02.mp3?_=2
+Local Image: images/q2.jpg
+Local Audio: audio/q2.mp3
+Question: https://examens.preptcfcanada.com/wp-content/uploads/2023/01/CO14Q02.mp3Écoutez les 4 propositions. Choisissez celle qui correspond à l’image.
+Options:
+A) A
+B) B
+C) C
+D) D
+Correct option : A
+----------------------------------------
+Question Number: 3
+Image URL: https://examens.preptcfcanada.com/wp-content/uploads/2023/01/3q14.jpg
+Audio URL: https://examens.preptcfcanada.com/wp-content/uploads/2023/01/14Q03.mp3?_=3
+Local Image: images/q3.jpg
+Local Audio: audio/q3.mp3
+Question: https://examens.preptcfcanada.com/wp-content/uploads/2023/01/14Q03.mp3Écoutez les 4 propositions. Choisissez celle qui correspond à l’image.
+Options:
+A) A
+B) B
+C) C
+D) D
+Correct option : B
+----------------------------------------
+Question Number: 4
+Image URL: https://examens.preptcfcanada.com/wp-content/uploads/2023/01/4q14.jpg
+Audio URL: https://examens.preptcfcanada.com/wp-content/uploads/2023/01/14Q04.mp3?_=4
+Local Image: images/q4.jpg
+Local Audio: audio/q4.mp3
+Question: https://examens.preptcfcanada.com/wp-content/uploads/2023/01/14Q04.mp3Écoutez les 4 propositions. Choisissez celle qui correspond à l’image.
+Options:
+A) A
+B) B
+C) C
+D) D
+Correct option : C
+----------------------------------------
+Question Number: 5
+Image URL: N/A
+Audio URL: https://examens.preptcfcanada.com/wp-content/uploads/2023/01/14Q05.mp3?_=5
+Local Image: N/A
+Local Audio: audio/q5.mp3
+Question: https://examens.preptcfcanada.com/wp-content/uploads/2023/01/14Q05.mp3Écoutez l’extrait sonore et les 4 propositions. Choisissez la bonne réponse.
+Options:
+A) A
+B) B
+C) C
+D) D
+Correct option : C
+----------------------------------------
+Question Number: 6
+Image URL: N/A
+Audio URL: https://examens.preptcfcanada.com/wp-content/uploads/2023/01/14Q06.mp3?_=6
+Local Image: N/A
+Local Audio: audio/q6.mp3
+Question: https://examens.preptcfcanada.com/wp-content/uploads/2023/01/14Q06.mp3Écoutez l’extrait sonore et les 4 propositions. Choisissez la bonne réponse.
+Options:
+A) A
+B) B
+C) C
+D) D
+Correct option : B
+----------------------------------------
+Question Number: 7
+Image URL: N/A
+Audio URL: https://examens.preptcfcanada.com/wp-content/uploads/2023/01/CO14Q07.mp3?_=7
+Local Image: N/A
+Local Audio: audio/q7.mp3
+Question: https://examens.preptcfcanada.com/wp-content/uploads/2023/01/CO14Q07.mp3Écoutez l’extrait sonore et les 4 propositions. Choisissez la bonne réponse.
+Options:
+A) A
+B) B
+C) C
+D) D
+Correct option : D
+----------------------------------------
+Question Number: 8
+Image URL: N/A
+Audio URL: https://examens.preptcfcanada.com/wp-content/uploads/2023/01/CO14Q08.mp3?_=8
+Local Image: N/A
+Local Audio: audio/q8.mp3
+Question: https://examens.preptcfcanada.com/wp-content/uploads/2023/01/CO14Q08.mp3Écoutez l’extrait sonore et les 4 propositions. Choisissez la bonne réponse.
+Options:
+A) A
+B) B
+C) C
+D) D
+Correct option : B
+----------------------------------------
+Question Number: 9
+Image URL: N/A
+Audio URL: https://examens.preptcfcanada.com/wp-content/uploads/2023/01/14Q09.mp3?_=9
+Local Image: N/A
+Local Audio: audio/q9.mp3
+Question: https://examens.preptcfcanada.com/wp-content/uploads/2023/01/14Q09.mp3Écoutez l’extrait sonore et les 4 propositions. Choisissez la bonne réponse.
+Options:
+A) A
+B) B
+C) C
+D) D
+Correct option : B
+----------------------------------------
+Question Number: 10
+Image URL: N/A
+Audio URL: https://examens.preptcfcanada.com/wp-content/uploads/2023/01/14Q10.mp3?_=10
+Local Image: N/A
+Local Audio: audio/q10.mp3
+Question: https://examens.preptcfcanada.com/wp-content/uploads/2023/01/14Q10.mp3Écoutez le document sonore et la question. Choisissez la bonne réponse.
+Options:
+A) Attendre la réponse.
+B) Compléter son dossier.
+C) Demander un passeport.
+D) Envoyer son inscription.
+Correct option : B
+----------------------------------------
+Question Number: 11
+Image URL: N/A
+Audio URL: https://examens.preptcfcanada.com/wp-content/uploads/2023/01/CO14Q11.mp3?_=11
+Local Image: N/A
+Local Audio: audio/q11.mp3
+Question: https://examens.preptcfcanada.com/wp-content/uploads/2023/01/CO14Q11.mp3Écoutez le document sonore et la question. Choisissez la bonne réponse.
+Options:
+A) De cinéma.
+B) De lecture.
+C) De musique.
+D) De théâtre.
+Correct option : A
+----------------------------------------
+Question Number: 12
+Image URL: N/A
+Audio URL: https://examens.preptcfcanada.com/wp-content/uploads/2023/01/14Q12.mp3?_=12
+Local Image: N/A
+Local Audio: audio/q12.mp3
+Question: https://examens.preptcfcanada.com/wp-content/uploads/2023/01/14Q12.mp3Écoutez le document sonore et la question. Choisissez la bonne réponse.
+Options:
+A) Il y a un service internet.
+B) Le placement est libre.
+C) On y propose des repas.
+D) Son personnel est bilingue.
+Correct option : A
+----------------------------------------
+Question Number: 13
+Image URL: N/A
+Audio URL: https://examens.preptcfcanada.com/wp-content/uploads/2023/01/14Q13.mp3?_=13
+Local Image: N/A
+Local Audio: audio/q13.mp3
+Question: https://examens.preptcfcanada.com/wp-content/uploads/2023/01/14Q13.mp3Écoutez le document sonore et la question. Choisissez la bonne réponse.
+Options:
+A) La date de départ.
+B) La durée du voyage.
+C) La situation de l’hôtel.
+D) Le prix du séjour.
+Correct option : D
+----------------------------------------
+Question Number: 14
+Image URL: N/A
+Audio URL: https://examens.preptcfcanada.com/wp-content/uploads/2023/01/14Q14.mp3?_=14
+Local Image: N/A
+Local Audio: audio/q14.mp3
+Question: https://examens.preptcfcanada.com/wp-content/uploads/2023/01/14Q14.mp3Écoutez le document sonore et la question. Choisissez la bonne réponse.
+Options:
+A) II n’aime pas l’œuvre de ce peintre.
+B) La présentation des tableaux lui a déplu.
+C) Il a trouvé qu’il y avait trop de visiteurs.
+D) Il s’est ennuyé en faisant la queue.
+Correct option : C
+----------------------------------------
+Question Number: 15
+Image URL: N/A
+Audio URL: https://examens.preptcfcanada.com/wp-content/uploads/2023/01/14Q15.mp3?_=15
+Local Image: N/A
+Local Audio: audio/q15.mp3
+Question: https://examens.preptcfcanada.com/wp-content/uploads/2023/01/14Q15.mp3Écoutez le document sonore et la question. Choisissez la bonne réponse.
+Options:
+A) Pour lui présenter un produit.
+B) Pour organiser un voyage.
+C) Pour suivre une formation.
+D) Pour visiter Lyon avec lui.
+Correct option : A
+----------------------------------------
+Question Number: 16
+Image URL: N/A
+Audio URL: https://examens.preptcfcanada.com/wp-content/uploads/2023/01/14Q16.mp3?_=16
+Local Image: N/A
+Local Audio: audio/q16.mp3
+Question: https://examens.preptcfcanada.com/wp-content/uploads/2023/01/14Q16.mp3Écoutez le document sonore et la question. Choisissez la bonne réponse.
+Options:
+A) Son caractère.
+B) Ses diplômes.
+C) Son expérience.
+D) Ses motivations.
+Correct option : A
+----------------------------------------
+Question Number: 17
+Image URL: N/A
+Audio URL: https://examens.preptcfcanada.com/wp-content/uploads/2023/01/14Q17.mp3?_=17
+Local Image: N/A
+Local Audio: audio/q17.mp3
+Question: https://examens.preptcfcanada.com/wp-content/uploads/2023/01/14Q17.mp3Écoutez le document sonore et la question. Choisissez la bonne réponse.
+Options:
+A) Son âge.
+B) Sa motivation.
+C) Son expérience.
+D) Sa qualification.
+Correct option : D
+----------------------------------------
+Question Number: 18
+Image URL: N/A
+Audio URL: https://examens.preptcfcanada.com/wp-content/uploads/2023/01/14Q18.mp3?_=18
+Local Image: N/A
+Local Audio: audio/q18.mp3
+Question: https://examens.preptcfcanada.com/wp-content/uploads/2023/01/14Q18.mp3Écoutez le document sonore et la question. Choisissez la bonne réponse.
+Options:
+A) Qu’elle l’avait oublié en vacances.
+B) Qu’un collègue l’avait consulté.
+C) Que son assistant l’avait perdu.
+D) Qu’on l’avait envoyé ailleurs.
+Correct option : C
+----------------------------------------
+Question Number: 19
+Image URL: N/A
+Audio URL: https://examens.preptcfcanada.com/wp-content/uploads/2023/01/14Q19.mp3?_=19
+Local Image: N/A
+Local Audio: audio/q19.mp3
+Question: https://examens.preptcfcanada.com/wp-content/uploads/2023/01/14Q19.mp3Écoutez le document sonore et la question. Choisissez la bonne réponse.
+Options:
+A) Elle va appeler le locataire.
+B) Elle va attendre un petit peu.
+C) Elle va refuser le paiement.
+D) Elle va revenir une autre fois.
+Correct option : B
+----------------------------------------
+Question Number: 20
+Image URL: N/A
+Audio URL: https://examens.preptcfcanada.com/wp-content/uploads/2023/01/14Q20.mp3?_=20
+Local Image: N/A
+Local Audio: audio/q20.mp3
+Question: https://examens.preptcfcanada.com/wp-content/uploads/2023/01/14Q20.mp3Écoutez le document sonore et la question. Choisissez la bonne réponse.
+Options:
+A) Il fait beau qu’hier.
+B) Il fait plus mauvais qu’hier.
+C) Il pleut plus qu’hier.
+D) Il y a moins de soleil qu’hier.
+Correct option : A
+----------------------------------------
+Question Number: 21
+Image URL: N/A
+Audio URL: https://examens.preptcfcanada.com/wp-content/uploads/2023/01/14Q21.mp3?_=21
+Local Image: N/A
+Local Audio: audio/q21.mp3
+Question: https://examens.preptcfcanada.com/wp-content/uploads/2023/01/14Q21.mp3Écoutez le document sonore et la question. Choisissez la bonne réponse.
+Options:
+A) Elle va repartir avec sa voiture.
+B) Elle va revenir dans dix minutes.
+C) Elle va revenir le lendemain.
+D) Elle va repartir sans sa voiture.
+Correct option : D
+----------------------------------------
+Question Number: 22
+Image URL: N/A
+Audio URL: https://examens.preptcfcanada.com/wp-content/uploads/2023/01/CO14Q22.mp3?_=22
+Local Image: N/A
+Local Audio: audio/q22.mp3
+Question: https://examens.preptcfcanada.com/wp-content/uploads/2023/01/CO14Q22.mp3Écoutez le document sonore et la question. Choisissez la bonne réponse.
+Options:
+A) Ils affichaient des prix erronés.
+B) Ils annonçaient de fausses promotions.
+C) Ils soldaient des articles périmés.
+D) Ils vendaient des marchandises à perte.
+Correct option : B
+----------------------------------------
+Question Number: 23
+Image URL: N/A
+Audio URL: https://examens.preptcfcanada.com/wp-content/uploads/2023/01/CO14Q23.mp3?_=23
+Local Image: N/A
+Local Audio: audio/q23.mp3
+Question: https://examens.preptcfcanada.com/wp-content/uploads/2023/01/CO14Q23.mp3Écoutez le document sonore et la question. Choisissez la bonne réponse.
+Options:
+A) II n’y a plus de place en seconde classe.
+B) II n’y a plus de place pour la voiture.
+C) Il n’y a plus de place pour quatre personnes.
+D) II n’y a plus de cabines pour quatre personnes.
+Correct option : B
+----------------------------------------
+Question Number: 24
+Image URL: N/A
+Audio URL: https://examens.preptcfcanada.com/wp-content/uploads/2023/01/CO14Q24.mp3?_=24
+Local Image: N/A
+Local Audio: audio/q24.mp3
+Question: https://examens.preptcfcanada.com/wp-content/uploads/2023/01/CO14Q24.mp3Écoutez le document sonore et la question. Choisissez la bonne réponse.
+Options:
+A) Elle a changé de cursus universitaire.
+B) Elle a rencontré des gens étonnants.
+C) Elle a suivi des enseignements variés.
+D) Elle a trouvé le niveau des cours facile.
+Correct option : C
+----------------------------------------
+Question Number: 25
+Image URL: N/A
+Audio URL: https://examens.preptcfcanada.com/wp-content/uploads/2023/01/20Q24.mp3?_=25
+Local Image: N/A
+Local Audio: audio/q25.mp3
+Question: https://examens.preptcfcanada.com/wp-content/uploads/2023/01/20Q24.mp3Écoutez le document sonore et la question. Choisissez la bonne réponse.
+Options:
+A) Amener l’élève à participer à sa propre formation.
+B) Axer principalement l’apprentissage sur le jeu.
+C) Initier les élèves à des activités parascolaires.
+D) Responsabiliser les élèves encore immatures.
+Correct option : A
+----------------------------------------
+Question Number: 26
+Image URL: N/A
+Audio URL: https://examens.preptcfcanada.com/wp-content/uploads/2023/01/14Q26.mp3?_=26
+Local Image: N/A
+Local Audio: audio/q26.mp3
+Question: https://examens.preptcfcanada.com/wp-content/uploads/2023/01/14Q26.mp3Écoutez le document sonore et la question. Choisissez la bonne réponse.
+Options:
+A) Ils annulent leurs activités.
+B) Ils partent à la montagne.
+C) Ils préfèrent sortir la nuit.
+D) Ils restent au frais à l’intérieur.
+Correct option : B
+----------------------------------------
+Question Number: 27
+Image URL: N/A
+Audio URL: https://examens.preptcfcanada.com/wp-content/uploads/2023/01/14Q27.mp3?_=27
+Local Image: N/A
+Local Audio: audio/q27.mp3
+Question: https://examens.preptcfcanada.com/wp-content/uploads/2023/01/14Q27.mp3Écoutez le document sonore et la question. Choisissez la bonne réponse.
+Options:
+A) De ses difficultés à se réveiller le matin.
+B) De son dernier salaire qui est insuffisant.
+C) De son emploi du temps professionnel.
+D) De son manque d’organisation habituel.
+Correct option : C
+----------------------------------------
+Question Number: 28
+Image URL: N/A
+Audio URL: https://examens.preptcfcanada.com/wp-content/uploads/2023/01/14Q28.mp3?_=28
+Local Image: N/A
+Local Audio: audio/q28.mp3
+Question: https://examens.preptcfcanada.com/wp-content/uploads/2023/01/14Q28.mp3Écoutez le document sonore et la question. Choisissez la bonne réponse.
+Options:
+A) La répartition des tâches dans le service.
+B) Le manque d’expérience de l’équipe.
+C) Le retard pris dans la réalisation d’un projet.
+D) Les désaccords entre employeur et employés.
+Correct option : A
+----------------------------------------
+Question Number: 29
+Image URL: N/A
+Audio URL: https://examens.preptcfcanada.com/wp-content/uploads/2022/04/Test-2-–-Q29.mp3?_=29
+Local Image: N/A
+Local Audio: audio/q29.mp3
+Question: https://examens.preptcfcanada.com/wp-content/uploads/2022/04/Test-2-–-Q29.mp3Écoutez le document sonore et la question. Choisissez la bonne réponse.
+Options:
+A) D’apprendre à élaborer des itinéraires de visites.
+B) D’expérimenter une manière différente de voyager.
+C) De découvrir des adresses d’hôtel à l’étranger.
+D) De participer à des actions de solidarité internationale.
+Correct option : B
+----------------------------------------
+Question Number: 30
+Image URL: N/A
+Audio URL: https://examens.preptcfcanada.com/wp-content/uploads/2023/01/14Q30.mp3?_=30
+Local Image: N/A
+Local Audio: audio/q30.mp3
+Question: https://examens.preptcfcanada.com/wp-content/uploads/2023/01/14Q30.mp3Écoutez le document sonore et la question. Choisissez la bonne réponse.
+Options:
+A) Il y a eu des problèmes de circulation automobile.
+B) Le réveille-matin n’a pas sonné.
+C) Il y a eu une panne d’électricité dans le métro.
+D) Le personnel du métro a fait grève.
+Correct option : C
+----------------------------------------
+Question Number: 31
+Image URL: N/A
+Audio URL: https://examens.preptcfcanada.com/wp-content/uploads/2023/01/14Q31.mp3?_=31
+Local Image: N/A
+Local Audio: audio/q31.mp3
+Question: https://examens.preptcfcanada.com/wp-content/uploads/2023/01/14Q31.mp3Écoutez le document sonore et la question. Choisissez la bonne réponse.
+Options:
+A) Il annonce une réorganisation.
+B) Il encourage un collaborateur.
+C) Il négocie des délais de livraison.
+D) II rappelle à l’ordre un employé.
+Correct option : D
+----------------------------------------
+Question Number: 32
+Image URL: N/A
+Audio URL: https://examens.preptcfcanada.com/wp-content/uploads/2023/01/CO14Q32.mp3?_=32
+Local Image: N/A
+Local Audio: audio/q32.mp3
+Question: https://examens.preptcfcanada.com/wp-content/uploads/2023/01/CO14Q32.mp3Écoutez le document sonore et la question. Choisissez la bonne réponse.
+Options:
+A) L’attribution d’aides financières.
+B) Les inégalités salariales.
+C) Les modes de consommation.
+D) L’essor du travail féminin.
+Correct option : B
+----------------------------------------
+Question Number: 33
+Image URL: N/A
+Audio URL: https://examens.preptcfcanada.com/wp-content/uploads/2024/01/29q33.mp3?_=33
+Local Image: N/A
+Local Audio: audio/q33.mp3
+Question: https://examens.preptcfcanada.com/wp-content/uploads/2024/01/29q33.mp3Écoutez le document sonore et la question. Choisissez la bonne réponse.
+Options:
+A) Les jeunes diplômés privilégient le travail en milieu urbain.
+B) Les lauréats aux concours vétérinaires sont trop peu nombreux.
+C) Les soins aux animaux de ferme demandent une spécialisation.
+D) Les vétérinaires en activité refusent de former les nouveaux.
+Correct option : A
+----------------------------------------
+Question Number: 34
+Image URL: N/A
+Audio URL: https://examens.preptcfcanada.com/wp-content/uploads/2023/01/WhatsApp-Audio-2024-06-05-a-14.13.40_f7b90a20.mp3?_=34
+Local Image: N/A
+Local Audio: audio/q34.mp3
+Question: https://examens.preptcfcanada.com/wp-content/uploads/2023/01/WhatsApp-Audio-2024-06-05-a-14.13.40_f7b90a20.mp3Écoutez le document sonore et la question. Choisissez la bonne réponse.
+Options:
+A) Faire découvrir des spécialités gastronomiques du terroir.
+B) Présenter aux visiteurs des spécimens d’animaux d’élevage.
+C) Promouvoir la campagne comme destination touristique.
+D) Sensibiliser le public à la protection de l’environnement.
+Correct option : C
+----------------------------------------
+Question Number: 35
+Image URL: N/A
+Audio URL: https://examens.preptcfcanada.com/wp-content/uploads/2023/01/WhatsApp-Audio-2024-06-05-a-14.13.40_6b8f6a12.mp3?_=35
+Local Image: N/A
+Local Audio: audio/q35.mp3
+Question: https://examens.preptcfcanada.com/wp-content/uploads/2023/01/WhatsApp-Audio-2024-06-05-a-14.13.40_6b8f6a12.mp3Écoutez le document sonore et la question. Choisissez la bonne réponse.
+Options:
+A) Des enquêtes sondent la population sur la compréhensibilité des textes.
+B) Des juristes contrôlent la rédaction qui a été assurée par des médecins.
+C) Des professionnels de santé et des utilisateurs vérifient les notices.
+D) Des programmes informatiques garantissent la lisibilité des textes.
+Correct option : C
+----------------------------------------
+Question Number: 36
+Image URL: N/A
+Audio URL: https://examens.preptcfcanada.com/wp-content/uploads/2023/01/14Q36_01.mp3?_=36
+Local Image: N/A
+Local Audio: audio/q36.mp3
+Question: https://examens.preptcfcanada.com/wp-content/uploads/2023/01/14Q36_01.mp3Écoutez le document sonore et la question. Choisissez la bonne réponse.
+Options:
+A) Il demande un délai supplémentaire de réflexion.
+B) Il doute de l’intérêt d’un diagnostic préalable.
+C) Il hésite sur la définition de son projet.
+D) II souhaite l’avis de consultants extérieurs.
+Correct option : B
+----------------------------------------
+Question Number: 37
+Image URL: N/A
+Audio URL: https://examens.preptcfcanada.com/wp-content/uploads/2023/01/14Q37.mp3?_=37
+Local Image: N/A
+Local Audio: audio/q37.mp3
+Question: https://examens.preptcfcanada.com/wp-content/uploads/2023/01/14Q37.mp3Écoutez le document sonore et la question. Choisissez la bonne réponse.
+Options:
+A) De la mise en vente libre de jouets sans contrôle sanitaire.
+B) De la tendance des adultes à s’approprier les jouets des enfants.
+C) De l’intérêt croissant suscité par les jouets tout au long de l’année.
+D) Du niveau de toxicité maximal toléré dans la fabrication des jouets.
+Correct option : A
+----------------------------------------
+Question Number: 38
+Image URL: N/A
+Audio URL: https://examens.preptcfcanada.com/wp-content/uploads/2023/01/14Q38.mp3?_=38
+Local Image: N/A
+Local Audio: audio/q38.mp3
+Question: https://examens.preptcfcanada.com/wp-content/uploads/2023/01/14Q38.mp3Écoutez le document sonore et la question. Choisissez la bonne réponse.
+Options:
+A) Sur l’étroite collaboration avec les équipes locales.
+B) Sur la formation des employés expatriés.
+C) Sur la prédominance de bénévoles dans chaque pays.
+D) Sur le montant élevé des bénéfices réalisés.
+Correct option : A
+----------------------------------------
+Question Number: 39
+Image URL: N/A
+Audio URL: https://examens.preptcfcanada.com/wp-content/uploads/2023/01/Test-2-–-Q39.mp3?_=39
+Local Image: N/A
+Local Audio: audio/q39.mp3
+Question: https://examens.preptcfcanada.com/wp-content/uploads/2023/01/Test-2-–-Q39.mp3Écoutez le document sonore et la question. Choisissez la bonne réponse.
+Options:
+A) L’absence de temps morts.
+B) L’ennui des distractions.
+C) L’insuffisance de repos.
+D) Le manque d’action.
+Correct option : C
+----------------------------------------

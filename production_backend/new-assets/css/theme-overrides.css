@@ -1,0 +1,143 @@
+/* Theme overrides: replace grapefruit/pink accents with light blue */
+
+/* Brand color: switch grapefruit to a light blue */
+:root {
+  --base-color-brand--grapefruit: #4ea3ff; /* light blue accent */
+  --base-color-brand: var(--base-color-brand--grapefruit);
+
+  /* Replace pinkish neutral backgrounds with light blue tints */
+  --base-color-neutral--neutral-light: #e6f4ff; /* very light blue bg */
+  --base-color-neutral--neutral-lightest: #eef6ff; /* lightest blue bg */
+  --neutral: #cde6ff; /* light blue border token */
+}
+
+/* CTA wrapper: swap translucent pink for translucent light blue */
+.cta-wrapper {
+  background-color: #66b3ff66 !important; /* rgba hex: ~40% opacity */
+}
+
+/* Icon gradient: use light blue instead of grapefruit */
+.icon-embed-xlarge {
+  /* force plain icon color, no gradient */
+  background-image: none !important;
+  background-color: transparent !important;
+  -webkit-text-fill-color: currentColor !important;
+  -webkit-background-clip: initial !important;
+  background-clip: initial !important;
+}
+
+/* Buttons: replace pink join CTA with light blue */
+.button.is-navbar-button {
+  background: #4ea3ff !important;
+  color: #ffffff !important;
+}
+
+.button.is-navbar-button:hover {
+  background: #2f8df2 !important;
+}
+
+/* Mobile join CTA background */
+.nav-join-mobile {
+  background: #4ea3ff !important;
+  color: #ffffff !important;
+}
+
+/* Price tags and chips: ensure borders and bg pick the new neutral */
+.pricing_info-tag,
+.pricing_coming-soon-wrapper,
+.coming-soon-wrapper {
+  border-color: var(--neutral) !important;
+}
+
+/* Grapefruit text utility should become light blue */
+.text-color-grapefruit {
+  color: var(--base-color-brand--grapefruit) !important;
+}
+
+/* Pricing cards: switch inner box background from pink to light blue */
+.feature-cards_item {
+  background-image: linear-gradient(135deg, #cfe9ff, #ffffff) !important;
+}
+
+/* Make all icons black across the entire site */
+.icon-embed-xxsmall,
+.icon-embed-xsmall,
+.icon-embed-small,
+.icon-embed-medium,
+.icon-embed-large,
+.icon-embed-xlarge {
+  color: #000000 !important;
+}
+
+/* ===== Footer video section (moved from inline styles) ===== */
+#footer-section,
+.footer-video {
+  position: relative;
+  overflow: hidden;
+  color: #fff;
+}
+
+#footer-section .footer-video-bg {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  z-index: 0;
+}
+
+#footer-section .footer-video-bg video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#footer-section .footer-video-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.55);
+}
+
+#footer-section .footer-content {
+  position: relative;
+  z-index: 1;
+  color: #fff;
+}
+
+#footer-section .container.footer-top {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+#footer-section .row {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+}
+
+@media (min-width: 768px) {
+  #footer-section .row { grid-template-columns: 1fr 1fr; }
+  #footer-section .footer-about { grid-column: 1 / -1; }
+}
+
+@media (min-width: 992px) {
+  /* Balance spacing between the three columns */
+  #footer-section .row { grid-template-columns: 1.6fr 1fr 1.4fr; column-gap: 2.5rem; }
+  #footer-section .footer-about { grid-column: auto; }
+}
+
+#footer-section .footer-heading,
+#footer-section .footer-description { color: #fff; text-align: left; }
+#footer-section .footer-heading { font-weight: 700; }
+
+#footer-section .footer-links ul { list-style: none; padding: 0; margin: 0; display: grid; gap: .35rem; }
+#footer-section .footer-links a { color: #fff; text-decoration: none; }
+#footer-section .footer-links a:hover { text-decoration: underline; }
+
+#footer-section .social-links a { color: #fff; font-size: 1.1rem; margin-right: .75rem; }
+#footer-section .social-links a:last-child { margin-right: 0; }
+
+/* Ensure side columns start at top and don't float down */
+#footer-section .footer-links,
+#footer-section .footer-social { align-self: start; }
+
+#footer-section .navbar_logo { width: 120px; height: auto; object-fit: contain; }

@@ -1,0 +1,741 @@
+Question Number: 1
+Image URL: https://examens.preptcfcanada.com/wp-content/uploads/2024/09/CO35Q01-prepmontcfca-1.png
+Audio URL: https://examens.preptcfcanada.com/wp-content/uploads/2024/09/35q1.ogg?_=1
+Local Image: images/q1.png
+Local Audio: audio/q1.ogg
+
+Question: Écoutez les 4 propositions, choisissez celle qui correspond à l’image.
+
+https://examens.preptcfcanada.com/wp-content/uploads/2024/09/35q1.ogg?_=1
+
+Options:
+A) A
+B) B
+C) C
+D) D
+
+Correct option : 
+answer: 
+----------------------------------------
+Question Number: 2
+Image URL: https://examens.preptcfcanada.com/wp-content/uploads/2024/09/CO35Q02-ReussirTCFCanada.webp
+Audio URL: https://examens.preptcfcanada.com/wp-content/uploads/2024/09/35q2.ogg?_=2
+Local Image: images/q2.webp
+Local Audio: audio/q2.ogg
+
+Question: Écoutez les 4 propositions, choisissez celle qui correspond à l’image.
+
+https://examens.preptcfcanada.com/wp-content/uploads/2024/09/35q2.ogg?_=2
+
+Options:
+A) A
+B) B
+C) C
+D) D
+
+Correct option : 
+answer: 
+----------------------------------------
+Question Number: 3
+Image URL: https://examens.preptcfcanada.com/wp-content/uploads/2024/09/CO35Q03-prepmontcfca-1.png
+Audio URL: https://examens.preptcfcanada.com/wp-content/uploads/2024/09/35q3.ogg?_=3
+Local Image: images/q3.png
+Local Audio: audio/q3.ogg
+
+Question: Écoutez les 4 propositions, choisissez celle qui correspond à l’image.
+
+https://examens.preptcfcanada.com/wp-content/uploads/2024/09/35q3.ogg?_=3
+
+Options:
+A) A
+B) B
+C) C
+D) D
+
+Correct option : 
+answer: 
+----------------------------------------
+Question Number: 4
+Image URL: N/A
+Audio URL: https://examens.preptcfcanada.com/wp-content/uploads/2024/09/35q4.ogg?_=4
+Local Image: N/A
+Local Audio: audio/q4.ogg
+
+Question: Écoutez l’extrait sonore et la question. Choisissez la bonne réponse.
+
+https://examens.preptcfcanada.com/wp-content/uploads/2024/09/35q4.ogg?_=4
+
+Options:
+A) A
+B) B
+C) C
+D) D
+
+Correct option : 
+answer: 
+----------------------------------------
+Question Number: 5
+Image URL: N/A
+Audio URL: https://examens.preptcfcanada.com/wp-content/uploads/2024/09/35q5.ogg?_=5
+Local Image: N/A
+Local Audio: audio/q5.ogg
+
+Question: Écoutez l’extrait sonore et la question. Choisissez la bonne réponse.
+
+https://examens.preptcfcanada.com/wp-content/uploads/2024/09/35q5.ogg?_=5
+
+Options:
+A) A
+B) B
+C) C
+D) D
+
+Correct option : 
+answer: 
+----------------------------------------
+Question Number: 6
+Image URL: N/A
+Audio URL: https://examens.preptcfcanada.com/wp-content/uploads/2024/09/35q6.ogg?_=6
+Local Image: N/A
+Local Audio: audio/q6.ogg
+
+Question: Écoutez l’extrait sonore et la question. Choisissez la bonne réponse.
+
+https://examens.preptcfcanada.com/wp-content/uploads/2024/09/35q6.ogg?_=6
+
+Options:
+A) A
+B) B
+C) C
+D) D
+
+Correct option : 
+answer: 
+----------------------------------------
+Question Number: 7
+Image URL: N/A
+Audio URL: https://examens.preptcfcanada.com/wp-content/uploads/2024/09/35q7.ogg?_=7
+Local Image: N/A
+Local Audio: audio/q7.ogg
+
+Question: Écoutez l’extrait sonore et la question. Choisissez la bonne réponse.
+
+https://examens.preptcfcanada.com/wp-content/uploads/2024/09/35q7.ogg?_=7
+
+Options:
+A) A
+B) B
+C) C
+D) D
+
+Correct option : 
+answer: 
+----------------------------------------
+Question Number: 8
+Image URL: N/A
+Audio URL: https://examens.preptcfcanada.com/wp-content/uploads/2024/09/35q8.ogg?_=8
+Local Image: N/A
+Local Audio: audio/q8.ogg
+
+Question: Écoutez l’extrait sonore et la question. Choisissez la bonne réponse.
+
+https://examens.preptcfcanada.com/wp-content/uploads/2024/09/35q8.ogg?_=8
+
+Options:
+A) A
+B) B
+C) C
+D) D
+
+Correct option : 
+answer: 
+----------------------------------------
+Question Number: 9
+Image URL: N/A
+Audio URL: https://examens.preptcfcanada.com/wp-content/uploads/2024/09/35q9.ogg?_=9
+Local Image: N/A
+Local Audio: audio/q9.ogg
+
+Question: Écoutez l’extrait sonore et la question. Choisissez la bonne réponse.
+
+https://examens.preptcfcanada.com/wp-content/uploads/2024/09/35q9.ogg?_=9
+
+Options:
+A) À l’opéra.
+B) Au cabaret.
+C) Au cinéma.
+D) Au théâtre.
+
+Correct option : 
+answer: 
+----------------------------------------
+Question Number: 10
+Image URL: N/A
+Audio URL: https://examens.preptcfcanada.com/wp-content/uploads/2024/09/35q10.ogg?_=10
+Local Image: N/A
+Local Audio: audio/q10.ogg
+
+Question: Écoutez l’extrait sonore et la question. Choisissez la bonne réponse.
+
+https://examens.preptcfcanada.com/wp-content/uploads/2024/09/35q10.ogg?_=10
+
+Options:
+A) Acheter un plan.
+B) Prendre un train.
+C) Trouver un hôtel.
+D) Visiter un musée.
+
+Correct option : 
+answer: 
+----------------------------------------
+Question Number: 11
+Image URL: N/A
+Audio URL: https://examens.preptcfcanada.com/wp-content/uploads/2024/09/35q11.ogg?_=11
+Local Image: N/A
+Local Audio: audio/q11.ogg
+
+Question: Écoutez l’extrait sonore et la question. Choisissez la bonne réponse.
+
+https://examens.preptcfcanada.com/wp-content/uploads/2024/09/35q11.ogg?_=11
+
+Options:
+A) S’inscrire sur place.
+B) Téléphoner.
+C) Envoyer un courrier.
+D) Utiliser internet.
+
+Correct option : 
+answer: 
+----------------------------------------
+Question Number: 12
+Image URL: N/A
+Audio URL: https://examens.preptcfcanada.com/wp-content/uploads/2024/09/35q12.ogg?_=12
+Local Image: N/A
+Local Audio: audio/q12.ogg
+
+Question: Écoutez l’extrait sonore et la question. Choisissez la bonne réponse.
+
+https://examens.preptcfcanada.com/wp-content/uploads/2024/09/35q12.ogg?_=12
+
+Options:
+A) Utiliser la salle informatique.
+B) Mettre à jour sa carte d’étudiant.
+C) Prendre une photo pour sa carte d’étudiant.
+D) Trouver le code d’accès à la salle.
+
+Correct option : 
+answer: 
+----------------------------------------
+Question Number: 13
+Image URL: N/A
+Audio URL: https://examens.preptcfcanada.com/wp-content/uploads/2024/09/35q13.ogg?_=13
+Local Image: N/A
+Local Audio: audio/q13.ogg
+
+Question: Écoutez l’extrait sonore et la question. Choisissez la bonne réponse.
+
+https://examens.preptcfcanada.com/wp-content/uploads/2024/09/35q13.ogg?_=13
+
+Options:
+A) Pour lui conseiller d’aller voir un médecin.
+B) Pour lui dire qu’elle sera un peu en retard.
+C) Pour lui proposer un film qu’elle veut voir.
+D) Pour lui rappeler une chose importante.
+
+Correct option : 
+answer: 
+----------------------------------------
+Question Number: 14
+Image URL: N/A
+Audio URL: https://examens.preptcfcanada.com/wp-content/uploads/2024/09/35q14.ogg?_=14
+Local Image: N/A
+Local Audio: audio/q14.ogg
+
+Question: Écoutez l’extrait sonore et la question. Choisissez la bonne réponse.
+
+https://examens.preptcfcanada.com/wp-content/uploads/2024/09/35q14.ogg?_=14
+
+Options:
+A) Être inscrit dans une université.
+B) Avoir le Baccalauréat.
+C) Avoir terminé des études de master.
+D) Avoir une expérience professionnelle préalable.
+
+Correct option : 
+answer: 
+----------------------------------------
+Question Number: 15
+Image URL: N/A
+Audio URL: https://examens.preptcfcanada.com/wp-content/uploads/2024/09/35q15.ogg?_=15
+Local Image: N/A
+Local Audio: audio/q15.ogg
+
+Question: Écoutez l’extrait sonore et la question. Choisissez la bonne réponse.
+
+https://examens.preptcfcanada.com/wp-content/uploads/2024/09/35q15.ogg?_=15
+
+Options:
+A) Au bureau.
+B) Au cinéma.
+C) Au restaurant.
+D) Au théâtre.
+
+Correct option : 
+answer: 
+----------------------------------------
+Question Number: 16
+Image URL: N/A
+Audio URL: https://examens.preptcfcanada.com/wp-content/uploads/2024/09/35q16.ogg?_=16
+Local Image: N/A
+Local Audio: audio/q16.ogg
+
+Question: Écoutez l’extrait sonore et la question. Choisissez la bonne réponse.
+
+https://examens.preptcfcanada.com/wp-content/uploads/2024/09/35q16.ogg?_=16
+
+Options:
+A) Pour commander un nouveau canapé-lit.
+B) Pour exiger l’annulation de sa commande.
+C) Pour demander un échange de marchandise.
+D) Pour se plaindre d’une commande non livrée.
+
+Correct option : 
+answer: 
+----------------------------------------
+Question Number: 17
+Image URL: N/A
+Audio URL: https://examens.preptcfcanada.com/wp-content/uploads/2024/09/35q17.ogg?_=17
+Local Image: N/A
+Local Audio: audio/q17.ogg
+
+Question: Écoutez l’extrait sonore et la question. Choisissez la bonne réponse.
+
+https://examens.preptcfcanada.com/wp-content/uploads/2024/09/35q17.ogg?_=17
+
+Options:
+A) Comment diminuer la consommation d’énergie.
+B) Comment il faut appliquer les conseils des experts.
+C) Comment la santé est influencée par le calendrier.
+D) Comment se protège des maladies contagieuses.
+
+Correct option : 
+answer: 
+----------------------------------------
+Question Number: 18
+Image URL: N/A
+Audio URL: https://examens.preptcfcanada.com/wp-content/uploads/2024/09/35q18.ogg?_=18
+Local Image: N/A
+Local Audio: audio/q18.ogg
+
+Question: Écoutez l’extrait sonore et la question. Choisissez la bonne réponse.
+
+https://examens.preptcfcanada.com/wp-content/uploads/2024/09/35q18.ogg?_=18
+
+Options:
+A) D’annuler une réunion.
+B) D’informer de son retard.
+C) De recevoir un client.
+D) De reporter un entretien.
+
+Correct option : 
+answer: 
+----------------------------------------
+Question Number: 19
+Image URL: N/A
+Audio URL: https://examens.preptcfcanada.com/wp-content/uploads/2024/09/35q19.ogg?_=19
+Local Image: N/A
+Local Audio: audio/q19.ogg
+
+Question: Écoutez l’extrait sonore et la question. Choisissez la bonne réponse.
+
+https://examens.preptcfcanada.com/wp-content/uploads/2024/09/35q19.ogg?_=19
+
+Options:
+A) Les conditions de recrutement sont plus difficiles aujourd’hui.
+B) Les étudiants ignorent le fonctionnement de l’entreprise.
+C) Les jeunes étaient préparés plus sérieusement dans le passé.
+D) Les patrons actuels ont un degré d’exigence trop élevé.
+
+Correct option : 
+answer: 
+----------------------------------------
+Question Number: 20
+Image URL: N/A
+Audio URL: https://examens.preptcfcanada.com/wp-content/uploads/2024/09/35q20.ogg?_=20
+Local Image: N/A
+Local Audio: audio/q20.ogg
+
+Question: Écoutez l’extrait sonore et la question. Choisissez la bonne réponse.
+
+https://examens.preptcfcanada.com/wp-content/uploads/2024/09/35q20.ogg?_=20
+
+Options:
+A) Il est possible qu’il soit renvoyé.
+B) Il est renvoyé définitivement.
+C) Il va commencer sa période d’essai.
+D) Il va être embauché définitivement.
+
+Correct option : 
+answer: 
+----------------------------------------
+Question Number: 21
+Image URL: N/A
+Audio URL: https://examens.preptcfcanada.com/wp-content/uploads/2024/09/35q21.ogg?_=21
+Local Image: N/A
+Local Audio: audio/q21.ogg
+
+Question: Écoutez l’extrait sonore et la question. Choisissez la bonne réponse.
+
+https://examens.preptcfcanada.com/wp-content/uploads/2024/09/35q21.ogg?_=21
+
+Options:
+A) Le promoteur a oublié de prévenir la compagnie de téléphone.
+B) Le réseau téléphonique du nouvel immeuble est déjà saturé.
+C) Les travaux nécessaires ne sont pas encore achevés.
+D) La compagnie de téléphone manque de personnel pour le faire.
+
+Correct option : 
+answer: 
+----------------------------------------
+Question Number: 22
+Image URL: N/A
+Audio URL: https://examens.preptcfcanada.com/wp-content/uploads/2024/09/35q22.ogg?_=22
+Local Image: N/A
+Local Audio: audio/q22.ogg
+
+Question: Écoutez l’extrait sonore et la question. Choisissez la bonne réponse.
+
+https://examens.preptcfcanada.com/wp-content/uploads/2024/09/35q22.ogg?_=22
+
+Options:
+A) Elle accepte de garder le chien.
+B) Elle refuse de garder le chien.
+C) Elle propose de trouver une autre solution.
+D) Elle demande des excuses.
+
+Correct option : 
+answer: 
+----------------------------------------
+Question Number: 23
+Image URL: N/A
+Audio URL: https://examens.preptcfcanada.com/wp-content/uploads/2024/09/35q23.ogg?_=23
+Local Image: N/A
+Local Audio: audio/q23.ogg
+
+Question: Écoutez l’extrait sonore et la question. Choisissez la bonne réponse.
+
+https://examens.preptcfcanada.com/wp-content/uploads/2024/09/35q23.ogg?_=23
+
+Options:
+A) Que l’homme soit parti seul en vacances.
+B) Que l’homme ait progressé au golf.
+C) Que l’homme lui ait envoyé une carte.
+D) Que l’homme se soit mis à faire du sport.
+
+Correct option : 
+answer: 
+----------------------------------------
+Question Number: 24
+Image URL: N/A
+Audio URL: https://examens.preptcfcanada.com/wp-content/uploads/2024/09/35q24.ogg?_=24
+Local Image: N/A
+Local Audio: audio/q24.ogg
+
+Question: Écoutez l’extrait sonore et la question. Choisissez la bonne réponse.
+
+https://examens.preptcfcanada.com/wp-content/uploads/2024/09/35q24.ogg?_=24
+
+Options:
+A) L’écologie.
+B) La puissance.
+C) La sécurité.
+D) Les équipements.
+
+Correct option : 
+answer: 
+----------------------------------------
+Question Number: 25
+Image URL: N/A
+Audio URL: https://examens.preptcfcanada.com/wp-content/uploads/2024/09/35q25.ogg?_=25
+Local Image: N/A
+Local Audio: audio/q25.ogg
+
+Question: Écoutez l’extrait sonore et la question. Choisissez la bonne réponse.
+
+https://examens.preptcfcanada.com/wp-content/uploads/2024/09/35q25.ogg?_=25
+
+Options:
+A) Pour limiter le temps passé devant la télévision.
+B) Pour améliorer les performances scolaires de l’enfant.
+C) Pour respecter les obligations légales de parentalité.
+D) Pour façonner la personnalité de l’enfant.
+
+Correct option : 
+answer: 
+----------------------------------------
+Question Number: 26
+Image URL: N/A
+Audio URL: https://examens.preptcfcanada.com/wp-content/uploads/2024/09/35q26.ogg?_=26
+Local Image: N/A
+Local Audio: audio/q26.ogg
+
+Question: Écoutez l’extrait sonore et la question. Choisissez la bonne réponse.
+
+https://examens.preptcfcanada.com/wp-content/uploads/2024/09/35q26.ogg?_=26
+
+Options:
+A) Il trouve que cela lui coûte trop cher.
+B) Il pense que cela ne lui est plus utile.
+C) Il trouve que l’augmentation est injustifiée.
+D) Il pense qu’il aurait dû être prévenu.
+
+Correct option : 
+answer: 
+----------------------------------------
+Question Number: 27
+Image URL: N/A
+Audio URL: https://examens.preptcfcanada.com/wp-content/uploads/2024/09/CO35Q27-maj.mp3?_=27
+Local Image: N/A
+Local Audio: audio/q27.mp3
+
+Question: Écoutez l’extrait sonore et la question. Choisissez la bonne réponse.
+
+https://examens.preptcfcanada.com/wp-content/uploads/2024/09/CO35Q27-maj.mp3?_=27
+
+Options:
+A) L’envie de dénoncer la situation de l’école.
+B) La nostalgie de l’école de leur jeunesse.
+C) Le constat d’une école fermée sur elle-même.
+D) L’approche identique de la question de l’école.
+
+Correct option : 
+answer: 
+----------------------------------------
+Question Number: 28
+Image URL: N/A
+Audio URL: https://examens.preptcfcanada.com/wp-content/uploads/2024/09/CO35Q28-maj.mp3?_=28
+Local Image: N/A
+Local Audio: audio/q28.mp3
+
+Question: Écoutez l’extrait sonore et la question. Choisissez la bonne réponse.
+
+https://examens.preptcfcanada.com/wp-content/uploads/2024/09/CO35Q28-maj.mp3?_=28
+
+Options:
+A) Attendre que le client demande conseil.
+B) Être serviable avec discrétion.
+C) Pousser le client à consommer.
+D) Toujours accompagner le client.
+
+Correct option : 
+answer: 
+----------------------------------------
+Question Number: 29
+Image URL: N/A
+Audio URL: https://examens.preptcfcanada.com/wp-content/uploads/2024/09/35q29.ogg?_=29
+Local Image: N/A
+Local Audio: audio/q29.ogg
+
+Question: Écoutez l’extrait sonore et la question. Choisissez la bonne réponse.
+
+https://examens.preptcfcanada.com/wp-content/uploads/2024/09/35q29.ogg?_=29
+
+Options:
+A) De maigrir plus rapidement.
+B) De manger sans compter.
+C) De s’entraîner moins souvent.
+D) De vivre plus longtemps.
+
+Correct option : 
+answer: 
+----------------------------------------
+Question Number: 30
+Image URL: N/A
+Audio URL: https://examens.preptcfcanada.com/wp-content/uploads/2024/09/CO35Q30-maj.mp3?_=30
+Local Image: N/A
+Local Audio: audio/q30.mp3
+
+Question: Écoutez l’extrait sonore et la question. Choisissez la bonne réponse.
+
+https://examens.preptcfcanada.com/wp-content/uploads/2024/09/CO35Q30-maj.mp3?_=30
+
+Options:
+A) Ils habitent plus longtemps en location.
+B) Ils perçoivent un salaire plus élevé.
+C) Ils s’investissent dans des associations.
+D) Ils sont tentés par les dépenses.
+
+Correct option : 
+answer: 
+----------------------------------------
+Question Number: 31
+Image URL: N/A
+Audio URL: https://examens.preptcfcanada.com/wp-content/uploads/2024/09/CO35Q31-maj.mp3?_=31
+Local Image: N/A
+Local Audio: audio/q31.mp3
+
+Question: Écoutez l’extrait sonore et la question. Choisissez la bonne réponse.
+
+https://examens.preptcfcanada.com/wp-content/uploads/2024/09/CO35Q31-maj.mp3?_=31
+
+Options:
+A) Avant le match.
+B) Pendant le match.
+C) À la mi-temps.
+D) Après le match.
+
+Correct option : 
+answer: 
+----------------------------------------
+Question Number: 32
+Image URL: N/A
+Audio URL: https://examens.preptcfcanada.com/wp-content/uploads/2024/09/CO35Q32-maj.mp3?_=32
+Local Image: N/A
+Local Audio: audio/q32.mp3
+
+Question: Écoutez l’extrait sonore et la question. Choisissez la bonne réponse.
+
+https://examens.preptcfcanada.com/wp-content/uploads/2024/09/CO35Q32-maj.mp3?_=32
+
+Options:
+A) La mise en vente illégale d’albums musicaux contrefaits.
+B) Les copies gratuites de fichiers musicaux sur Internet.
+C) Les détournements de droits d’auteur sur les disques vendus.
+D) Les enregistrements clandestins pendant les concerts.
+
+Correct option : 
+answer: 
+----------------------------------------
+Question Number: 33
+Image URL: N/A
+Audio URL: https://examens.preptcfcanada.com/wp-content/uploads/2024/09/CO35Q33-maj.mp3?_=33
+Local Image: N/A
+Local Audio: audio/q33.mp3
+
+Question: Écoutez l’extrait sonore et la question. Choisissez la bonne réponse.
+
+https://examens.preptcfcanada.com/wp-content/uploads/2024/09/CO35Q33-maj.mp3?_=33
+
+Options:
+A) Il a des répercussions jusque dans le quotidien des Québécois.
+B) Il modifie le calendrier annuel des compétitions de ski de fond.
+C) Il présente des bénéfices économiques méconnus des populations.
+D) Il se ressent surtout dans les régions situées au nord du Canada.
+
+Correct option : 
+answer: 
+----------------------------------------
+Question Number: 34
+Image URL: N/A
+Audio URL: https://examens.preptcfcanada.com/wp-content/uploads/2024/09/CO35Q34-maj.mp3?_=34
+Local Image: N/A
+Local Audio: audio/q34.mp3
+
+Question: Écoutez l’extrait sonore et la question. Choisissez la bonne réponse.
+
+https://examens.preptcfcanada.com/wp-content/uploads/2024/09/CO35Q34-maj.mp3?_=34
+
+Options:
+A) Ils émettent quelques réserves sur leur intégration.
+B) Ils regrettent les festivités culturelles parisiennes.
+C) Ils s’indignent des prix du marché de l’immobilier.
+D) Ils se soucient du manque de transports en commun.
+
+Correct option : 
+answer: 
+----------------------------------------
+Question Number: 35
+Image URL: N/A
+Audio URL: https://examens.preptcfcanada.com/wp-content/uploads/2024/09/CO35Q35-maj.mp3?_=35
+Local Image: N/A
+Local Audio: audio/q35.mp3
+
+Question: Écoutez l’extrait sonore et la question. Choisissez la bonne réponse.
+
+https://examens.preptcfcanada.com/wp-content/uploads/2024/09/CO35Q35-maj.mp3?_=35
+
+Options:
+A) La multiplication des intervenants nuit à l’efficacité de sa communication.
+B) Les actions d’information ont rouvert le dialogue avec les Québécois.
+C) Les habitants sont indifférents à l’une des richesses du Québec.
+D) L’expansion urbaine contrarie l’exploitation industrielle du bois.
+
+Correct option : 
+answer: 
+----------------------------------------
+Question Number: 36
+Image URL: N/A
+Audio URL: https://examens.preptcfcanada.com/wp-content/uploads/2024/09/CO35Q36-maj.mp3?_=36
+Local Image: N/A
+Local Audio: audio/q36.mp3
+
+Question: Écoutez l’extrait sonore et la question. Choisissez la bonne réponse.
+
+https://examens.preptcfcanada.com/wp-content/uploads/2024/09/CO35Q36-maj.mp3?_=36
+
+Options:
+A) Installer des fontaines d’eau purifiée dans les villages.
+B) Encadrer les projets locaux pour créer des activités économiques.
+C) Distribuer gratuitement de l’eau potable.
+D) Construire des infrastructures de santé.
+
+Correct option : 
+answer: 
+----------------------------------------
+Question Number: 37
+Image URL: N/A
+Audio URL: https://examens.preptcfcanada.com/wp-content/uploads/2024/09/CO35Q37-maj.mp3?_=37
+Local Image: N/A
+Local Audio: audio/q37.mp3
+
+Question: Écoutez l’extrait sonore et la question. Choisissez la bonne réponse.
+
+https://examens.preptcfcanada.com/wp-content/uploads/2024/09/CO35Q37-maj.mp3?_=37
+
+Options:
+A) D’un citadin original.
+B) D’un cuisinier renommé.
+C) D’un historien passionné.
+D) D’un homme préhistorique.
+
+Correct option : 
+answer: 
+----------------------------------------
+Question Number: 38
+Image URL: N/A
+Audio URL: https://examens.preptcfcanada.com/wp-content/uploads/2024/09/CO35Q38-maj.mp3?_=38
+Local Image: N/A
+Local Audio: audio/q38.mp3
+
+Question: Écoutez l’extrait sonore et la question. Choisissez la bonne réponse.
+
+https://examens.preptcfcanada.com/wp-content/uploads/2024/09/CO35Q38-maj.mp3?_=38
+
+Options:
+A) Ils font l’objet de manipulations douteuses par les pollueurs.
+B) Ils répondent à des critères insuffisamment exigeants.
+C) Ils sont destinés à justifier les politiques économiques.
+D) Ils sont publiés par des organismes liés aux entreprises.
+
+Correct option : 
+answer: 
+----------------------------------------
+Question Number: 39
+Image URL: N/A
+Audio URL: https://examens.preptcfcanada.com/wp-content/uploads/2024/09/35q39.ogg?_=39
+Local Image: N/A
+Local Audio: audio/q39.ogg
+
+Question: Écoutez l’extrait sonore et la question. Choisissez la bonne réponse.
+
+https://examens.preptcfcanada.com/wp-content/uploads/2024/09/35q39.ogg?_=39
+
+Options:
+A) Améliorer la présentation des produits.
+B) Augmenter le nombre de clients.
+C) Multiplier les points de vente .
+D) Maintenir des tarifs compétitifs.
+
+Correct option : 
+answer: 
+----------------------------------------

@@ -1,0 +1,741 @@
+Question Number: 1
+Image URL: https://examens.preptcfcanada.com/wp-content/uploads/2024/06/Capture-decran-2024-07-01-144326.png
+Audio URL: https://examens.preptcfcanada.com/wp-content/uploads/2024/07/32q1.mp3?_=1
+Local Image: images/q1.png
+Local Audio: audio/q1.mp3
+
+Question: Ecoutez les 4 propositions. Choisissez celle qui correspond à l’image.
+
+https://examens.preptcfcanada.com/wp-content/uploads/2024/07/32q1.mp3?_=1
+
+Options:
+A) A
+B) B
+C) C
+D) D
+
+Correct option : 
+answer: 
+----------------------------------------
+Question Number: 2
+Image URL: https://examens.preptcfcanada.com/wp-content/uploads/2024/06/Capture-decran-2024-07-01-144355.png
+Audio URL: https://examens.preptcfcanada.com/wp-content/uploads/2024/07/32q2.mp3?_=2
+Local Image: images/q2.png
+Local Audio: audio/q2.mp3
+
+Question: Ecoutez les 4 propositions. Choisissez celle qui correspond à l’image.
+
+https://examens.preptcfcanada.com/wp-content/uploads/2024/07/32q2.mp3?_=2
+
+Options:
+A) A
+B) B
+C) C
+D) D
+
+Correct option : 
+answer: 
+----------------------------------------
+Question Number: 3
+Image URL: https://examens.preptcfcanada.com/wp-content/uploads/2024/06/Capture-decran-2024-07-01-144420.png
+Audio URL: https://examens.preptcfcanada.com/wp-content/uploads/2024/07/32q3.mp3?_=3
+Local Image: images/q3.png
+Local Audio: audio/q3.mp3
+
+Question: Ecoutez les 4 propositions. Choisissez celle qui correspond à l’image.
+
+https://examens.preptcfcanada.com/wp-content/uploads/2024/07/32q3.mp3?_=3
+
+Options:
+A) A
+B) B
+C) C
+D) D
+
+Correct option : 
+answer: 
+----------------------------------------
+Question Number: 4
+Image URL: https://examens.preptcfcanada.com/wp-content/uploads/2024/06/Capture-decran-2024-07-01-144456.png
+Audio URL: https://examens.preptcfcanada.com/wp-content/uploads/2024/07/32q4.mp3?_=4
+Local Image: images/q4.png
+Local Audio: audio/q4.mp3
+
+Question: Ecoutez les 4 propositions. Choisissez celle qui correspond à l’image.
+
+https://examens.preptcfcanada.com/wp-content/uploads/2024/07/32q4.mp3?_=4
+
+Options:
+A) A
+B) B
+C) C
+D) D
+
+Correct option : 
+answer: 
+----------------------------------------
+Question Number: 5
+Image URL: N/A
+Audio URL: https://examens.preptcfcanada.com/wp-content/uploads/2024/07/32q5.mp3?_=5
+Local Image: N/A
+Local Audio: audio/q5.mp3
+
+Question: Ecoutez l’extrait sonore et la question. Choisissez la bonne réponse.
+
+https://examens.preptcfcanada.com/wp-content/uploads/2024/07/32q5.mp3?_=5
+
+Options:
+A) A
+B) B
+C) C
+D) D
+
+Correct option : 
+answer: 
+----------------------------------------
+Question Number: 6
+Image URL: N/A
+Audio URL: https://examens.preptcfcanada.com/wp-content/uploads/2024/07/32q6.mp3?_=6
+Local Image: N/A
+Local Audio: audio/q6.mp3
+
+Question: Ecoutez l’extrait sonore et la question. Choisissez la bonne réponse.
+
+https://examens.preptcfcanada.com/wp-content/uploads/2024/07/32q6.mp3?_=6
+
+Options:
+A) A
+B) B
+C) C
+D) D
+
+Correct option : 
+answer: 
+----------------------------------------
+Question Number: 7
+Image URL: N/A
+Audio URL: https://examens.preptcfcanada.com/wp-content/uploads/2024/07/32q7.mp3?_=7
+Local Image: N/A
+Local Audio: audio/q7.mp3
+
+Question: Ecoutez l’extrait sonore et la question. Choisissez la bonne réponse.
+
+https://examens.preptcfcanada.com/wp-content/uploads/2024/07/32q7.mp3?_=7
+
+Options:
+A) A
+B) B
+C) C
+D) D
+
+Correct option : 
+answer: 
+----------------------------------------
+Question Number: 8
+Image URL: N/A
+Audio URL: https://examens.preptcfcanada.com/wp-content/uploads/2024/07/32q8.mp3?_=8
+Local Image: N/A
+Local Audio: audio/q8.mp3
+
+Question: Ecoutez l’extrait sonore et la question. Choisissez la bonne réponse.
+
+https://examens.preptcfcanada.com/wp-content/uploads/2024/07/32q8.mp3?_=8
+
+Options:
+A) A
+B) B
+C) C
+D) D
+
+Correct option : 
+answer: 
+----------------------------------------
+Question Number: 9
+Image URL: N/A
+Audio URL: https://examens.preptcfcanada.com/wp-content/uploads/2024/07/32q9.mp3?_=9
+Local Image: N/A
+Local Audio: audio/q9.mp3
+
+Question: Ecoutez l’extrait sonore et la question. Choisissez la bonne réponse.
+
+https://examens.preptcfcanada.com/wp-content/uploads/2024/07/32q9.mp3?_=9
+
+Options:
+A) A
+B) B
+C) C
+D) D
+
+Correct option : 
+answer: 
+----------------------------------------
+Question Number: 10
+Image URL: N/A
+Audio URL: https://examens.preptcfcanada.com/wp-content/uploads/2024/07/32q10.mp3?_=10
+Local Image: N/A
+Local Audio: audio/q10.mp3
+
+Question: Ecoutez l’extrait sonore et la question. Choisissez la bonne réponse.
+
+https://examens.preptcfcanada.com/wp-content/uploads/2024/07/32q10.mp3?_=10
+
+Options:
+A) A
+B) B
+C) C
+D) D
+
+Correct option : 
+answer: 
+----------------------------------------
+Question Number: 11
+Image URL: N/A
+Audio URL: https://examens.preptcfcanada.com/wp-content/uploads/2024/07/32q11.mp3?_=11
+Local Image: N/A
+Local Audio: audio/q11.mp3
+
+Question: Écoutez le document sonore et la question. Choisissez la bonne réponse.
+
+https://examens.preptcfcanada.com/wp-content/uploads/2024/07/32q11.mp3?_=11
+
+Options:
+A) Un coiffeur.
+B) Un déménageur.
+C) Un garagiste.
+D) Un médecin.
+
+Correct option : 
+answer: 
+----------------------------------------
+Question Number: 12
+Image URL: N/A
+Audio URL: https://examens.preptcfcanada.com/wp-content/uploads/2024/07/32q12.mp3?_=12
+Local Image: N/A
+Local Audio: audio/q12.mp3
+
+Question: Écoutez le document sonore et la question. Choisissez la bonne réponse.
+
+https://examens.preptcfcanada.com/wp-content/uploads/2024/07/32q12.mp3?_=12
+
+Options:
+A) De leurs derniers voyages.
+B) De leurs destinations préférées.
+C) De leurs prochaines vacances.
+D) De leurs traditions familiales.
+
+Correct option : 
+answer: 
+----------------------------------------
+Question Number: 13
+Image URL: N/A
+Audio URL: https://examens.preptcfcanada.com/wp-content/uploads/2024/07/32q13.mp3?_=13
+Local Image: N/A
+Local Audio: audio/q13.mp3
+
+Question: Écoutez le document sonore et la question. Choisissez la bonne réponse.
+
+https://examens.preptcfcanada.com/wp-content/uploads/2024/07/32q13.mp3?_=13
+
+Options:
+A) La qualité du catalogue.
+B) Le prix des entrées.
+C) Les conditions de visite.
+D) Les œuvres présentées.
+
+Correct option : 
+answer: 
+----------------------------------------
+Question Number: 14
+Image URL: N/A
+Audio URL: https://examens.preptcfcanada.com/wp-content/uploads/2024/07/32q14.mp3?_=14
+Local Image: N/A
+Local Audio: audio/q14.mp3
+
+Question: Écoutez le document sonore et la question. Choisissez la bonne réponse.
+
+https://examens.preptcfcanada.com/wp-content/uploads/2024/07/32q14.mp3?_=14
+
+Options:
+A) Rentrer en France.
+B) Remplir un dossier.
+C) Se rendre à l’ambassade.
+D) Prendre contact avec sa banque.
+
+Correct option : 
+answer: 
+----------------------------------------
+Question Number: 15
+Image URL: N/A
+Audio URL: https://examens.preptcfcanada.com/wp-content/uploads/2024/07/32q15.mp3?_=15
+Local Image: N/A
+Local Audio: audio/q15.mp3
+
+Question: Écoutez le document sonore et la question. Choisissez la bonne réponse.
+
+https://examens.preptcfcanada.com/wp-content/uploads/2024/07/32q15.mp3?_=15
+
+Options:
+A) Elle a cassé son téléphone.
+B) Elle a raté un appel important.
+C) Elle n’a pas été invitée à un anniversaire.
+D) Elle n’a pas eu l’appel espéré.
+
+Correct option : 
+answer: 
+----------------------------------------
+Question Number: 16
+Image URL: N/A
+Audio URL: https://examens.preptcfcanada.com/wp-content/uploads/2024/07/32q16.mp3?_=16
+Local Image: N/A
+Local Audio: audio/q16.mp3
+
+Question: Écoutez le document sonore et la question. Choisissez la bonne réponse.
+
+https://examens.preptcfcanada.com/wp-content/uploads/2024/07/32q16.mp3?_=16
+
+Options:
+A) Elle aime être en altitude.
+B) Elle désire accompagner un ami.
+C) Elle fait confiance à son guide.
+D) Elle veut prendre des risques.
+
+Correct option : 
+answer: 
+----------------------------------------
+Question Number: 17
+Image URL: N/A
+Audio URL: https://examens.preptcfcanada.com/wp-content/uploads/2024/07/32q17.mp3?_=17
+Local Image: N/A
+Local Audio: audio/q17.mp3
+
+Question: Écoutez le document sonore et la question. Choisissez la bonne réponse.
+
+https://examens.preptcfcanada.com/wp-content/uploads/2024/07/32q17.mp3?_=17
+
+Options:
+A) Il correspond à ses attentes.
+B) Il dure six mois au total.
+C) Il est proche de son domicile.
+D) Il offre un très bon salaire.
+
+Correct option : 
+answer: 
+----------------------------------------
+Question Number: 18
+Image URL: N/A
+Audio URL: https://examens.preptcfcanada.com/wp-content/uploads/2024/07/32q18.mp3?_=18
+Local Image: N/A
+Local Audio: audio/q18.mp3
+
+Question: Écoutez le document sonore et la question. Choisissez la bonne réponse.
+
+https://examens.preptcfcanada.com/wp-content/uploads/2024/07/32q18.mp3?_=18
+
+Options:
+A) De créer un réseau étudiant pour échanger des services.
+B) De mettre en contact des personnes pour partager du matériel.
+C) De trouver une voiture pour transporter des affaires lourdes.
+D) D’employer des jeunes pour réparer de vieux objets.
+
+Correct option : 
+answer: 
+----------------------------------------
+Question Number: 19
+Image URL: N/A
+Audio URL: https://examens.preptcfcanada.com/wp-content/uploads/2024/07/32q19.mp3?_=19
+Local Image: N/A
+Local Audio: audio/q19.mp3
+
+Question: Écoutez le document sonore et la question. Choisissez la bonne réponse.
+
+https://examens.preptcfcanada.com/wp-content/uploads/2024/07/32q19.mp3?_=19
+
+Options:
+A) D’annuler une réunion.
+B) D’informer de son retard.
+C) De recevoir un client.
+D) De reporter un entretien.
+
+Correct option : 
+answer: 
+----------------------------------------
+Question Number: 20
+Image URL: N/A
+Audio URL: https://examens.preptcfcanada.com/wp-content/uploads/2024/07/32q20.mp3?_=20
+Local Image: N/A
+Local Audio: audio/q20.mp3
+
+Question: Écoutez le document sonore et la question. Choisissez la bonne réponse.
+
+https://examens.preptcfcanada.com/wp-content/uploads/2024/07/32q20.mp3?_=20
+
+Options:
+A) Encourager la mobilité des étudiants.
+B) Favoriser l’intégration des étrangers.
+C) Mettre en relation des francophones.
+D) Offrir des emplois aux mères de famille.
+
+Correct option : 
+answer: 
+----------------------------------------
+Question Number: 21
+Image URL: N/A
+Audio URL: https://examens.preptcfcanada.com/wp-content/uploads/2024/07/32q21.mp3?_=21
+Local Image: N/A
+Local Audio: audio/q21.mp3
+
+Question: Écoutez le document sonore et la question. Choisissez la bonne réponse.
+
+https://examens.preptcfcanada.com/wp-content/uploads/2024/07/32q21.mp3?_=21
+
+Options:
+A) De fixer les horaires de travail du comptable.
+B) De prendre rendez-vous avec le comptable.
+C) De préparer des documents pour le comptable.
+D) De remplir la fiche de salaire du comptable.
+
+Correct option : 
+answer: 
+----------------------------------------
+Question Number: 22
+Image URL: N/A
+Audio URL: https://examens.preptcfcanada.com/wp-content/uploads/2024/07/32q22.mp3?_=22
+Local Image: N/A
+Local Audio: audio/q22.mp3
+
+Question: Écoutez le document sonore et la question. Choisissez la bonne réponse.
+
+https://examens.preptcfcanada.com/wp-content/uploads/2024/07/32q22.mp3?_=22
+
+Options:
+A) La visite d’un technicien.
+B) L’échange d’un article abîmé.
+C) Le conseil d’un professionnel.
+D) Le remboursement d’un produit.
+
+Correct option : 
+answer: 
+----------------------------------------
+Question Number: 23
+Image URL: N/A
+Audio URL: https://examens.preptcfcanada.com/wp-content/uploads/2024/07/32q23.mp3?_=23
+Local Image: N/A
+Local Audio: audio/q23.mp3
+
+Question: Écoutez le document sonore et la question. Choisissez la bonne réponse.
+
+https://examens.preptcfcanada.com/wp-content/uploads/2024/07/32q23.mp3?_=23
+
+Options:
+A) La créativité.
+B) La disponibilité.
+C) La mobilité.
+D) La persuasion.
+
+Correct option : 
+answer: 
+----------------------------------------
+Question Number: 24
+Image URL: N/A
+Audio URL: https://examens.preptcfcanada.com/wp-content/uploads/2024/07/32q24.mp3?_=24
+Local Image: N/A
+Local Audio: audio/q24.mp3
+
+Question: Écoutez le document sonore et la question. Choisissez la bonne réponse.
+
+https://examens.preptcfcanada.com/wp-content/uploads/2024/07/32q24.mp3?_=24
+
+Options:
+A) Pour conserver le poisson.
+B) Pour ranger leur matériel.
+C) Pour se réchauffer.
+D) Pour se reposer.
+
+Correct option : 
+answer: 
+----------------------------------------
+Question Number: 25
+Image URL: N/A
+Audio URL: https://examens.preptcfcanada.com/wp-content/uploads/2024/07/32q25.mp3?_=25
+Local Image: N/A
+Local Audio: audio/q25.mp3
+
+Question: Écoutez le document sonore et la question. Choisissez la bonne réponse.
+
+https://examens.preptcfcanada.com/wp-content/uploads/2024/07/32q25.mp3?_=25
+
+Options:
+A) Parce que la consommation dépend avant tout du pouvoir d’achat.
+B) Parce que la création d’emploi restera rare dans ce secteur d’activité.
+C) Parce que les commerces font des bénéfices sur les ventes en semaine.
+D) Parce que les Français ne sont pas habitués à consommer le dimanche.
+
+Correct option : 
+answer: 
+----------------------------------------
+Question Number: 26
+Image URL: N/A
+Audio URL: https://examens.preptcfcanada.com/wp-content/uploads/2024/07/32q26.mp3?_=26
+Local Image: N/A
+Local Audio: audio/q26.mp3
+
+Question: Écoutez le document sonore et la question. Choisissez la bonne réponse.
+
+https://examens.preptcfcanada.com/wp-content/uploads/2024/07/32q26.mp3?_=26
+
+Options:
+A) Sa mauvaise gestion du temps.
+B) Ses dépenses excessives.
+C) Ses absences répétées.
+D) Ses résultats insuffisants.
+
+Correct option : 
+answer: 
+----------------------------------------
+Question Number: 27
+Image URL: N/A
+Audio URL: https://examens.preptcfcanada.com/wp-content/uploads/2024/07/32q27.mp3?_=27
+Local Image: N/A
+Local Audio: audio/q27.mp3
+
+Question: Écoutez le document sonore et la question. Choisissez la bonne réponse.
+
+https://examens.preptcfcanada.com/wp-content/uploads/2024/07/32q27.mp3?_=27
+
+Options:
+A) Parce qu’elles ont beaucoup à apprendre d’eux.
+B) Parce qu’elles s’implanteront mieux ensuite à l’étranger.
+C) Parce qu’elles sont en manque de main-d’oeuvre.
+D) Parce qu’elles y sont contraintes par la mondialisation.
+
+Correct option : 
+answer: 
+----------------------------------------
+Question Number: 28
+Image URL: N/A
+Audio URL: https://examens.preptcfcanada.com/wp-content/uploads/2024/07/32q28.mp3?_=28
+Local Image: N/A
+Local Audio: audio/q28.mp3
+
+Question: Écoutez le document sonore et la question. Choisissez la bonne réponse.
+
+https://examens.preptcfcanada.com/wp-content/uploads/2024/07/32q28.mp3?_=28
+
+Options:
+A) En les incitant à travailler de manière collaborative.
+B) En les poussant à prendre des risques importants.
+C) En leur offrant des formations personnalisées.
+D) En leur proposant de participer à des compétitions.
+
+Correct option : 
+answer: 
+----------------------------------------
+Question Number: 29
+Image URL: N/A
+Audio URL: https://examens.preptcfcanada.com/wp-content/uploads/2024/07/32q29.mp3?_=29
+Local Image: N/A
+Local Audio: audio/q29.mp3
+
+Question: Écoutez le document sonore et la question. Choisissez la bonne réponse.
+
+https://examens.preptcfcanada.com/wp-content/uploads/2024/07/32q29.mp3?_=29
+
+Options:
+A) Il améliore significativement la condition physique.
+B) Il donne de l’énergie pour faire face aux épreuves.
+C) Il fait naître un fort sentiment de confiance en soi.
+D) Il renforce les compétences professionnelles.
+
+Correct option : 
+answer: 
+----------------------------------------
+Question Number: 30
+Image URL: N/A
+Audio URL: https://examens.preptcfcanada.com/wp-content/uploads/2024/07/32q30.mp3?_=30
+Local Image: N/A
+Local Audio: audio/q30.mp3
+
+Question: Écoutez le document sonore et la question. Choisissez la bonne réponse.
+
+https://examens.preptcfcanada.com/wp-content/uploads/2024/07/32q30.mp3?_=30
+
+Options:
+A) Elle l’a beaucoup fasciné à ses débuts.
+B) Elle l’a conduit à la tête d’un grand magazine.
+C) Elle l’a laissé complètement indifférent.
+D) Elle l’a mis en danger pendant sa carrière.
+
+Correct option : 
+answer: 
+----------------------------------------
+Question Number: 31
+Image URL: N/A
+Audio URL: https://examens.preptcfcanada.com/wp-content/uploads/2024/07/32q31.mp3?_=31
+Local Image: N/A
+Local Audio: audio/q31.mp3
+
+Question: Écoutez le document sonore et la question. Choisissez la bonne réponse.
+
+https://examens.preptcfcanada.com/wp-content/uploads/2024/07/32q31.mp3?_=31
+
+Options:
+A) D’une compétition sportive.
+B) D’une croisière maritime.
+C) D’une histoire familiale.
+D) D’une rencontre amoureuse.
+
+Correct option : 
+answer: 
+----------------------------------------
+Question Number: 32
+Image URL: N/A
+Audio URL: https://examens.preptcfcanada.com/wp-content/uploads/2024/07/32q32.mp3?_=32
+Local Image: N/A
+Local Audio: audio/q32.mp3
+
+Question: Écoutez le document sonore et la question. Choisissez la bonne réponse.
+
+https://examens.preptcfcanada.com/wp-content/uploads/2024/07/32q32.mp3?_=32
+
+Options:
+A) C’est la reproduction d’un café du siècle dernier.
+B) Il contient un dépôt-vente de meubles design.
+C) C’est à la fois un restaurant et une galerie d’art.
+D) Il y organise un festival de musique électronique.
+
+Correct option : 
+answer: 
+----------------------------------------
+Question Number: 33
+Image URL: N/A
+Audio URL: https://examens.preptcfcanada.com/wp-content/uploads/2024/07/32q33.mp3?_=33
+Local Image: N/A
+Local Audio: audio/q33.mp3
+
+Question: Écoutez le document sonore et la question. Choisissez la bonne réponse.
+
+https://examens.preptcfcanada.com/wp-content/uploads/2024/07/32q33.mp3?_=33
+
+Options:
+A) La notice était impossible à lire.
+B) La traduction était partielle.
+C) L’emballage était défectueux.
+D) Les céréales étaient périmées.
+
+Correct option : 
+answer: 
+----------------------------------------
+Question Number: 34
+Image URL: N/A
+Audio URL: https://examens.preptcfcanada.com/wp-content/uploads/2024/07/32q34.mp3?_=34
+Local Image: N/A
+Local Audio: audio/q34.mp3
+
+Question: Écoutez le document sonore et la question. Choisissez la bonne réponse.
+
+https://examens.preptcfcanada.com/wp-content/uploads/2024/07/32q34.mp3?_=34
+
+Options:
+A) La perte de sa liberté intellectuelle.
+B) Les nombreux voyages à l’étranger.
+C) Un manque de reconnaissance.
+D) Une rémunération insuffisante.
+
+Correct option : 
+answer: 
+----------------------------------------
+Question Number: 35
+Image URL: N/A
+Audio URL: https://examens.preptcfcanada.com/wp-content/uploads/2024/07/32q35.mp3?_=35
+Local Image: N/A
+Local Audio: audio/q35.mp3
+
+Question: Écoutez le document sonore et la question. Choisissez la bonne réponse.
+
+https://examens.preptcfcanada.com/wp-content/uploads/2024/07/32q35.mp3?_=35
+
+Options:
+A) Il a été découvert en Amérique avant d’être introduit en France.
+B) Il est cueilli uniquement en été pour être conforme aux normes.
+C) Il est utilisé dans de nombreux plats de la cuisine basque.
+D) Son exportation à l’étranger est fortement contrôlée.
+
+Correct option : 
+answer: 
+----------------------------------------
+Question Number: 36
+Image URL: N/A
+Audio URL: https://examens.preptcfcanada.com/wp-content/uploads/2024/07/32q36.mp3?_=36
+Local Image: N/A
+Local Audio: audio/q36.mp3
+
+Question: Écoutez le document sonore et la question. Choisissez la bonne réponse.
+
+https://examens.preptcfcanada.com/wp-content/uploads/2024/07/32q36.mp3?_=36
+
+Options:
+A) Par l’originalité dont est marquée sa personnalité.
+B) Par la modernité avec laquelle il joue des airs célèbres.
+C) Par la place que la musique occupe dans son quotidien.
+D) Par le côté imprévisible des mélodies qu’il invente.
+
+Correct option : 
+answer: 
+----------------------------------------
+Question Number: 37
+Image URL: N/A
+Audio URL: https://examens.preptcfcanada.com/wp-content/uploads/2024/07/32q37.mp3?_=37
+Local Image: N/A
+Local Audio: audio/q37.mp3
+
+Question: Écoutez le document sonore et la question. Choisissez la bonne réponse.
+
+https://examens.preptcfcanada.com/wp-content/uploads/2024/07/32q37.mp3?_=37
+
+Options:
+A) La communication entre les animaux.
+B) La place de l’être humain dans la nature.
+C) Le progrès des sciences naturelles.
+D) L’évolution de l’espèce humaine.
+
+Correct option : 
+answer: 
+----------------------------------------
+Question Number: 38
+Image URL: N/A
+Audio URL: https://examens.preptcfcanada.com/wp-content/uploads/2024/06/Test-6-–-Q38.mp3?_=38
+Local Image: N/A
+Local Audio: audio/q38.mp3
+
+Question: Écoutez le document sonore et la question. Choisissez la bonne réponse.
+
+https://examens.preptcfcanada.com/wp-content/uploads/2024/06/Test-6-–-Q38.mp3?_=38
+
+Options:
+A) La fragilité de l’engagement.
+B) La multiplicité des contacts.
+C) La pauvreté des échanges.
+D) L’absence du face à face.
+
+Correct option : 
+answer: 
+----------------------------------------
+Question Number: 39
+Image URL: N/A
+Audio URL: https://examens.preptcfcanada.com/wp-content/uploads/2024/07/32q39.mp3?_=39
+Local Image: N/A
+Local Audio: audio/q39.mp3
+
+Question: Écoutez le document sonore et la question. Choisissez la bonne réponse.
+
+https://examens.preptcfcanada.com/wp-content/uploads/2024/07/32q39.mp3?_=39
+
+Options:
+A) Le processus d’attractivité des cellules femelles.
+B) Les différences avec la reproduction des plantes terrestres.
+C) La constitution de certains organismes aquatiques.
+D) L’influence de la météorologie sur leur fécondation.
+
+Correct option : 
+answer: 
+----------------------------------------

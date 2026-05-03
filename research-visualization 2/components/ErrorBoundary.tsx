@@ -31,7 +31,7 @@ export class ErrorBoundary extends Component<Props, State> {
                 <div className="flex items-center justify-center w-full h-full bg-stone-100 rounded-lg border border-stone-200 p-6 text-center">
                     <div className="flex flex-col items-center">
                         <span className="text-stone-400 mb-2">
-                            <svg xmlns="http://www.w3.org/warnings/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3Z"></path><path d="M12 9v4"></path><path d="M12 17h.01"></path></svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3Z"></path><path d="M12 9v4"></path><path d="M12 17h.01"></path></svg>
                         </span>
                         <p className="text-sm font-medium text-stone-500">3D Interactive Viewer Unavailable</p>
                         <p className="text-xs text-stone-400 mt-1 max-w-[200px]">Your browser or device does not support WebGL graphics.</p>

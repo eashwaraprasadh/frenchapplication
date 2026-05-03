@@ -1,0 +1,381 @@
+<?php
+
+namespace App\Http\Controllers\Admin;
+
+use App\Http\Controllers\Controller;
+use App\Models\Test;
+use Illuminate\Http\Request;
+use Illuminate\Http\JsonResponse;
+
+class TestController extends Controller
+{
+    /**
+     * Store a newly created test
+     */
+    public function store(Request $request): JsonResponse
+    {
+        $request->validate([
+            'title' => 'required|string|max:255',
+            'description' => 'nullable|string',
+            'duration' => 'nullable|integer|min:1',
+            'passing_score' => 'nullable|integer|min:0|max:100',
+            'course_id' => 'required|exists:courses,id',
+            'folder_id' => 'nullable|exists:course_folders,id'
+        ]);
+
+        try {
+            $test = Test::create([
+                'title' => $request->title,
+                'description' => $request->description,
+                'duration' => $request->duration,
+                'passing_score' => $request->passing_score ?? 70,
+                'course_id' => $request->course_id,
+                'folder_id' => $request->folder_id,
+                'status' => 'draft',
+                'order_index' => $this->getNextOrderIndex($request->course_id, $request->folder_id)
+            ]);
+
+            return response()->json([
+                'success' => true,
+                'message' => 'Test created successfully',
+                'test' => $test
+            ]);
+        } catch (\Exception $e) {
+            return response()->json([
+                'success' => false,
+                'message' => 'Error creating test: ' . $e->getMessage()
+            ], 500);
+        }
+    }
+
+    /**
+     * Remove the specified test
+     */
+    public function edit(Test $test)
+    {
+        // Load test with questions and their options
+        $test->load(['questions' => function($query) {
+            $query->orderBy('order');
+        }, 'questions.options' => function($query) {
+            $query->orderBy('order');
+        }, 'questions.dragDropItems' => function($query) {
+            $query->orderBy('order');
+        }]);
+
+        return view('admin.tests.edit', compact('test'));
+    }
+
+    /**
+     * Update test basic information
+     */
+    public function update(Request $request, Test $test): JsonResponse
+    {
+        $request->validate([
+            'title' => 'required|string|max:255',
+            'description' => 'nullable|string',
+            'duration' => 'nullable|integer|min:1',
+            'passing_score' => 'required|integer|min:0|max:100',
+            'max_attempts' => 'nullable|integer|min:1|max:10',
+            'randomize_questions' => 'boolean',
+            'show_results' => 'boolean',
+            'status' => 'required|in:draft,published,archived'
+        ]);
+
+        try {
+            $test->update([
+                'title' => $request->title,
+                'description' => $request->description,
+                'time_limit' => $request->duration, // Map duration to time_limit
+                'passing_score' => $request->passing_score,
+                'max_attempts' => $request->max_attempts,
+                'randomize_questions' => $request->boolean('randomize_questions'),
+                'show_answers' => $request->boolean('show_results'), // Map show_results to show_answers
+                'status' => $request->status,
+            ]);
+
+            return response()->json([
+                'success' => true,
+                'message' => 'Test updated successfully',
+                'test' => $test
+            ]);
+        } catch (\Exception $e) {
+            return response()->json([
+                'success' => false,
+                'message' => 'Error updating test: ' . $e->getMessage()
+            ], 500);
+        }
+    }
+
+    /**
+     * Add question to test
+     */
+    public function addQuestion(Request $request, Test $test): JsonResponse
+    {
+        $request->validate([
+            'type' => 'required|in:mcq,mcq_image,audio,video,image_mcq,fill_blanks',
+            'question_text' => 'required|string',
+            'question_media' => 'nullable|string',
+            'correct_answer' => 'required|array',
+            'explanation' => 'nullable|string',
+            'points' => 'nullable|integer|min:1',
+            'options' => 'nullable|array'
+        ]);
+
+        try {
+            $order = $test->questions()->max('order') + 1;
+
+            $question = $test->questions()->create([
+                'type' => $request->type,
+                'question_text' => $request->question_text,
+                'question_media' => $request->question_media,
+                'correct_answer' => $request->correct_answer,
+                'explanation' => $request->explanation,
+                'points' => $request->points ?? 1,
+                'order' => $order
+            ]);
+
+            // Add options for MCQ questions
+            if (in_array($request->type, ['mcq', 'mcq_image', 'audio', 'video', 'image_mcq']) && $request->options) {
+                foreach ($request->options as $index => $option) {
+                    $question->options()->create([
+                        'option_text' => $option['text'],
+                        'option_image' => $option['image'] ?? null,
+                        'is_correct' => $option['is_correct'] ?? false,
+                        'order' => $index + 1
+                    ]);
+                }
+            }
+
+            // Update total questions count
+            $test->update(['total_questions' => $test->questions()->count()]);
+
+            // Load relationships and render HTML
+            $question->load(['options']);
+
+            $questionHtml = view('admin.tests.partials.question-block-inline', [
+                'question' => $question
+            ])->render();
+
+            return response()->json([
+                'success' => true,
+                'message' => 'Question added successfully',
+                'question' => $question,
+                'questionHtml' => $questionHtml
+            ]);
+        } catch (\Exception $e) {
+            return response()->json([
+                'success' => false,
+                'message' => 'Error adding question: ' . $e->getMessage()
+            ], 500);
+        }
+    }
+
+    public function updateQuestion(Request $request, Test $test, TestQuestion $question): JsonResponse
+    {
+        $request->validate([
+            'type' => 'required|in:mcq,mcq_image,audio,video,drag_drop,text_input,fill_blanks',
+            'question_text' => 'required|string',
+            'question_media' => 'nullable|string',
+            'correct_answer' => 'required|array',
+            'explanation' => 'nullable|string',
+            'points' => 'nullable|integer|min:1',
+            'options' => 'nullable|array',
+            'drag_drop_items' => 'nullable|array'
+        ]);
+
+        try {
+            $question->update([
+                'type' => $request->type,
+                'question_text' => $request->question_text,
+                'question_media' => $request->question_media,
+                'correct_answer' => $request->correct_answer,
+                'explanation' => $request->explanation,
+                'points' => $request->points ?? 1
+            ]);
+
+            // Update options for MCQ questions
+            if (in_array($request->type, ['mcq', 'mcq_image', 'audio', 'video', 'image_mcq']) && $request->options) {
+                // Delete existing options
+                $question->options()->delete();
+
+                // Add new options
+                foreach ($request->options as $index => $option) {
+                    $question->options()->create([
+                        'option_text' => $option['text'],
+                        'option_image' => $option['image'] ?? null,
+                        'is_correct' => $option['is_correct'] ?? false,
+                        'order' => $index + 1
+                    ]);
+                }
+            }
+
+            // Update drag drop items
+            if ($request->type === 'drag_drop' && $request->drag_drop_items) {
+                // Delete existing items
+                $question->dragDropItems()->delete();
+
+                // Add new items
+                foreach ($request->drag_drop_items as $index => $item) {
+                    $question->dragDropItems()->create([
+                        'item_text' => $item['item_text'],
+                        'match_text' => $item['match_text'],
+                        'order' => $index + 1
+                    ]);
+                }
+            }
+
+            return response()->json([
+                'success' => true,
+                'message' => 'Question updated successfully',
+                'question' => $question->load(['options', 'dragDropItems'])
+            ]);
+        } catch (\Exception $e) {
+            return response()->json([
+                'success' => false,
+                'message' => 'Error updating question: ' . $e->getMessage()
+            ], 500);
+        }
+    }
+
+    /**
+     * Update basic question information (text, explanation, points, and options)
+     */
+    public function updateQuestionBasic(Request $request, Test $test, \App\Models\TestQuestion $question): JsonResponse
+    {
+        try {
+            $request->validate([
+                'question_text' => 'required|string',
+                'explanation' => 'nullable|string',
+                'points' => 'nullable|integer|min:1',
+                'options' => 'nullable|array',
+                'options.*.text' => 'nullable|string',
+                'options.*.is_correct' => 'nullable|boolean'
+            ]);
+        } catch (\Illuminate\Validation\ValidationException $e) {
+            return response()->json([
+                'success' => false,
+                'message' => 'Validation failed: ' . implode(', ', $e->validator->errors()->all())
+            ], 422);
+        }
+
+        try {
+            \Log::info('Updating question', [
+                'question_id' => $question->id,
+                'request_data' => $request->all()
+            ]);
+
+            // Update question basic info
+            $question->update([
+                'question_text' => $request->question_text,
+                'explanation' => $request->explanation,
+                'points' => $request->points ?? 1
+            ]);
+
+            // Update options if provided
+            if ($request->has('options') && in_array($question->type, ['mcq', 'mcq_image', 'audio', 'video', 'image_mcq'])) {
+                \Log::info('Updating options', ['options' => $request->options]);
+
+                // Delete existing options
+                $question->options()->delete();
+
+                // Add new options
+                foreach ($request->options as $index => $option) {
+                    if (isset($option['text']) && !empty(trim($option['text']))) {
+                        $question->options()->create([
+                            'option_text' => trim($option['text']),
+                            'option_image' => null, // For now, we're only handling text updates
+                            'is_correct' => $option['is_correct'] ?? false,
+                            'order' => $index + 1
+                        ]);
+                    }
+                }
+            }
+
+            return response()->json([
+                'success' => true,
+                'message' => 'Question updated successfully'
+            ]);
+        } catch (\Exception $e) {
+            return response()->json([
+                'success' => false,
+                'message' => 'Error updating question: ' . $e->getMessage()
+            ], 500);
+        }
+    }
+
+    public function deleteQuestion(Test $test, TestQuestion $question): JsonResponse
+    {
+        try {
+            $question->delete();
+
+            // Update total questions count
+            $test->update(['total_questions' => $test->questions()->count()]);
+
+            return response()->json([
+                'success' => true,
+                'message' => 'Question deleted successfully'
+            ]);
+        } catch (\Exception $e) {
+            return response()->json([
+                'success' => false,
+                'message' => 'Error deleting question: ' . $e->getMessage()
+            ], 500);
+        }
+    }
+
+    public function reorderQuestions(Request $request, Test $test): JsonResponse
+    {
+        $request->validate([
+            'questions' => 'required|array',
+            'questions.*.id' => 'required|integer|exists:test_questions,id',
+            'questions.*.order' => 'required|integer|min:1'
+        ]);
+
+        try {
+            foreach ($request->questions as $questionData) {
+                TestQuestion::where('id', $questionData['id'])
+                    ->where('test_id', $test->id)
+                    ->update(['order' => $questionData['order']]);
+            }
+
+            return response()->json([
+                'success' => true,
+                'message' => 'Questions reordered successfully'
+            ]);
+        } catch (\Exception $e) {
+            return response()->json([
+                'success' => false,
+                'message' => 'Error reordering questions: ' . $e->getMessage()
+            ], 500);
+        }
+    }
+
+    public function destroy(Test $test): JsonResponse
+    {
+        try {
+            $test->delete();
+
+            return response()->json([
+                'success' => true,
+                'message' => 'Test deleted successfully'
+            ]);
+        } catch (\Exception $e) {
+            return response()->json([
+                'success' => false,
+                'message' => 'Error deleting test: ' . $e->getMessage()
+            ], 500);
+        }
+    }
+
+    /**
+     * Get the next order index for a test
+     */
+    private function getNextOrderIndex(int $courseId, ?int $folderId): int
+    {
+        $maxOrder = Test::where('course_id', $courseId)
+            ->where('folder_id', $folderId)
+            ->max('order_index');
+
+        return ($maxOrder ?? 0) + 1;
+    }
+}

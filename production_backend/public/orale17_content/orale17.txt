@@ -1,0 +1,507 @@
+Question Number: 1
+Image URL: https://examens.preptcfcanada.com/wp-content/uploads/2023/02/17Q1.jpg
+Audio URL: https://examens.preptcfcanada.com/wp-content/uploads/2023/02/17Q1.mp3?_=1
+Local Image: images/q1.jpg
+Local Audio: audio/q1.mp3
+Question: https://examens.preptcfcanada.com/wp-content/uploads/2023/02/17Q1.mp3Écoutez les 4 propositions. Choisissez celle qui correspond à l’image.
+Options:
+A) A
+B) B
+C) C
+D) D
+Correct option : B
+----------------------------------------
+Question Number: 2
+Image URL: https://examens.preptcfcanada.com/wp-content/uploads/2023/02/17Q2.jpg
+Audio URL: https://examens.preptcfcanada.com/wp-content/uploads/2023/02/17Q2.mp3?_=2
+Local Image: images/q2.jpg
+Local Audio: audio/q2.mp3
+Question: https://examens.preptcfcanada.com/wp-content/uploads/2023/02/17Q2.mp3Écoutez les 4 propositions. Choisissez celle qui correspond à l’image.
+Options:
+A) A
+B) B
+C) C
+D) D
+Correct option : B
+----------------------------------------
+Question Number: 3
+Image URL: https://examens.preptcfcanada.com/wp-content/uploads/2023/02/17Q3.jpg
+Audio URL: https://examens.preptcfcanada.com/wp-content/uploads/2023/02/17Q3.mp3?_=3
+Local Image: images/q3.jpg
+Local Audio: audio/q3.mp3
+Question: https://examens.preptcfcanada.com/wp-content/uploads/2023/02/17Q3.mp3Écoutez les 4 propositions. Choisissez celle qui correspond à l’image.
+Options:
+A) A
+B) B
+C) C
+D) D
+Correct option : C
+----------------------------------------
+Question Number: 4
+Image URL: https://examens.preptcfcanada.com/wp-content/uploads/2023/02/17Q4.jpg
+Audio URL: https://examens.preptcfcanada.com/wp-content/uploads/2023/02/17Q4.mp3?_=4
+Local Image: images/q4.jpg
+Local Audio: audio/q4.mp3
+Question: https://examens.preptcfcanada.com/wp-content/uploads/2023/02/17Q4.mp3Écoutez les 4 propositions. Choisissez celle qui correspond à l’image.
+Options:
+A) A
+B) B
+C) C
+D) D
+Correct option : D
+----------------------------------------
+Question Number: 5
+Image URL: N/A
+Audio URL: https://examens.preptcfcanada.com/wp-content/uploads/2023/02/17Q5.mp3?_=5
+Local Image: N/A
+Local Audio: audio/q5.mp3
+Question: https://examens.preptcfcanada.com/wp-content/uploads/2023/02/17Q5.mp3Écoutez l’extrait sonore et les 4 propositions. Choisissez la bonne réponse.
+Options:
+A) A
+B) B
+C) C
+D) D
+Correct option : C
+----------------------------------------
+Question Number: 6
+Image URL: N/A
+Audio URL: https://examens.preptcfcanada.com/wp-content/uploads/2023/02/17Q6.mp3?_=6
+Local Image: N/A
+Local Audio: audio/q6.mp3
+Question: https://examens.preptcfcanada.com/wp-content/uploads/2023/02/17Q6.mp3Écoutez l’extrait sonore et les 4 propositions.Choisissez la bonne réponse.
+Options:
+A) A
+B) B
+C) C
+D) D
+Correct option : C
+----------------------------------------
+Question Number: 7
+Image URL: N/A
+Audio URL: https://examens.preptcfcanada.com/wp-content/uploads/2023/02/17Q7.mp3?_=7
+Local Image: N/A
+Local Audio: audio/q7.mp3
+Question: https://examens.preptcfcanada.com/wp-content/uploads/2023/02/17Q7.mp3Écoutez l’extrait sonore et les 4 propositions. Choisissez la bonne réponse.
+Options:
+A) A
+B) B
+C) C
+D) D
+Correct option : B
+----------------------------------------
+Question Number: 8
+Image URL: N/A
+Audio URL: https://examens.preptcfcanada.com/wp-content/uploads/2023/02/17Q8.mp3?_=8
+Local Image: N/A
+Local Audio: audio/q8.mp3
+Question: https://examens.preptcfcanada.com/wp-content/uploads/2023/02/17Q8.mp3Écoutez l’extrait sonore et les 4 propositions. Choisissez la bonne réponse.
+Options:
+A) A
+B) B
+C) C
+D) D
+Correct option : A
+----------------------------------------
+Question Number: 9
+Image URL: N/A
+Audio URL: https://examens.preptcfcanada.com/wp-content/uploads/2023/02/17Q9.mp3?_=9
+Local Image: N/A
+Local Audio: audio/q9.mp3
+Question: https://examens.preptcfcanada.com/wp-content/uploads/2023/02/17Q9.mp3Écoutez les 4 propositions. Choisissez celle qui correspond à l’image.
+Options:
+A) D’un atelier de cuisine.
+B) D’une recette familiale.
+C) Des courses pour un repas.
+D) Des horaires d’un magasin.
+Correct option : C
+----------------------------------------
+Question Number: 10
+Image URL: N/A
+Audio URL: https://examens.preptcfcanada.com/wp-content/uploads/2023/02/17Q10.mp3?_=10
+Local Image: N/A
+Local Audio: audio/q10.mp3
+Question: https://examens.preptcfcanada.com/wp-content/uploads/2023/02/17Q10.mp3Écoutez les 4 propositions. Choisissez celle qui correspond à l’image.
+Options:
+A) D’un prochain déménagement.
+B) De sport pour le week-end.
+C) De vacances en famille.
+D) D’un problème de santé.
+Correct option : C
+----------------------------------------
+Question Number: 11
+Image URL: N/A
+Audio URL: https://examens.preptcfcanada.com/wp-content/uploads/2023/02/17Q11.mp3?_=11
+Local Image: N/A
+Local Audio: audio/q11.mp3
+Question: https://examens.preptcfcanada.com/wp-content/uploads/2023/02/17Q11.mp3Écoutez les 4 propositions. Choisissez celle qui correspond à l’image.
+Options:
+A) Changer de propriétaire.
+B) Louer un appartement.
+C) Partager un logement.
+D) Partir vivre à l’étranger.
+Correct option : B
+----------------------------------------
+Question Number: 12
+Image URL: N/A
+Audio URL: https://examens.preptcfcanada.com/wp-content/uploads/2023/02/17Q12.mp3?_=12
+Local Image: N/A
+Local Audio: audio/q12.mp3
+Question: https://examens.preptcfcanada.com/wp-content/uploads/2023/02/17Q12.mp3Écoutez les 4 propositions. Choisissez celle qui correspond à l’image.
+Options:
+A) La distance à parcourir.
+B) L’adresse d’un garage.
+C) Le bus à emprunter.
+D) Le chemin à suivre.
+Correct option : D
+----------------------------------------
+Question Number: 13
+Image URL: N/A
+Audio URL: https://examens.preptcfcanada.com/wp-content/uploads/2023/02/17Q13.mp3?_=13
+Local Image: N/A
+Local Audio: audio/q13.mp3
+Question: https://examens.preptcfcanada.com/wp-content/uploads/2023/02/17Q13.mp3Écoutez les 4 propositions. Choisissez celle qui correspond à l’image.
+Options:
+A) La date de départ.
+B) La durée du voyage.
+C) La situation de l’hôtel.
+D) Le prix du séjour.
+Correct option : D
+----------------------------------------
+Question Number: 14
+Image URL: N/A
+Audio URL: https://examens.preptcfcanada.com/wp-content/uploads/2023/02/17Q14.mp3?_=14
+Local Image: N/A
+Local Audio: audio/q14.mp3
+Question: https://examens.preptcfcanada.com/wp-content/uploads/2023/02/17Q14.mp3Écoutez les 4 propositions. Choisissez celle qui correspond à l’image.
+Options:
+A) Parce que la file d’attente est très longue.
+B) Parce qu’il manque d’information.
+C) Parce que les conducteurs sont en grève.
+D) Parce que les guichets sont fermés.
+Correct option : B
+----------------------------------------
+Question Number: 15
+Image URL: N/A
+Audio URL: https://examens.preptcfcanada.com/wp-content/uploads/2023/02/17Q15.mp3?_=15
+Local Image: N/A
+Local Audio: audio/q15.mp3
+Question: https://examens.preptcfcanada.com/wp-content/uploads/2023/02/17Q15.mp3Écoutez les 4 propositions. Choisissez celle qui correspond à l’image.
+Options:
+A) Manger des plats typiques.
+B) Rencontrer sa famille.
+C) Travailler toute la journée.
+D) Voir une exposition.
+Correct option : C
+----------------------------------------
+Question Number: 16
+Image URL: N/A
+Audio URL: https://examens.preptcfcanada.com/wp-content/uploads/2023/02/17Q16.mp3?_=16
+Local Image: N/A
+Local Audio: audio/q16.mp3
+Question: https://examens.preptcfcanada.com/wp-content/uploads/2023/02/17Q16.mp3Écoutez les 4 propositions. Choisissez celle qui correspond à l’image.
+Options:
+A) Il aura lieu plus tard dans le semestre.
+B) Il évaluera le chapitre des maladies.
+C) Il se fera dans le grand amphithéâtre.
+D) Il sera corrigé par un enseignant extérieur.
+Correct option : A
+----------------------------------------
+Question Number: 17
+Image URL: N/A
+Audio URL: https://examens.preptcfcanada.com/wp-content/uploads/2023/02/17Q17.mp3?_=17
+Local Image: N/A
+Local Audio: audio/q17.mp3
+Question: https://examens.preptcfcanada.com/wp-content/uploads/2023/02/17Q17.mp3Écoutez les 4 propositions. Choisissez celle qui correspond à l’image.
+Options:
+A) Une contribution financière.
+B) Une formation artistique.
+C) Une intervention télévisée.
+D) Une participation bénévole.
+Correct option : D
+----------------------------------------
+Question Number: 18
+Image URL: N/A
+Audio URL: https://examens.preptcfcanada.com/wp-content/uploads/2023/02/17Q18.mp3?_=18
+Local Image: N/A
+Local Audio: audio/q18.mp3
+Question: https://examens.preptcfcanada.com/wp-content/uploads/2023/02/17Q18.mp3Écoutez les 4 propositions. Choisissez celle qui correspond à l’image.
+Options:
+A) De participer à un match.
+B) De préparer une épreuve sportive.
+C) De tester un nouveau jeu.
+D) De voir une compétition mondiale.
+Correct option : D
+----------------------------------------
+Question Number: 19
+Image URL: N/A
+Audio URL: https://examens.preptcfcanada.com/wp-content/uploads/2023/02/17Q19.mp3?_=19
+Local Image: N/A
+Local Audio: audio/q19.mp3
+Question: https://examens.preptcfcanada.com/wp-content/uploads/2023/02/17Q19.mp3Écoutez les 4 propositions. Choisissez celle qui correspond à l’image.
+Options:
+A) L’affiche.
+B) Le carton.
+C) Les billets.
+D) Les jouets.
+Correct option : A
+----------------------------------------
+Question Number: 20
+Image URL: N/A
+Audio URL: https://examens.preptcfcanada.com/wp-content/uploads/2023/02/17Q20.mp3?_=20
+Local Image: N/A
+Local Audio: audio/q20.mp3
+Question: https://examens.preptcfcanada.com/wp-content/uploads/2023/02/17Q20.mp3Écoutez les 4 propositions. Choisissez celle qui correspond à l’image.
+Options:
+A) C’est meilleur marché.
+B) C’est plus simple.
+C) C’est plus rapide.
+D) C’est trop tard.
+Correct option : B
+----------------------------------------
+Question Number: 21
+Image URL: N/A
+Audio URL: https://examens.preptcfcanada.com/wp-content/uploads/2023/02/17Q21.mp3?_=21
+Local Image: N/A
+Local Audio: audio/q21.mp3
+Question: https://examens.preptcfcanada.com/wp-content/uploads/2023/02/17Q21.mp3Écoutez les 4 propositions. Choisissez celle qui correspond à l’image.
+Options:
+A) Le comportement des habitants.
+B) Le sentiment de solitude.
+C) Les conditions météoritiques.
+D) Les obstacles linguistiques.
+Correct option : C
+----------------------------------------
+Question Number: 22
+Image URL: N/A
+Audio URL: https://examens.preptcfcanada.com/wp-content/uploads/2023/02/17Q22.mp3?_=22
+Local Image: N/A
+Local Audio: audio/q22.mp3
+Question: https://examens.preptcfcanada.com/wp-content/uploads/2023/02/17Q22.mp3Écoutez les 4 propositions. Choisissez celle qui correspond à l’image.
+Options:
+A) Elle a perdu aux jeux de société.
+B) Elle est restée près de chez elle.
+C) La météo était très mauvaise.
+D) Le logement était mal situé.
+Correct option : C
+----------------------------------------
+Question Number: 23
+Image URL: N/A
+Audio URL: https://examens.preptcfcanada.com/wp-content/uploads/2023/02/17Q23.mp3?_=23
+Local Image: N/A
+Local Audio: audio/q23.mp3
+Question: https://examens.preptcfcanada.com/wp-content/uploads/2023/02/17Q23.mp3Écoutez les 4 propositions. Choisissez celle qui correspond à l’image.
+Options:
+A) De conservation des plantes.
+B) De nettoyage d’espaces verts.
+C) De procédés de recyclage.
+D) De techniques de culture.
+Correct option : C
+----------------------------------------
+Question Number: 24
+Image URL: N/A
+Audio URL: https://examens.preptcfcanada.com/wp-content/uploads/2023/02/17Q24.mp3?_=24
+Local Image: N/A
+Local Audio: audio/q24.mp3
+Question: https://examens.preptcfcanada.com/wp-content/uploads/2023/02/17Q24.mp3Écoutez les 4 propositions. Choisissez celle qui correspond à l’image.
+Options:
+A) Pour afficher notre niveau de vie.
+B) Pour affirmer notre personnalité.
+C) Pour améliorer notre quotidien.
+D) Pour imiter notre entourage.
+Correct option : B
+----------------------------------------
+Question Number: 25
+Image URL: N/A
+Audio URL: https://examens.preptcfcanada.com/wp-content/uploads/2023/02/17Q25.mp3?_=25
+Local Image: N/A
+Local Audio: audio/q25.mp3
+Question: https://examens.preptcfcanada.com/wp-content/uploads/2023/02/17Q25.mp3Écoutez les 4 propositions. Choisissez celle qui correspond à l’image.
+Options:
+A) C’est le jeune public qui les crée.
+B) Ce sont des outils de jardinage transformés.
+C) Ils sont confectionnés sur scène.
+D) Ils sont réalisés avec des objets recyclés.
+Correct option : D
+----------------------------------------
+Question Number: 26
+Image URL: N/A
+Audio URL: https://examens.preptcfcanada.com/wp-content/uploads/2023/02/17Q26.mp3?_=26
+Local Image: N/A
+Local Audio: audio/q26.mp3
+Question: https://examens.preptcfcanada.com/wp-content/uploads/2023/02/17Q26.mp3Écoutez les 4 propositions. Choisissez celle qui correspond à l’image.
+Options:
+A) Pour annoncer une nouvelle.
+B) Pour annuler une livraison.
+C) Pour faire une réclamation.
+D) Pour obtenir une information.
+Correct option : D
+----------------------------------------
+Question Number: 27
+Image URL: N/A
+Audio URL: https://examens.preptcfcanada.com/wp-content/uploads/2023/02/17Q27.mp3?_=27
+Local Image: N/A
+Local Audio: audio/q27.mp3
+Question: https://examens.preptcfcanada.com/wp-content/uploads/2023/02/17Q27.mp3Écoutez les 4 propositions. Choisissez celle qui correspond à l’image.
+Options:
+A) En les incitant à travailler de manière collaborative.
+B) En les poussant à prendre des risques importants.
+C) En leur offrant des formations personnalisées.
+D) En leur proposant de participer à des compétitions.
+Correct option : A
+----------------------------------------
+Question Number: 28
+Image URL: N/A
+Audio URL: https://examens.preptcfcanada.com/wp-content/uploads/2023/02/17Q28.mp3?_=28
+Local Image: N/A
+Local Audio: audio/q28.mp3
+Question: https://examens.preptcfcanada.com/wp-content/uploads/2023/02/17Q28.mp3Écoutez les 4 propositions. Choisissez celle qui correspond à l’image.
+Options:
+A) Des besoins énergétiques des jeunes.
+B) Des bons réflexes pour les repas.
+C) Des comportements alimentaires.
+D) Des conseils de préparation culinaire.
+Correct option : C
+----------------------------------------
+Question Number: 29
+Image URL: N/A
+Audio URL: https://examens.preptcfcanada.com/wp-content/uploads/2023/02/17Q29.mp3?_=29
+Local Image: N/A
+Local Audio: audio/q29.mp3
+Question: https://examens.preptcfcanada.com/wp-content/uploads/2023/02/17Q29.mp3Écoutez les 4 propositions. Choisissez celle qui correspond à l’image.
+Options:
+A) L’absence d’éléments ornementaux.
+B) La limitation du nombre d’étages.
+C) Le respect d’obligations légales.
+D) L’utilisation d’un matériau unique.
+Correct option : D
+----------------------------------------
+Question Number: 30
+Image URL: N/A
+Audio URL: https://examens.preptcfcanada.com/wp-content/uploads/2023/02/17Q30.mp3?_=30
+Local Image: N/A
+Local Audio: audio/q30.mp3
+Question: https://examens.preptcfcanada.com/wp-content/uploads/2023/02/17Q30.mp3Écoutez les 4 propositions. Choisissez celle qui correspond à l’image.
+Options:
+A) De la législation en vigueur.
+B) De la paye des employés.
+C) Du bon vouloir du client.
+D) Du type d’établissement.
+Correct option : C
+----------------------------------------
+Question Number: 31
+Image URL: N/A
+Audio URL: https://examens.preptcfcanada.com/wp-content/uploads/2023/02/17Q31.mp3?_=31
+Local Image: N/A
+Local Audio: audio/q31.mp3
+Question: https://examens.preptcfcanada.com/wp-content/uploads/2023/02/17Q31.mp3Écoutez les 4 propositions. Choisissez celle qui correspond à l’image.
+Options:
+A) Elle annonce de futures découvertes.
+B) Elle confirme une théorie ancienne.
+C) Elle illustre les progrès du matériel scientifique.
+D) Elle permet la poursuite des travaux d’Einstein.
+Correct option : B
+----------------------------------------
+Question Number: 32
+Image URL: N/A
+Audio URL: https://examens.preptcfcanada.com/wp-content/uploads/2023/02/17Q32.mp3?_=32
+Local Image: N/A
+Local Audio: audio/q32.mp3
+Question: https://examens.preptcfcanada.com/wp-content/uploads/2023/02/17Q32.mp3Écoutez les 4 propositions. Choisissez celle qui correspond à l’image.
+Options:
+A) Il a accepté les articles de presse dans les livres scolaires.
+B) Il a créé un journal quotidien dédié à l’éducation publique.
+C) Il a distribué des journaux aux établissements scolaires.
+D) Il a intégré l’étude de la presse à ses programmes.
+Correct option : D
+----------------------------------------
+Question Number: 33
+Image URL: N/A
+Audio URL: https://examens.preptcfcanada.com/wp-content/uploads/2023/02/17Q33.mp3?_=33
+Local Image: N/A
+Local Audio: audio/q33.mp3
+Question: https://examens.preptcfcanada.com/wp-content/uploads/2023/02/17Q33.mp3Écoutez les 4 propositions. Choisissez celle qui correspond à l’image.
+Options:
+A) Des recettes ont été baptisées en l’honneur de clients réputés.
+B) La promotion de son restaurant a été confiée à des personnalités.
+C) Un accueil chaleureux et généreux était réservé aux habitués.
+D) Un partenariat inédit entre hôtel et restaurant a été mis en place.
+Correct option : D
+----------------------------------------
+Question Number: 34
+Image URL: N/A
+Audio URL: https://examens.preptcfcanada.com/wp-content/uploads/2023/02/17Q34.mp3?_=34
+Local Image: N/A
+Local Audio: audio/q34.mp3
+Question: https://examens.preptcfcanada.com/wp-content/uploads/2023/02/17Q34.mp3Écoutez les 4 propositions. Choisissez celle qui correspond à l’image.
+Options:
+A) Elle doit servir d’exemple aux enfants.
+B) Elle est automatique en cas de réunion.
+C) Elle répond à un besoin des employés.
+D) Elle s’applique très rarement au travail.
+Correct option : D
+----------------------------------------
+Question Number: 35
+Image URL: N/A
+Audio URL: https://examens.preptcfcanada.com/wp-content/uploads/2023/02/17Q35.mp3?_=35
+Local Image: N/A
+Local Audio: audio/q35.mp3
+Question: https://examens.preptcfcanada.com/wp-content/uploads/2023/02/17Q35.mp3Écoutez les 4 propositions. Choisissez celle qui correspond à l’image.
+Options:
+A) De l’absurdité qu’il y a à valoriser leur manque de culture scientifique.
+B) De la nécessité de mieux défendre les acquis de la culture classique.
+C) Du besoin qu’ont les mathématiciens d’avoir une culture générale.
+D) Du refus des valeurs humanistes par les milieux scientifiques.
+Correct option : A
+----------------------------------------
+Question Number: 36
+Image URL: N/A
+Audio URL: https://examens.preptcfcanada.com/wp-content/uploads/2023/02/17Q36.mp3?_=36
+Local Image: N/A
+Local Audio: audio/q36.mp3
+Question: https://examens.preptcfcanada.com/wp-content/uploads/2023/02/17Q36.mp3Écoutez les 4 propositions. Choisissez celle qui correspond à l’image.
+Options:
+A) Elles abordent les traitements des enfants.
+B) Elles s’appuient sur la complicité des parents.
+C) Elles sont animées par le personnel hospitalier.
+D) Elles tiennent compte de l’avis des médecins.
+Correct option : D
+----------------------------------------
+Question Number: 37
+Image URL: N/A
+Audio URL: https://examens.preptcfcanada.com/wp-content/uploads/2023/02/17Q37.mp3?_=37
+Local Image: N/A
+Local Audio: audio/q37.mp3
+Question: https://examens.preptcfcanada.com/wp-content/uploads/2023/02/17Q37.mp3Écoutez les 4 propositions. Choisissez celle qui correspond à l’image.
+Options:
+A) Les acheteurs.
+B) Les commerçants.
+C) Les entreprises.
+D) Les pouvoirs publics.
+Correct option : A
+----------------------------------------
+Question Number: 38
+Image URL: N/A
+Audio URL: https://examens.preptcfcanada.com/wp-content/uploads/2023/02/17Q38.mp3?_=38
+Local Image: N/A
+Local Audio: audio/q38.mp3
+Question: https://examens.preptcfcanada.com/wp-content/uploads/2023/02/17Q38.mp3Écoutez les 4 propositions. Choisissez celle qui correspond à l’image.
+Options:
+A) De la tranquillité et de l’intimité.
+B) Des facilités de réservation.
+C) Un contact privilégié avec son hôte.
+D) Un tarif intéressant toute l’année.
+Correct option : A
+----------------------------------------
+Question Number: 39
+Image URL: N/A
+Audio URL: https://examens.preptcfcanada.com/wp-content/uploads/2023/02/17Q39.mp3?_=39
+Local Image: N/A
+Local Audio: audio/q39.mp3
+Question: https://examens.preptcfcanada.com/wp-content/uploads/2023/02/17Q39.mp3Écoutez les 4 propositions. Choisissez celle qui correspond à l’image.
+Options:
+A) Le nombre de médiateurs est insuffisant pour répondre à la demande.
+B) Les banques influencent les décisions prises par les médiateurs.
+C) Les demandeurs trouvent que la procédure est trop longue et compliquée.
+D) Quelle que soit la nature du litige, le médiateur n’a qu’un pouvoir consultatif.
+Correct option : D
+----------------------------------------

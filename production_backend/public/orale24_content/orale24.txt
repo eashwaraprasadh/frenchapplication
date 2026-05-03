@@ -1,0 +1,741 @@
+Question Number: 1
+Image URL: https://examens.preptcfcanada.com/wp-content/uploads/2023/05/co24q1img1.png
+Audio URL: https://examens.preptcfcanada.com/wp-content/uploads/2023/05/CO24Q1-new.mp3?_=1
+Local Image: images/q1.png
+Local Audio: audio/q1.mp3
+
+Question: Écoutez les 4 propositions. Choisissez celle qui correspond à l’image.
+
+https://examens.preptcfcanada.com/wp-content/uploads/2023/05/CO24Q1-new.mp3?_=1
+
+Options:
+A) A
+B) B
+C) C
+D) D
+
+Correct option : 
+answer: 
+----------------------------------------
+Question Number: 2
+Image URL: https://examens.preptcfcanada.com/wp-content/uploads/2023/05/co24q1img2.png
+Audio URL: https://examens.preptcfcanada.com/wp-content/uploads/2023/05/CO24Q2-new.mp3?_=2
+Local Image: images/q2.png
+Local Audio: audio/q2.mp3
+
+Question: Écoutez les 4 propositions. Choisissez celle qui correspond à l’image.
+
+https://examens.preptcfcanada.com/wp-content/uploads/2023/05/CO24Q2-new.mp3?_=2
+
+Options:
+A) A
+B) B
+C) C
+D) D
+
+Correct option : 
+answer: 
+----------------------------------------
+Question Number: 3
+Image URL: https://examens.preptcfcanada.com/wp-content/uploads/2023/05/co24q1img3.png
+Audio URL: https://examens.preptcfcanada.com/wp-content/uploads/2023/05/CO24Q3-new.mp3?_=3
+Local Image: images/q3.png
+Local Audio: audio/q3.mp3
+
+Question: Écoutez l’extrait sonore et les 4 propositions. Choisissez la bonne réponse.
+
+https://examens.preptcfcanada.com/wp-content/uploads/2023/05/CO24Q3-new.mp3?_=3
+
+Options:
+A) A
+B) B
+C) C
+D) D
+
+Correct option : 
+answer: 
+----------------------------------------
+Question Number: 4
+Image URL: https://examens.preptcfcanada.com/wp-content/uploads/2023/05/co24q1img4.png
+Audio URL: https://examens.preptcfcanada.com/wp-content/uploads/2023/05/CO24Q4-new.mp3?_=4
+Local Image: images/q4.png
+Local Audio: audio/q4.mp3
+
+Question: Écoutez l’extrait sonore et les 4 propositions. Choisissez la bonne réponse.
+
+https://examens.preptcfcanada.com/wp-content/uploads/2023/05/CO24Q4-new.mp3?_=4
+
+Options:
+A) A
+B) B
+C) C
+D) D
+
+Correct option : 
+answer: 
+----------------------------------------
+Question Number: 5
+Image URL: N/A
+Audio URL: https://examens.preptcfcanada.com/wp-content/uploads/2023/05/CO24Q5-new.mp3?_=5
+Local Image: N/A
+Local Audio: audio/q5.mp3
+
+Question: Écoutez l’extrait sonore et les 4 propositions. Choisissez la bonne réponse.
+
+https://examens.preptcfcanada.com/wp-content/uploads/2023/05/CO24Q5-new.mp3?_=5
+
+Options:
+A) A
+B) B
+C) C
+D) D
+
+Correct option : 
+answer: 
+----------------------------------------
+Question Number: 6
+Image URL: N/A
+Audio URL: https://examens.preptcfcanada.com/wp-content/uploads/2023/05/CO24Q6-new.mp3?_=6
+Local Image: N/A
+Local Audio: audio/q6.mp3
+
+Question: Écoutez l’extrait sonore et les 4 propositions. Choisissez la bonne réponse.
+
+https://examens.preptcfcanada.com/wp-content/uploads/2023/05/CO24Q6-new.mp3?_=6
+
+Options:
+A) A
+B) B
+C) C
+D) D
+
+Correct option : 
+answer: 
+----------------------------------------
+Question Number: 7
+Image URL: N/A
+Audio URL: https://examens.preptcfcanada.com/wp-content/uploads/2023/05/CO24Q7-new.mp3?_=7
+Local Image: N/A
+Local Audio: audio/q7.mp3
+
+Question: Écoutez l’extrait sonore et les 4 propositions Choisissez la bonne réponse
+
+https://examens.preptcfcanada.com/wp-content/uploads/2023/05/CO24Q7-new.mp3?_=7
+
+Options:
+A) A
+B) B
+C) C
+D) D
+
+Correct option : 
+answer: 
+----------------------------------------
+Question Number: 8
+Image URL: N/A
+Audio URL: https://examens.preptcfcanada.com/wp-content/uploads/2023/05/CO24Q8-new.mp3?_=8
+Local Image: N/A
+Local Audio: audio/q8.mp3
+
+Question: Écoutez le document sonore et la question Choisissez la bonne réponse
+
+https://examens.preptcfcanada.com/wp-content/uploads/2023/05/CO24Q8-new.mp3?_=8
+
+Options:
+A) A
+B) B
+C) C
+D) D
+
+Correct option : 
+answer: 
+----------------------------------------
+Question Number: 9
+Image URL: N/A
+Audio URL: https://examens.preptcfcanada.com/wp-content/uploads/2023/05/CO24Q9-new.mp3?_=9
+Local Image: N/A
+Local Audio: audio/q9.mp3
+
+Question: Écoutez le document sonore et la question Choisissez la bonne réponse
+
+https://examens.preptcfcanada.com/wp-content/uploads/2023/05/CO24Q9-new.mp3?_=9
+
+Options:
+A) A
+B) B
+C) C
+D) D
+
+Correct option : 
+answer: 
+----------------------------------------
+Question Number: 10
+Image URL: N/A
+Audio URL: https://examens.preptcfcanada.com/wp-content/uploads/2023/05/CO24Q10-new.mp3?_=10
+Local Image: N/A
+Local Audio: audio/q10.mp3
+
+Question: Écoutez le document sonore et la question Choisissez la bonne réponse
+
+https://examens.preptcfcanada.com/wp-content/uploads/2023/05/CO24Q10-new.mp3?_=10
+
+Options:
+A) A
+B) B
+C) C
+D) D
+
+Correct option : 
+answer: 
+----------------------------------------
+Question Number: 11
+Image URL: N/A
+Audio URL: https://examens.preptcfcanada.com/wp-content/uploads/2023/05/CO24Q11-new.mp3?_=11
+Local Image: N/A
+Local Audio: audio/q11.mp3
+
+Question: Écoutez l’extrait sonore et les 4 propositions. Choisissez la bonne réponse.
+
+https://examens.preptcfcanada.com/wp-content/uploads/2023/05/CO24Q11-new.mp3?_=11
+
+Options:
+A) Elle a acheté des objets originaux.
+B) Elle a appris des recettes locales.
+C) Elle a réalisé un projet artistique..
+D) Elle s’est fait de nouveaux amis.
+
+Correct option : 
+answer: 
+----------------------------------------
+Question Number: 12
+Image URL: N/A
+Audio URL: https://examens.preptcfcanada.com/wp-content/uploads/2023/05/CO24Q12-new.mp3?_=12
+Local Image: N/A
+Local Audio: audio/q12.mp3
+
+Question: Écoutez l’extrait sonore et les 4 propositions. Choisissez la bonne réponse.
+
+https://examens.preptcfcanada.com/wp-content/uploads/2023/05/CO24Q12-new.mp3?_=12
+
+Options:
+A) Avoir une bonne mémoire.
+B) Être ouvert aux autres.
+C) Parler plusieurs langues.
+D) Posséder une bonne culture.
+
+Correct option : 
+answer: 
+----------------------------------------
+Question Number: 13
+Image URL: N/A
+Audio URL: https://examens.preptcfcanada.com/wp-content/uploads/2023/05/CO24Q13-new.mp3?_=13
+Local Image: N/A
+Local Audio: audio/q13.mp3
+
+Question: Écoutez l’extrait sonore et les 4 propositions. Choisissez la bonne réponse.
+
+https://examens.preptcfcanada.com/wp-content/uploads/2023/05/CO24Q13-new.mp3?_=13
+
+Options:
+A) De leur voyage en Angleterre.
+B) Des résultats des examens.
+C) Du cout de la vie en ville.
+D) D’un séjour linguistique.
+
+Correct option : 
+answer: 
+----------------------------------------
+Question Number: 14
+Image URL: N/A
+Audio URL: https://examens.preptcfcanada.com/wp-content/uploads/2023/05/CO24Q14-new.mp3?_=14
+Local Image: N/A
+Local Audio: audio/q14.mp3
+
+Question: Écoutez l’extrait sonore et les 4 propositions. Choisissez la bonne réponse.
+
+https://examens.preptcfcanada.com/wp-content/uploads/2023/05/CO24Q14-new.mp3?_=14
+
+Options:
+A) Parce qu’elle interdit à sa fille d’en manger.
+B) Parce qu’elle déteste les sucreries.
+C) Parce que sa fille a un problème de poids.
+D) Parce qu’il en reste encore chez elles.
+
+Correct option : 
+answer: 
+----------------------------------------
+Question Number: 15
+Image URL: N/A
+Audio URL: https://examens.preptcfcanada.com/wp-content/uploads/2023/05/CO24Q15-new.mp3?_=15
+Local Image: N/A
+Local Audio: audio/q15.mp3
+
+Question: Écoutez le document sonore et la question. Choisissez la bonne réponse.
+
+https://examens.preptcfcanada.com/wp-content/uploads/2023/05/CO24Q15-new.mp3?_=15
+
+Options:
+A) La création d’un réseau de médiateurs.
+B) Le financement nécessaire aux médiateurs.
+C) Le partage d’expérience entre médiateurs.
+D) Le rôle des médiateurs en milieu scolaire.
+
+Correct option : 
+answer: 
+----------------------------------------
+Question Number: 16
+Image URL: N/A
+Audio URL: https://examens.preptcfcanada.com/wp-content/uploads/2023/05/CO24Q16-new.mp3?_=16
+Local Image: N/A
+Local Audio: audio/q16.mp3
+
+Question: Écoutez le document sonore et la question. Choisissez la bonne réponse.
+
+https://examens.preptcfcanada.com/wp-content/uploads/2023/05/CO24Q16-new.mp3?_=16
+
+Options:
+A) Les conducteurs qui Klaxonnent au feu rouge.
+B) Les motards qui s’amusent sur le parking.
+C) Les ouvriers qui travaillent sur l’autoroute.
+D) Les véhiculent qui circulent près de chez lui.
+
+Correct option : 
+answer: 
+----------------------------------------
+Question Number: 17
+Image URL: N/A
+Audio URL: https://examens.preptcfcanada.com/wp-content/uploads/2023/05/CO24Q17-new.mp3?_=17
+Local Image: N/A
+Local Audio: audio/q17.mp3
+
+Question: Écoutez le document sonore et la question. Choisissez la bonne réponse.
+
+https://examens.preptcfcanada.com/wp-content/uploads/2023/05/CO24Q17-new.mp3?_=17
+
+Options:
+A) La découverte des palais de l’empereur.
+B) L’élargissement de Paris à ses environs.
+C) Les lieux qui ont changé sous Napoléon.
+D) Les traces des batailles napoléoniennes.
+
+Correct option : 
+answer: 
+----------------------------------------
+Question Number: 18
+Image URL: N/A
+Audio URL: https://examens.preptcfcanada.com/wp-content/uploads/2023/05/CO24Q18-new.mp3?_=18
+Local Image: N/A
+Local Audio: audio/q18.mp3
+
+Question: Écoutez le document sonore et la question. Choisissez la bonne réponse.
+
+https://examens.preptcfcanada.com/wp-content/uploads/2023/05/CO24Q18-new.mp3?_=18
+
+Options:
+A) L’état de la recherche mondiale sur le cancer.
+B) L’élargissement des ministres européens de l’écologie.
+C) La lutte contre le réchauffement climatique en Asie.
+D) Un reportage sur les lieux d’un tremblement de terre.
+
+Correct option : 
+answer: 
+----------------------------------------
+Question Number: 19
+Image URL: N/A
+Audio URL: https://examens.preptcfcanada.com/wp-content/uploads/2023/05/CO24Q19-new.mp3?_=19
+Local Image: N/A
+Local Audio: audio/q19.mp3
+
+Question: Écoutez le document sonore et la question. Choisissez la bonne réponse.
+
+https://examens.preptcfcanada.com/wp-content/uploads/2023/05/CO24Q19-new.mp3?_=19
+
+Options:
+A) Les accidents sont importants.
+B) Les arrêts sont interdits.
+C) Les départs sont nombreux.
+D) Les embouteillages sont finis.
+
+Correct option : 
+answer: 
+----------------------------------------
+Question Number: 20
+Image URL: N/A
+Audio URL: https://examens.preptcfcanada.com/wp-content/uploads/2023/05/CO24Q20-new.mp3?_=20
+Local Image: N/A
+Local Audio: audio/q20.mp3
+
+Question: Écoutez le document sonore et la question. Choisissez la bonne réponse.
+
+https://examens.preptcfcanada.com/wp-content/uploads/2023/05/CO24Q20-new.mp3?_=20
+
+Options:
+A) D’apprendre une langue.
+B) D’arrêter des études.
+C) De partir à l’étranger.
+D) De rencontrer du monde.
+
+Correct option : 
+answer: 
+----------------------------------------
+Question Number: 21
+Image URL: N/A
+Audio URL: https://examens.preptcfcanada.com/wp-content/uploads/2023/05/CO24Q21-new.mp3?_=21
+Local Image: N/A
+Local Audio: audio/q21.mp3
+
+Question: Écoutez le document sonore et la question. Choisissez la bonne réponse.
+
+https://examens.preptcfcanada.com/wp-content/uploads/2023/05/CO24Q21-new.mp3?_=21
+
+Options:
+A) Interviewer un réalisateur.
+B) Participer à un festival.
+C) Tourner un film.
+D) Visiter des studios de cinéma.
+
+Correct option : 
+answer: 
+----------------------------------------
+Question Number: 22
+Image URL: N/A
+Audio URL: https://examens.preptcfcanada.com/wp-content/uploads/2023/05/CO24Q22-new.mp3?_=22
+Local Image: N/A
+Local Audio: audio/q22.mp3
+
+Question: Écoutez le document sonore et la question. Choisissez la bonne réponse.
+
+https://examens.preptcfcanada.com/wp-content/uploads/2023/05/CO24Q22-new.mp3?_=22
+
+Options:
+A) Il est ironique.
+B) Il est favorable.
+C) Il est plein d’espoir.
+D) Il est méprisant.
+
+Correct option : 
+answer: 
+----------------------------------------
+Question Number: 23
+Image URL: N/A
+Audio URL: https://examens.preptcfcanada.com/wp-content/uploads/2023/05/CO24Q23-new.mp3?_=23
+Local Image: N/A
+Local Audio: audio/q23.mp3
+
+Question: Écouter le document sonore et la question. Choisissez la bonne réponse :
+
+https://examens.preptcfcanada.com/wp-content/uploads/2023/05/CO24Q23-new.mp3?_=23
+
+Options:
+A) Pour lui annoncer le rejet de sa proposition.
+B) Pour lui confirmer un rendez-vous de travail.
+C) Pour lui demander des documents supplémentaires.
+D) Pour lui fixer un entretien d’embauche.
+
+Correct option : 
+answer: 
+----------------------------------------
+Question Number: 24
+Image URL: N/A
+Audio URL: https://examens.preptcfcanada.com/wp-content/uploads/2023/05/CO24Q24-new.mp3?_=24
+Local Image: N/A
+Local Audio: audio/q24.mp3
+
+Question: Écoutez le document sonore et la question. Choisissez la bonne réponse
+
+https://examens.preptcfcanada.com/wp-content/uploads/2023/05/CO24Q24-new.mp3?_=24
+
+Options:
+A) Pour conserver le poisson.
+B) Pour ranger leur matériel.
+C) Pour se réchauffer.
+D) Pour se reposer.
+
+Correct option : 
+answer: 
+----------------------------------------
+Question Number: 25
+Image URL: N/A
+Audio URL: https://examens.preptcfcanada.com/wp-content/uploads/2023/05/CO24Q25-new.mp3?_=25
+Local Image: N/A
+Local Audio: audio/q25.mp3
+
+Question: Écoutez le document sonore et la question. Choisissez la bonne réponse.
+
+https://examens.preptcfcanada.com/wp-content/uploads/2023/05/CO24Q25-new.mp3?_=25
+
+Options:
+A) L’impact financier de la pollution sur les citoyens.
+B) L’ordonnance autoritaire de la Cour européenne.
+C) Le coût de l’assainissement de l’eau par les industriels.
+D) Les retombées du pacte écologique sur la production.
+
+Correct option : 
+answer: 
+----------------------------------------
+Question Number: 26
+Image URL: N/A
+Audio URL: https://examens.preptcfcanada.com/wp-content/uploads/2023/05/CO24Q26-new.mp3?_=26
+Local Image: N/A
+Local Audio: audio/q26.mp3
+
+Question: Écoutez le document sonore et la question. Choisissez la bonne réponse
+
+https://examens.preptcfcanada.com/wp-content/uploads/2023/05/CO24Q26-new.mp3?_=26
+
+Options:
+A) Il faut obtenir l’accord de la famille.
+B) Il faut prouver la nécessité de la démarche.
+C) Il y’a de nombreux documents à l’assemblée.
+D) Il y’a des frais de procédures élevés.
+
+Correct option : 
+answer: 
+----------------------------------------
+Question Number: 27
+Image URL: N/A
+Audio URL: https://examens.preptcfcanada.com/wp-content/uploads/2023/05/CO24Q27-new.mp3?_=27
+Local Image: N/A
+Local Audio: audio/q27.mp3
+
+Question: Écoutez le document sonore et la question. Choisissez la bonne réponse
+
+https://examens.preptcfcanada.com/wp-content/uploads/2023/05/CO24Q27-new.mp3?_=27
+
+Options:
+A) Un tour de la capitale en bus découvert.
+B) Un parcours à pied long des quais.
+C) Une visite guidée du musée du Louvre.
+D) Une croisière promenade sur la Seine.
+
+Correct option : 
+answer: 
+----------------------------------------
+Question Number: 28
+Image URL: N/A
+Audio URL: https://examens.preptcfcanada.com/wp-content/uploads/2023/05/CO24Q28-new.mp3?_=28
+Local Image: N/A
+Local Audio: audio/q28.mp3
+
+Question: Écoutez le document sonore et la question. Choisissez la bonne réponse.
+
+https://examens.preptcfcanada.com/wp-content/uploads/2023/05/CO24Q28-new.mp3?_=28
+
+Options:
+A) La répartition des taches dans le service.
+B) Le manque d’expérience de l’équipe.
+C) Le retard pris dans la réalisation d’un projet.
+D) Les désaccords entre employeur et employés.
+
+Correct option : 
+answer: 
+----------------------------------------
+Question Number: 29
+Image URL: N/A
+Audio URL: https://examens.preptcfcanada.com/wp-content/uploads/2023/05/CO24Q29-new.mp3?_=29
+Local Image: N/A
+Local Audio: audio/q29.mp3
+
+Question: Écoutez le document sonore et la question. Choisissez la bonne réponse.
+
+https://examens.preptcfcanada.com/wp-content/uploads/2023/05/CO24Q29-new.mp3?_=29
+
+Options:
+A) Annoncer la diffusion exceptionnelle, en direct, d’un festival de musique.
+B) Dire pourquoi des journalistes et des techniciens ont cessé le travail.
+C) Expliquer pourquoi on attend de la musique au lieu des programmes habituels.
+D) Rappeler les changements de programme dus à la nouvelle grille horaire.
+
+Correct option : 
+answer: 
+----------------------------------------
+Question Number: 30
+Image URL: N/A
+Audio URL: https://examens.preptcfcanada.com/wp-content/uploads/2023/05/CO24Q30-new.mp3?_=30
+Local Image: N/A
+Local Audio: audio/q30.mp3
+
+Question: Écoutez le document sonore et la question. Choisissez la bonne réponse.
+
+https://examens.preptcfcanada.com/wp-content/uploads/2023/05/CO24Q30-new.mp3?_=30
+
+Options:
+A) Il aide à lutter efficacement contre la tristesse.
+B) Il est indispensable pour l’activité de notre cerveau.
+C) Il montre les progrès dans l’apprentissage des émotions.
+D) Il permet d’entrer en relation avec les autres.
+
+Correct option : 
+answer: 
+----------------------------------------
+Question Number: 31
+Image URL: N/A
+Audio URL: https://examens.preptcfcanada.com/wp-content/uploads/2023/05/CO24Q31-new.mp3?_=31
+Local Image: N/A
+Local Audio: audio/q31.mp3
+
+Question: Écouter le document sonore et la question. Choisissez la bonne réponse :
+
+https://examens.preptcfcanada.com/wp-content/uploads/2023/05/CO24Q31-new.mp3?_=31
+
+Options:
+A) Ce sont surtout ses adversaires qui s’expriment.
+B) Les médias consacrent trop de temps au sujet.
+C) On met rarement en avant tous les domaines concernés.
+D) Sa définition exacte reste encore à établir.
+
+Correct option : 
+answer: 
+----------------------------------------
+Question Number: 32
+Image URL: N/A
+Audio URL: https://examens.preptcfcanada.com/wp-content/uploads/2023/05/CO24Q32-new.mp3?_=32
+Local Image: N/A
+Local Audio: audio/q32.mp3
+
+Question: Écoutez le document sonore et la question. Choisissez la bonne réponse.
+
+https://examens.preptcfcanada.com/wp-content/uploads/2023/05/CO24Q32-new.mp3?_=32
+
+Options:
+A) L’absence de formes d’altruisme.
+B) La place accordée à l’apparence.
+C) La superficialité des relations.
+D) Le manque d’estime de soi.
+
+Correct option : 
+answer: 
+----------------------------------------
+Question Number: 33
+Image URL: N/A
+Audio URL: https://examens.preptcfcanada.com/wp-content/uploads/2023/05/CO24Q33-new.mp3?_=33
+Local Image: N/A
+Local Audio: audio/q33.mp3
+
+Question: Écoutez le document sonore et la question. Choisissez la bonne réponse.
+
+https://examens.preptcfcanada.com/wp-content/uploads/2023/05/CO24Q33-new.mp3?_=33
+
+Options:
+A) Pour accélérer la rénovation d’anciennes constructions.
+B) Pour comparer les styles des maisons nord-américaines.
+C) Pour conserver la trace du patrimoine architectural.
+D) Pour dénoncer la dégradation des logements urbains.
+
+Correct option : 
+answer: 
+----------------------------------------
+Question Number: 34
+Image URL: N/A
+Audio URL: https://examens.preptcfcanada.com/wp-content/uploads/2023/05/CO24Q34-new.mp3?_=34
+Local Image: N/A
+Local Audio: audio/q34.mp3
+
+Question: Écoutez le document sonore et la question. Choisissez la bonne réponse.
+
+https://examens.preptcfcanada.com/wp-content/uploads/2023/05/CO24Q34-new.mp3?_=34
+
+Options:
+A) La mauvaise qualité de l’alimentation.
+B) L’absence de protection du consommateur.
+C) Le manque d’esprit critique des médias.
+D) Le peu de fiabilité des travaux scientifiques.
+
+Correct option : 
+answer: 
+----------------------------------------
+Question Number: 35
+Image URL: N/A
+Audio URL: https://examens.preptcfcanada.com/wp-content/uploads/2023/05/CO24Q35-new.mp3?_=35
+Local Image: N/A
+Local Audio: audio/q35.mp3
+
+Question: Écouter le document sonore et la question. Choisissez la bonne réponse.
+
+https://examens.preptcfcanada.com/wp-content/uploads/2023/05/CO24Q35-new.mp3?_=35
+
+Options:
+A) La difficulté d’ouvrir des lieux de fêtes dans l’espace urbain.
+B) La perte d’emplois liée à la disparition des cafés.
+C) Les politiques publiques dans le secteur culturel.
+D) Les réglementations économiques de l’hôtellerie-restauration.
+
+Correct option : 
+answer: 
+----------------------------------------
+Question Number: 36
+Image URL: N/A
+Audio URL: https://examens.preptcfcanada.com/wp-content/uploads/2023/05/CO24Q36-new.mp3?_=36
+Local Image: N/A
+Local Audio: audio/q36.mp3
+
+Question: Écoutez le document sonore et la question. Choisissez la bonne réponse.
+
+https://examens.preptcfcanada.com/wp-content/uploads/2023/05/CO24Q36-new.mp3?_=36
+
+Options:
+A) Pour faire connaître leurs services.
+B) Pour rechercher des collaborateurs.
+C) Pour s’informer sur la concurrence.
+D) Pour vendre leurs produits en ligne.
+
+Correct option : 
+answer: 
+----------------------------------------
+Question Number: 37
+Image URL: N/A
+Audio URL: https://examens.preptcfcanada.com/wp-content/uploads/2023/05/CO24Q37-new.mp3?_=37
+Local Image: N/A
+Local Audio: audio/q37.mp3
+
+Question: Écouter le document sonore et la question. Choisissez la bonne réponse :
+
+https://examens.preptcfcanada.com/wp-content/uploads/2023/05/CO24Q37-new.mp3?_=37
+
+Options:
+A) L’industrialisation galopante des rives.
+B) La dégradation d’un site naturel rural.
+C) La pollution des nappes phréatiques.
+D) La raréfaction des énergies fossiles.
+
+Correct option : 
+answer: 
+----------------------------------------
+Question Number: 38
+Image URL: N/A
+Audio URL: https://examens.preptcfcanada.com/wp-content/uploads/2023/05/CO24Q38-new.mp3?_=38
+Local Image: N/A
+Local Audio: audio/q38.mp3
+
+Question: Écouter le document sonore et la question. Choisissez la bonne réponse :
+
+https://examens.preptcfcanada.com/wp-content/uploads/2023/05/CO24Q38-new.mp3?_=38
+
+Options:
+A) Elle concerne de moins en moins d’articles.
+B) Elle est maitrisée grâce aux contrôles.
+C) Elle met en danger le marché du travail.
+D) Elle se concentre sur des objets précieux.
+
+Correct option : 
+answer: 
+----------------------------------------
+Question Number: 39
+Image URL: N/A
+Audio URL: https://examens.preptcfcanada.com/wp-content/uploads/2023/05/CO24Q39-new.mp3?_=39
+Local Image: N/A
+Local Audio: audio/q39.mp3
+
+Question: Écouter le document sonore et la question. Choisissez la bonne réponse :
+
+https://examens.preptcfcanada.com/wp-content/uploads/2023/05/CO24Q39-new.mp3?_=39
+
+Options:
+A) Acheter des livres sur le bonheur rend heureux.
+B) Chacun de nous est prédisposé au bonheur.
+C) Des cours de bonheur s’imposent dès l’enfance.
+D) L’accès au bonheur nécessite du travail.
+
+Correct option : 
+answer: 
+----------------------------------------

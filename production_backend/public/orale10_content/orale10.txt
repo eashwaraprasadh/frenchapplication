@@ -1,0 +1,507 @@
+Question Number: 1
+Image URL: https://examens.preptcfcanada.com/wp-content/uploads/2022/04/1-7-1219x800.jpeg
+Audio URL: https://examens.preptcfcanada.com/wp-content/uploads/2022/04/Test-10-–-Q1.mp3?_=1
+Local Image: images/q1.jpeg
+Local Audio: audio/q1.mp3
+Question: https://examens.preptcfcanada.com/wp-content/uploads/2022/04/Test-10-–-Q1.mp3Écoutez les 4 propositions, choisissez cellequi correspond à l’image.
+Options:
+A) A
+B) B
+C) C
+D) D
+Correct option : A
+----------------------------------------
+Question Number: 2
+Image URL: https://examens.preptcfcanada.com/wp-content/uploads/2022/04/test-10-Q2.jpeg
+Audio URL: https://examens.preptcfcanada.com/wp-content/uploads/2022/04/Test-10-–-Q2.mp3?_=2
+Local Image: images/q2.jpeg
+Local Audio: audio/q2.mp3
+Question: https://examens.preptcfcanada.com/wp-content/uploads/2022/04/Test-10-–-Q2.mp3Écoutez les 4 propositions, choisissez cellequi correspond à l’image.
+Options:
+A) A
+B) B
+C) C
+D) D
+Correct option : A
+----------------------------------------
+Question Number: 3
+Image URL: https://examens.preptcfcanada.com/wp-content/uploads/2022/04/test-10-Q3.jpeg
+Audio URL: https://examens.preptcfcanada.com/wp-content/uploads/2022/04/Test-10-–-Q3.mp3?_=3
+Local Image: images/q3.jpeg
+Local Audio: audio/q3.mp3
+Question: https://examens.preptcfcanada.com/wp-content/uploads/2022/04/Test-10-–-Q3.mp3Écoutez les 4 propositions, choisissez cellequi correspond à l’image.
+Options:
+A) A
+B) B
+C) C
+D) D
+Correct option : A
+----------------------------------------
+Question Number: 4
+Image URL: https://examens.preptcfcanada.com/wp-content/uploads/2022/04/test-10-Q4.jpeg
+Audio URL: https://examens.preptcfcanada.com/wp-content/uploads/2022/04/Test-10-–-Q4.mp3?_=4
+Local Image: images/q4.jpeg
+Local Audio: audio/q4.mp3
+Question: https://examens.preptcfcanada.com/wp-content/uploads/2022/04/Test-10-–-Q4.mp3Écoutez les 4 propositions, choisissez cellequi correspond à l’image.
+Options:
+A) A
+B) B
+C) C
+D) D
+Correct option : B
+----------------------------------------
+Question Number: 5
+Image URL: N/A
+Audio URL: https://examens.preptcfcanada.com/wp-content/uploads/2022/04/Test-10-–-Q5.mp3?_=5
+Local Image: N/A
+Local Audio: audio/q5.mp3
+Question: https://examens.preptcfcanada.com/wp-content/uploads/2022/04/Test-10-–-Q5.mp3Écoutez l’extrait sonore et les 4 propositions.Choisissez la bonne réponse.
+Options:
+A) A
+B) B
+C) C
+D) D
+Correct option : A
+----------------------------------------
+Question Number: 6
+Image URL: N/A
+Audio URL: https://examens.preptcfcanada.com/wp-content/uploads/2022/04/Test-10-–-Q6.mp3?_=6
+Local Image: N/A
+Local Audio: audio/q6.mp3
+Question: https://examens.preptcfcanada.com/wp-content/uploads/2022/04/Test-10-–-Q6.mp3Écoutez l’extrait sonore et les 4 propositions.Choisissez la bonne réponse.
+Options:
+A) A
+B) B
+C) C
+D) D
+Correct option : B
+----------------------------------------
+Question Number: 7
+Image URL: N/A
+Audio URL: https://examens.preptcfcanada.com/wp-content/uploads/2022/04/Test-10-–-Q7.mp3?_=7
+Local Image: N/A
+Local Audio: audio/q7.mp3
+Question: https://examens.preptcfcanada.com/wp-content/uploads/2022/04/Test-10-–-Q7.mp3Écoutez l’extrait sonore et les 4 propositions.Choisissez la bonne réponse.
+Options:
+A) A
+B) B
+C) C
+D) D
+Correct option : A
+----------------------------------------
+Question Number: 8
+Image URL: N/A
+Audio URL: https://examens.preptcfcanada.com/wp-content/uploads/2022/04/Test-10-–-Q8.mp3?_=8
+Local Image: N/A
+Local Audio: audio/q8.mp3
+Question: https://examens.preptcfcanada.com/wp-content/uploads/2022/04/Test-10-–-Q8.mp3Écoutez l’extrait sonore et les 4 propositions.Choisissez la bonne réponse.
+Options:
+A) A
+B) B
+C) C
+D) D
+Correct option : C
+----------------------------------------
+Question Number: 9
+Image URL: N/A
+Audio URL: https://examens.preptcfcanada.com/wp-content/uploads/2022/04/Test-10-–-Q9.mp3?_=9
+Local Image: N/A
+Local Audio: audio/q9.mp3
+Question: https://examens.preptcfcanada.com/wp-content/uploads/2022/04/Test-10-–-Q9.mp3Écoutez l’extrait sonore et les 4 propositions.Choisissez la bonne réponse.
+Options:
+A) A
+B) B
+C) C
+D) D
+Correct option : A
+----------------------------------------
+Question Number: 10
+Image URL: N/A
+Audio URL: https://examens.preptcfcanada.com/wp-content/uploads/2022/04/Test-10-–-Q10.mp3?_=10
+Local Image: N/A
+Local Audio: audio/q10.mp3
+Question: https://examens.preptcfcanada.com/wp-content/uploads/2022/04/Test-10-–-Q10.mp3Écoutez le document sonore et la question.Choisissez la bonne réponse.
+Options:
+A) Elle est déjà vendue.
+B) Elle est en panne.
+C) Elle est irréparable.
+D) Elle est trop chère.
+Correct option : B
+----------------------------------------
+Question Number: 11
+Image URL: N/A
+Audio URL: https://examens.preptcfcanada.com/wp-content/uploads/2022/04/Test-10-–-Q11.mp3?_=11
+Local Image: N/A
+Local Audio: audio/q11.mp3
+Question: https://examens.preptcfcanada.com/wp-content/uploads/2022/04/Test-10-–-Q11.mp3Écoutez le document sonore et la question.Choisissez la bonne réponse.
+Options:
+A) D’un prochain déménagement.
+B) De sport pour le week-end.
+C) De vacances en famille.
+D) D’un problème de santé.
+Correct option : C
+----------------------------------------
+Question Number: 12
+Image URL: N/A
+Audio URL: https://examens.preptcfcanada.com/wp-content/uploads/2022/04/Test-10-–-Q12.mp3?_=12
+Local Image: N/A
+Local Audio: audio/q12.mp3
+Question: https://examens.preptcfcanada.com/wp-content/uploads/2022/04/Test-10-–-Q12.mp3Écoutez le document sonore et la question.Choisissez la bonne réponse.
+Options:
+A) L’annulation d’un cours.
+B) Le retard d’un professeur.
+C) Les horaires d’un examen.
+D) Un changement de salle.
+Correct option : A
+----------------------------------------
+Question Number: 13
+Image URL: N/A
+Audio URL: https://examens.preptcfcanada.com/wp-content/uploads/2022/04/Test-10-–-Q13.mp3?_=13
+Local Image: N/A
+Local Audio: audio/q13.mp3
+Question: https://examens.preptcfcanada.com/wp-content/uploads/2022/04/Test-10-–-Q13.mp3Écoutez le document sonore et la question.Choisissez la bonne réponse.
+Options:
+A) Manger des plats typiques.
+B) Rencontrer sa famille.
+C) Travailler toute la journée.
+D) Voir une exposition.
+Correct option : C
+----------------------------------------
+Question Number: 14
+Image URL: N/A
+Audio URL: https://examens.preptcfcanada.com/wp-content/uploads/2022/04/Test-10-–-Q14.mp3?_=14
+Local Image: N/A
+Local Audio: audio/q14.mp3
+Question: https://examens.preptcfcanada.com/wp-content/uploads/2022/04/Test-10-–-Q14.mp3Écoutez le document sonore et la question.Choisissez la bonne réponse.
+Options:
+A) De visiter le sud de la France.
+B) De partir ensemble à l’étranger.
+C) De partir chacun de leur côté.
+D) D’aller pêcher avec d’autres amis.
+Correct option : B
+----------------------------------------
+Question Number: 15
+Image URL: N/A
+Audio URL: https://examens.preptcfcanada.com/wp-content/uploads/2022/04/Test-10-–-Q15.mp3?_=15
+Local Image: N/A
+Local Audio: audio/q15.mp3
+Question: https://examens.preptcfcanada.com/wp-content/uploads/2022/04/Test-10-–-Q15.mp3Écoutez le document sonore et la question.Choisissez la bonne réponse.
+Options:
+A) Continuer jusqu’au hall.
+B) Descendre avec l’ascenseur.
+C) Monter d’un étage.
+D) Prendre le couloir à droite.
+Correct option : C
+----------------------------------------
+Question Number: 16
+Image URL: N/A
+Audio URL: https://examens.preptcfcanada.com/wp-content/uploads/2022/04/Test-10-–-Q16.mp3?_=16
+Local Image: N/A
+Local Audio: audio/q16.mp3
+Question: https://examens.preptcfcanada.com/wp-content/uploads/2022/04/Test-10-–-Q16.mp3Écoutez le document sonore et la question.Choisissez la bonne réponse.
+Options:
+A) Une de leurs amies est gravement malade.
+B) Elles vont rendre visite à une amie.
+C) L’une d’elles doit faire des examens.
+D) L’une d’elles vient d’avoir un accident.
+Correct option : B
+----------------------------------------
+Question Number: 17
+Image URL: N/A
+Audio URL: https://examens.preptcfcanada.com/wp-content/uploads/2022/04/Test-10-–-Q17.mp3?_=17
+Local Image: N/A
+Local Audio: audio/q17.mp3
+Question: https://examens.preptcfcanada.com/wp-content/uploads/2022/04/Test-10-–-Q17.mp3Écoutez le document sonore et la question.Choisissez la bonne réponse
+Options:
+A) Elle part en vacances en Grèce.
+B) Elle part en lune de miel en Grèce.
+C) Elle revient d’un court séjour en Grèce.
+D) Elle vient d’obtenir un emploi en Grèce.
+Correct option : A
+----------------------------------------
+Question Number: 18
+Image URL: N/A
+Audio URL: https://examens.preptcfcanada.com/wp-content/uploads/2022/04/Test-10-–-Q18.mp3?_=18
+Local Image: N/A
+Local Audio: audio/q18.mp3
+Question: https://examens.preptcfcanada.com/wp-content/uploads/2022/04/Test-10-–-Q18.mp3Écoutez le document sonore et la question.Choisissez la bonne réponse.
+Options:
+A) Attendre son tour dans le bureau.
+B) Déposer son dossier sans attendre.
+C) Prendre rendez-vous pour le lendemain.
+D) Revenir plus tard dans la journée.
+Correct option : D
+----------------------------------------
+Question Number: 19
+Image URL: N/A
+Audio URL: https://examens.preptcfcanada.com/wp-content/uploads/2022/04/Test-10-–-Q19.mp3?_=19
+Local Image: N/A
+Local Audio: audio/q19.mp3
+Question: https://examens.preptcfcanada.com/wp-content/uploads/2022/04/Test-10-–-Q19.mp3Écoutez le document sonore et la question.Choisissez la bonne réponse.
+Options:
+A) Acheter une enveloppe.
+B) Changer de l’argent.
+C) Envoyer une lettre.
+D) Retirer un colis.
+Correct option : C
+----------------------------------------
+Question Number: 20
+Image URL: N/A
+Audio URL: https://examens.preptcfcanada.com/wp-content/uploads/2022/04/Test-10-–-Q20.mp3?_=20
+Local Image: N/A
+Local Audio: audio/q20.mp3
+Question: https://examens.preptcfcanada.com/wp-content/uploads/2022/04/Test-10-–-Q20.mp3Écoutez le document sonore et la question.Choisissez la bonne réponse.
+Options:
+A) Acheter un guide.
+B) Réserver une table.
+C) Trouver une chambre.
+D) Visiter une ville.
+Correct option : D
+----------------------------------------
+Question Number: 21
+Image URL: N/A
+Audio URL: https://examens.preptcfcanada.com/wp-content/uploads/2022/04/Test-10-–-Q21.mp3?_=21
+Local Image: N/A
+Local Audio: audio/q21.mp3
+Question: https://examens.preptcfcanada.com/wp-content/uploads/2022/04/Test-10-–-Q21.mp3Écoutez le document sonore et la question.Choisissez la bonne réponse.
+Options:
+A) Le bureau des relations internationales.
+B) Le directeur de son département.
+C) Le secrétariat de son département.
+D) L’université étrangère qui l’intéresse.
+Correct option : B
+----------------------------------------
+Question Number: 22
+Image URL: N/A
+Audio URL: https://examens.preptcfcanada.com/wp-content/uploads/2022/04/Test-10-–-Q22.mp3?_=22
+Local Image: N/A
+Local Audio: audio/q22.mp3
+Question: https://examens.preptcfcanada.com/wp-content/uploads/2022/04/Test-10-–-Q22.mp3Écoutez le document sonore et la question.Choisissez la bonne réponse.
+Options:
+A) Ils dînent au restaurant.
+B) Ils jouent aux cartes.
+C) Ils révisent leurs leçons.
+D) Ils préparent le repas.
+Correct option : B
+----------------------------------------
+Question Number: 23
+Image URL: N/A
+Audio URL: https://examens.preptcfcanada.com/wp-content/uploads/2022/04/Test-10-–-Q23.mp3?_=23
+Local Image: N/A
+Local Audio: audio/q23.mp3
+Question: https://examens.preptcfcanada.com/wp-content/uploads/2022/04/Test-10-–-Q23.mp3Écoutez le document sonore et la question.Choisissez la bonne réponse.
+Options:
+A) La fréquence des compétitions sportives.
+B) Le contenu des programmes sportifs.
+C) Les contraintes liées aux pratiques sportives.
+D) L’insuffisance des résultats sportifs.
+Correct option : C
+----------------------------------------
+Question Number: 24
+Image URL: N/A
+Audio URL: https://examens.preptcfcanada.com/wp-content/uploads/2022/04/Test-10-–-Q24.mp3?_=24
+Local Image: N/A
+Local Audio: audio/q24.mp3
+Question: https://examens.preptcfcanada.com/wp-content/uploads/2022/04/Test-10-–-Q24.mp3Écoutez le document sonore et la question.Choisissez la bonne réponse.
+Options:
+A) Elles entrent dans la vie active avant les jeunes garçons.
+B) Elles se rebellent très vite face à l’autorité familiale au quotidien.
+C) Elles sont en désaccord avec leurs parents au sujet de leurs études.
+D) Elles sont mieux préparées aux tâches de tous les jours.
+Correct option : B
+----------------------------------------
+Question Number: 25
+Image URL: N/A
+Audio URL: https://examens.preptcfcanada.com/wp-content/uploads/2022/04/Test-10-–-Q25.mp3?_=25
+Local Image: N/A
+Local Audio: audio/q25.mp3
+Question: https://examens.preptcfcanada.com/wp-content/uploads/2022/04/Test-10-–-Q25.mp3Écoutez le document sonore et la question.Choisissez la bonne réponse.
+Options:
+A) Il a quatre ans d’expérience.
+B) Il a travaillé dans un commerce.
+C) Il accepte de travailler l’été.
+D) Il est très motivé par la formation.
+Correct option : B
+----------------------------------------
+Question Number: 26
+Image URL: N/A
+Audio URL: https://examens.preptcfcanada.com/wp-content/uploads/2022/04/Test-10-–-Q26.mp3?_=26
+Local Image: N/A
+Local Audio: audio/q26.mp3
+Question: https://examens.preptcfcanada.com/wp-content/uploads/2022/04/Test-10-–-Q26.mp3Écoutez le document sonore et la question.Choisissez la bonne réponse.
+Options:
+A) Il a créé un partenariat avec une marque de voiture.
+B) Il a distribué gratuitement ses premiers modèles.
+C) Il a engagé des mannequins pour présenter sa collection.
+D) Il s’est d’abord fait connaître auprès des étudiants.
+Correct option : D
+----------------------------------------
+Question Number: 27
+Image URL: N/A
+Audio URL: https://examens.preptcfcanada.com/wp-content/uploads/2022/04/Test-10-–-Q27.mp3?_=27
+Local Image: N/A
+Local Audio: audio/q27.mp3
+Question: https://examens.preptcfcanada.com/wp-content/uploads/2022/04/Test-10-–-Q27.mp3Écoutez le document sonore et la question.Choisissez la bonne réponse.
+Options:
+A) En les incitant à travailler de manière collaborative.
+B) En les poussant à prendre des risques importants.
+C) En leur offrant des formations personnalisées.
+D) En leur proposant de participer à des compétitions.
+Correct option : A
+----------------------------------------
+Question Number: 28
+Image URL: N/A
+Audio URL: https://examens.preptcfcanada.com/wp-content/uploads/2022/04/Test-10-–-Q28.mp3?_=28
+Local Image: N/A
+Local Audio: audio/q28.mp3
+Question: https://examens.preptcfcanada.com/wp-content/uploads/2022/04/Test-10-–-Q28.mp3Écoutez le document sonore et la question.Choisissez la bonne réponse.
+Options:
+A) Conseiller des médicaments.
+B) Établir un certificat médical.
+C) Examiner une radiographie.
+D) Traiter un problème de poids.
+Correct option : B
+----------------------------------------
+Question Number: 29
+Image URL: N/A
+Audio URL: https://examens.preptcfcanada.com/wp-content/uploads/2022/04/Test-10-–-Q29.mp3?_=29
+Local Image: N/A
+Local Audio: audio/q29.mp3
+Question: https://examens.preptcfcanada.com/wp-content/uploads/2022/04/Test-10-–-Q29.mp3Écoutez le document sonore et la question.Choisissez la bonne réponse.
+Options:
+A) L’obligation d’acheter des moustiquaires.
+B) La coopération avec les autorités publiques.
+C) Le recensement des malades par l’association.
+D) L’implication active de tous les habitants.
+Correct option : D
+----------------------------------------
+Question Number: 30
+Image URL: N/A
+Audio URL: https://examens.preptcfcanada.com/wp-content/uploads/2022/04/Test-10-–-Q30.mp3?_=30
+Local Image: N/A
+Local Audio: audio/q30.mp3
+Question: https://examens.preptcfcanada.com/wp-content/uploads/2022/04/Test-10-–-Q30.mp3Écoutez le document sonore et la question.Choisissez la bonne réponse.
+Options:
+A) Pour mieux connaître la région.
+B) Pour aller voir un festival.
+C) Pour s’acheter une maison.
+D) Pour rendre visite à un ami.
+Correct option : C
+----------------------------------------
+Question Number: 31
+Image URL: N/A
+Audio URL: https://examens.preptcfcanada.com/wp-content/uploads/2022/04/Test-10-–-Q31.mp3?_=31
+Local Image: N/A
+Local Audio: audio/q31.mp3
+Question: https://examens.preptcfcanada.com/wp-content/uploads/2022/04/Test-10-–-Q31.mp3Écoutez le document sonore et la question.Choisissez la bonne réponse.
+Options:
+A) Favoriser l’apprentissage de chansons françaises.
+B) Montrer la variété de la langue française.
+C) Promouvoir de nouveaux événements musicaux.
+D) Faire le tour du monde des festivals francophones.
+Correct option : B
+----------------------------------------
+Question Number: 32
+Image URL: N/A
+Audio URL: https://examens.preptcfcanada.com/wp-content/uploads/2022/04/Test-10-–-Q32.mp3?_=32
+Local Image: N/A
+Local Audio: audio/q32.mp3
+Question: https://examens.preptcfcanada.com/wp-content/uploads/2022/04/Test-10-–-Q32.mp3Écoutez le document sonore et la question.Choisissez la bonne réponse.
+Options:
+A) Apprendre à l’élève à se maîtriser sans la présence de professeurs.
+B) Imposer une progression précise à l’élève afin de l’aider à se structurer.
+C) Laisser l’élève progresser à son rythme en l’accompagnant patiemment.
+D) S’appuyer sur ce que l’élève a appris durant son parcours scolaire.
+Correct option : C
+----------------------------------------
+Question Number: 33
+Image URL: N/A
+Audio URL: https://examens.preptcfcanada.com/wp-content/uploads/2022/04/Test-10-–-Q33.mp3?_=33
+Local Image: N/A
+Local Audio: audio/q33.mp3
+Question: https://examens.preptcfcanada.com/wp-content/uploads/2022/04/Test-10-–-Q33.mp3Écoutez le document sonore et la question.Choisissez la bonne réponse.
+Options:
+A) Contrôler l’aptitude à la conduite d’une certaine catégorie d’usagers.
+B) Obliger les fautifs d’accidents à repasser l’examen du permis.
+C) Réduire la vitesse réglementaire pour les automobilistes séniors.
+D) Simplifier les panneaux de signalisation les plus complexes.
+Correct option : A
+----------------------------------------
+Question Number: 34
+Image URL: N/A
+Audio URL: https://examens.preptcfcanada.com/wp-content/uploads/2022/04/Test-10-–-Q34.mp3?_=34
+Local Image: N/A
+Local Audio: audio/q34.mp3
+Question: https://examens.preptcfcanada.com/wp-content/uploads/2022/04/Test-10-–-Q34.mp3Écoutez le document sonore et la question.Choisissez la bonne réponse.
+Options:
+A) Accroître les zones agricoles en déforestation.
+B) Améliorer le rendement des parcelles cultivées.
+C) Exploiter différemment les terres endommagées.
+D) Rendre productifs les terrains vagues urbains.
+Correct option : C
+----------------------------------------
+Question Number: 35
+Image URL: N/A
+Audio URL: https://examens.preptcfcanada.com/wp-content/uploads/2022/04/Test-10-–-Q35.mp3?_=35
+Local Image: N/A
+Local Audio: audio/q35.mp3
+Question: https://examens.preptcfcanada.com/wp-content/uploads/2022/04/Test-10-–-Q35.mp3Écoutez le document sonore et la question.Choisissez la bonne réponse.
+Options:
+A) C’est un exemple de réussite par le sport.
+B) C’est un modèle rare de mixité culturelle.
+C) C’est un symbole fort de cette province.
+D) C’est une référence pour son style de jeu.
+Correct option : C
+----------------------------------------
+Question Number: 36
+Image URL: N/A
+Audio URL: https://examens.preptcfcanada.com/wp-content/uploads/2022/04/Test-10-–-Q36.mp3?_=36
+Local Image: N/A
+Local Audio: audio/q36.mp3
+Question: https://examens.preptcfcanada.com/wp-content/uploads/2022/04/Test-10-–-Q36.mp3Écoutez le document sonore et la question.Choisissez la bonne réponse.
+Options:
+A) Constituer un atlas mondial électronique.
+B) Proposer des reportages sur la vie privée.
+C) Recenser les plaintes pour violation d’intimité.
+D) Surveiller les maisons pour stopper les vols.
+Correct option : A
+----------------------------------------
+Question Number: 37
+Image URL: N/A
+Audio URL: https://examens.preptcfcanada.com/wp-content/uploads/2022/04/Test-10-–-Q37.mp3?_=37
+Local Image: N/A
+Local Audio: audio/q37.mp3
+Question: https://examens.preptcfcanada.com/wp-content/uploads/2022/04/Test-10-–-Q37.mp3Écoutez le document sonore et la question.Choisissez la bonne réponse.
+Options:
+A) L’industrialisation galopante des rives.
+B) La dégradation d’un site naturel rare.
+C) La pollution des nappes phréatiques.
+D) La raréfaction des énergies fossiles.
+Correct option : B
+----------------------------------------
+Question Number: 38
+Image URL: N/A
+Audio URL: https://examens.preptcfcanada.com/wp-content/uploads/2022/04/Test-10-–-Q38.mp3?_=38
+Local Image: N/A
+Local Audio: audio/q38.mp3
+Question: https://examens.preptcfcanada.com/wp-content/uploads/2022/04/Test-10-–-Q38.mp3Écoutez le document sonore et la question.Choisissez la bonne réponse.
+Options:
+A) Mettre en place toutes les infrastructures d’accueil.
+B) Prendre en compte des aspects financiers du projet.
+C) Réussir l’intégration de la main-d’œuvre étrangère.
+D) Susciter l’adhésion de tous les habitants concernés.
+Correct option : A
+----------------------------------------
+Question Number: 39
+Image URL: N/A
+Audio URL: https://examens.preptcfcanada.com/wp-content/uploads/2022/04/Test-10-–-Q39.mp3?_=39
+Local Image: N/A
+Local Audio: audio/q39.mp3
+Question: https://examens.preptcfcanada.com/wp-content/uploads/2022/04/Test-10-–-Q39.mp3Écoutez le document sonore et la question.Choisissez la bonne réponse.
+Options:
+A) Le nombre de médiateurs est insuffisant pour répondre à la demande.
+B) Les banques influencent les décisions prises par les médiateurs.
+C) Les demandeurs trouvent que la procédure est trop longue et compliquée.
+D) Quelle que soit la nature du litige, le médiateur n’a qu’un pouvoir consultatif.
+Correct option : D
+----------------------------------------
