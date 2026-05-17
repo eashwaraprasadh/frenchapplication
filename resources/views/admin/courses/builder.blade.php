@@ -1457,7 +1457,7 @@
 
                         // Escape quotes for JS function calls
                         const safeFileName = file.original_name.replace(/'/g, "\\'");
-                        const safeDownloadUrl = file.download_url.replace(/'/g, "\\'");
+                        const safeDownloadUrl = (file.download_url + '?cb=' + Date.now()).replace(/'/g, "\\'");
                         const safeMimeType = file.mime_type.replace(/'/g, "\\'");
 
                         html += `
