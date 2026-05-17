@@ -295,8 +295,25 @@
                                 </div>
                                 <div class="content-info">
                                     <div class="content-title">{{ $folder->name }}</div>
-                                    <div class="content-meta">Folder • {{ $folderAllowedCounts[$folder->id]['lessons'] ?? 0 }}
-                                        lessons, {{ $folderAllowedCounts[$folder->id]['tests'] ?? 0 }} tests</div>
+                                    <div class="content-meta">
+                                        @php
+                                            $metaParts = [];
+                                            $foldersCount = $folderAllowedCounts[$folder->id]['folders'] ?? 0;
+                                            $lessonsCount = $folderAllowedCounts[$folder->id]['lessons'] ?? 0;
+                                            $testsCount = $folderAllowedCounts[$folder->id]['tests'] ?? 0;
+                                            
+                                            if ($foldersCount > 0) {
+                                                $metaParts[] = $foldersCount . ' ' . Str::plural('subfolder', $foldersCount);
+                                            }
+                                            if ($lessonsCount > 0) {
+                                                $metaParts[] = $lessonsCount . ' ' . Str::plural('lesson', $lessonsCount);
+                                            }
+                                            if ($testsCount > 0) {
+                                                $metaParts[] = $testsCount . ' ' . Str::plural('test', $testsCount);
+                                            }
+                                        @endphp
+                                        Folder{{ !empty($metaParts) ? ' • ' . implode(', ', $metaParts) : '' }}
+                                    </div>
                                 </div>
                             </div>
                         </a>

@@ -121,8 +121,20 @@
               <div class="content-icon icon-folder"><i class="bi bi-folder2-open"></i></div>
               <div>
                 <div class="content-title">{{ $sub->name }}</div>
-                <div class="content-meta">{{ $subFolderCounts[$sub->id]['lessons'] ?? 0 }} lessons •
-                  {{ $subFolderCounts[$sub->id]['tests'] ?? 0 }} tests
+                <div class="content-meta">
+                  @php
+                    $subMetaParts = [];
+                    $subLessons = $subFolderCounts[$sub->id]['lessons'] ?? 0;
+                    $subTests = $subFolderCounts[$sub->id]['tests'] ?? 0;
+                    
+                    if ($subLessons > 0) {
+                      $subMetaParts[] = $subLessons . ' ' . Str::plural('lesson', $subLessons);
+                    }
+                    if ($subTests > 0) {
+                      $subMetaParts[] = $subTests . ' ' . Str::plural('test', $subTests);
+                    }
+                  @endphp
+                  Folder{{ !empty($subMetaParts) ? ' • ' . implode(', ', $subMetaParts) : '' }}
                 </div>
               </div>
             </div>

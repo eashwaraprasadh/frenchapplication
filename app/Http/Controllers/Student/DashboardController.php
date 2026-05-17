@@ -259,20 +259,42 @@ class DashboardController extends Controller
             if (!$course) {
                 continue;
             }
-            $allowed = StudentContentPermission::where('student_id', $user->id)
+            $hasCustomPermissions = StudentContentPermission::where('student_id', $user->id)
                 ->where('course_id', $course->id)
-                ->where('has_access', true)
-                ->get()
-                ->groupBy('content_type')
-                ->map(fn($g) => $g->pluck('content_id')->all());
+                ->exists();
 
-            $lessonIds = $allowed['lesson'] ?? [];
-            $testIds = $allowed['test'] ?? [];
+            if (!$hasCustomPermissions) {
+                $lessonCount = Lesson::where('course_id', $course->id)->count();
+                $testCount = Test::where('course_id', $course->id)->count();
+                $allowedMinutes = Lesson::where('course_id', $course->id)->sum('estimated_time');
+                $hours = round((($allowedMinutes ?: 0) / 60), 1);
+            } else {
+                $allowed = StudentContentPermission::where('student_id', $user->id)
+                    ->where('course_id', $course->id)
+                    ->where('has_access', true)
+                    ->get()
+                    ->groupBy('content_type')
+                    ->map(fn($g) => $g->pluck('content_id')->all());
 
-            $lessonCount = empty($lessonIds) ? 0 : Lesson::where('course_id', $course->id)->whereIn('id', $lessonIds)->count();
-            $testCount = empty($testIds) ? 0 : Test::where('course_id', $course->id)->whereIn('id', $testIds)->count();
-            $allowedMinutes = empty($lessonIds) ? 0 : Lesson::whereIn('id', $lessonIds)->sum('estimated_time');
-            $hours = round((($allowedMinutes ?: 0) / 60), 1);
+                $allowedFolderIds = $allowed['folder'] ?? [];
+
+                $lessonIds = $allowed['lesson'] ?? [];
+                if (!empty($allowedFolderIds)) {
+                    $inheritedLessons = Lesson::whereIn('folder_id', $allowedFolderIds)->pluck('id')->all();
+                    $lessonIds = array_unique(array_merge($lessonIds, $inheritedLessons));
+                }
+
+                $testIds = $allowed['test'] ?? [];
+                if (!empty($allowedFolderIds)) {
+                    $inheritedTests = Test::whereIn('folder_id', $allowedFolderIds)->pluck('id')->all();
+                    $testIds = array_unique(array_merge($testIds, $inheritedTests));
+                }
+
+                $lessonCount = empty($lessonIds) ? 0 : Lesson::where('course_id', $course->id)->whereIn('id', $lessonIds)->count();
+                $testCount = empty($testIds) ? 0 : Test::where('course_id', $course->id)->whereIn('id', $testIds)->count();
+                $allowedMinutes = empty($lessonIds) ? 0 : Lesson::whereIn('id', $lessonIds)->sum('estimated_time');
+                $hours = round((($allowedMinutes ?: 0) / 60), 1);
+            }
 
             $allowedCountsByCourse[$course->id] = [
                 'lessons' => $lessonCount,
@@ -423,13 +445,51 @@ class DashboardController extends Controller
         // Load course relationships
         $course->load(['lessons.contentBlocks', 'tests.questions', 'folders']);
 
-        // Compute top-level folders and root-level items, filtered by permissions (deny-by-default; allow only when explicitly granted)
-        $allowed = StudentContentPermission::where('student_id', Auth::id())
+        // Check if student has ANY custom permission records for this course
+        $hasCustomPermissions = StudentContentPermission::where('student_id', Auth::id())
             ->where('course_id', $course->id)
-            ->where('has_access', true)
-            ->get()
-            ->groupBy('content_type')
-            ->map(fn($g) => $g->pluck('content_id')->all());
+            ->exists();
+
+        if (!$hasCustomPermissions) {
+            // Allow all folders, lessons, tests, files by default
+            $allowed = collect([
+                'folder' => \App\Models\CourseFolder::where('course_id', $course->id)->pluck('id')->all(),
+                'lesson' => $course->lessons->pluck('id')->all(),
+                'test' => $course->tests->pluck('id')->all(),
+                'file' => $course->files->pluck('id')->all(),
+            ]);
+        } else {
+            // Load custom permissions
+            $allowed = StudentContentPermission::where('student_id', Auth::id())
+                ->where('course_id', $course->id)
+                ->where('has_access', true)
+                ->get()
+                ->groupBy('content_type')
+                ->map(fn($g) => $g->pluck('content_id')->all());
+
+            // Parent Folder Inheritance:
+            // If a folder is allowed, implicitly allow all child folders and nested lessons/tests
+            $allowedFolderIds = $allowed['folder'] ?? [];
+            if (!empty($allowedFolderIds)) {
+                // Recursively find subfolders of these folders
+                $allSubFolderIds = \App\Models\CourseFolder::where('course_id', $course->id)
+                    ->whereIn('parent_folder_id', $allowedFolderIds)
+                    ->pluck('id')
+                    ->all();
+                if (!empty($allSubFolderIds)) {
+                    $allowedFolderIds = array_unique(array_merge($allowedFolderIds, $allSubFolderIds));
+                    $allowed['folder'] = $allowedFolderIds;
+                }
+
+                // Add lessons belonging to allowed folders
+                $inheritedLessons = \App\Models\Lesson::whereIn('folder_id', $allowedFolderIds)->pluck('id')->all();
+                $allowed['lesson'] = array_unique(array_merge($allowed['lesson'] ?? [], $inheritedLessons));
+
+                // Add tests belonging to allowed folders
+                $inheritedTests = \App\Models\Test::whereIn('folder_id', $allowedFolderIds)->pluck('id')->all();
+                $allowed['test'] = array_unique(array_merge($allowed['test'] ?? [], $inheritedTests));
+            }
+        }
 
         $topFolders = \App\Models\CourseFolder::where('course_id', $course->id)
             ->whereNull('parent_folder_id')
@@ -453,7 +513,7 @@ class DashboardController extends Controller
         $allowedLessonIds = $course->lessons()->whereIn('id', $allowed['lesson'] ?? [])->pluck('id')->all();
         $allowedTestIds = $course->tests()->whereIn('id', $allowed['test'] ?? [])->pluck('id')->all();
 
-        // Folder-level allowed counts for sidebar display
+        // Folder-level allowed counts for sidebar display (lessons, tests, subfolders)
         $allowedLessonsByFolder = \App\Models\Lesson::where('course_id', $course->id)
             ->whereIn('id', $allowedLessonIds)
             ->pluck('folder_id')
@@ -462,9 +522,16 @@ class DashboardController extends Controller
             ->whereIn('id', $allowedTestIds)
             ->pluck('folder_id')
             ->countBy();
+        $allowedSubfoldersByFolder = \App\Models\CourseFolder::where('course_id', $course->id)
+            ->whereIn('id', $allowed['folder'] ?? [])
+            ->whereNotNull('parent_folder_id')
+            ->pluck('parent_folder_id')
+            ->countBy();
+
         $folderAllowedCounts = [];
         foreach ($topFolders as $f) {
             $folderAllowedCounts[$f->id] = [
+                'folders' => (int) ($allowedSubfoldersByFolder[$f->id] ?? 0),
                 'lessons' => (int) ($allowedLessonsByFolder[$f->id] ?? 0),
                 'tests' => (int) ($allowedTestsByFolder[$f->id] ?? 0),
             ];
@@ -571,25 +638,61 @@ class DashboardController extends Controller
         }
 
 
-        // Require explicit allow for this folder (deny-by-default)
-        $allowFolder = StudentContentPermission::where([
-            'student_id' => Auth::id(),
-            'course_id' => $course->id,
-            'content_type' => 'folder',
-            'content_id' => $folder->id,
-            'has_access' => true,
-        ])->exists();
-        if (!$allowFolder) {
-            abort(403, 'Access denied for this folder.');
-        }
-
-        // Build allow lists for filtering children
-        $allowed = StudentContentPermission::where('student_id', Auth::id())
+        // Check if student has ANY custom permission records for this course
+        $hasCustomPermissions = StudentContentPermission::where('student_id', Auth::id())
             ->where('course_id', $course->id)
-            ->where('has_access', true)
-            ->get()
-            ->groupBy('content_type')
-            ->map(fn($g) => $g->pluck('content_id')->all());
+            ->exists();
+
+        if (!$hasCustomPermissions) {
+            $allowFolder = true;
+            $allowed = collect([
+                'folder' => \App\Models\CourseFolder::where('course_id', $course->id)->pluck('id')->all(),
+                'lesson' => $course->lessons->pluck('id')->all(),
+                'test' => $course->tests->pluck('id')->all(),
+                'file' => $course->files->pluck('id')->all(),
+            ]);
+        } else {
+            // Load custom permissions
+            $allowed = StudentContentPermission::where('student_id', Auth::id())
+                ->where('course_id', $course->id)
+                ->where('has_access', true)
+                ->get()
+                ->groupBy('content_type')
+                ->map(fn($g) => $g->pluck('content_id')->all());
+
+            // Parent Folder Inheritance:
+            // If a folder is allowed, implicitly allow all child folders and nested lessons/tests
+            $allowedFolderIds = $allowed['folder'] ?? [];
+            if (!empty($allowedFolderIds)) {
+                // Recursively find subfolders of these folders
+                $allSubFolderIds = \App\Models\CourseFolder::where('course_id', $course->id)
+                    ->whereIn('parent_folder_id', $allowedFolderIds)
+                    ->pluck('id')
+                    ->all();
+                if (!empty($allSubFolderIds)) {
+                    $allowedFolderIds = array_unique(array_merge($allowedFolderIds, $allSubFolderIds));
+                    $allowed['folder'] = $allowedFolderIds;
+                }
+
+                // Add lessons belonging to allowed folders
+                $inheritedLessons = \App\Models\Lesson::whereIn('folder_id', $allowedFolderIds)->pluck('id')->all();
+                $allowed['lesson'] = array_unique(array_merge($allowed['lesson'] ?? [], $inheritedLessons));
+
+                // Add tests belonging to allowed folders
+                $inheritedTests = \App\Models\Test::whereIn('folder_id', $allowedFolderIds)->pluck('id')->all();
+                $allowed['test'] = array_unique(array_merge($allowed['test'] ?? [], $inheritedTests));
+            }
+
+            // Folder Access Check: Allowed if folder is explicitly whitelisted OR if its parent is whitelisted
+            $allowFolder = in_array($folder->id, $allowed['folder'] ?? []);
+            if (!$allowFolder && $folder->parent_folder_id) {
+                $allowFolder = in_array($folder->parent_folder_id, $allowed['folder'] ?? []);
+            }
+
+            if (!$allowFolder) {
+                abort(403, 'Access denied for this folder.');
+            }
+        }
 
         // Subfolders (only explicitly allowed)
         $subFolders = CourseFolder::where('course_id', $course->id)
@@ -631,6 +734,7 @@ class DashboardController extends Controller
                 ->countBy();
             foreach ($subFolders as $sf) {
                 $subFolderCounts[$sf->id] = [
+                    'lessons' => (int) ($allowedLessonsByFolder[$sf->id] ?? 0),
                     'tests' => (int) ($allowedTestsByFolder[$sf->id] ?? 0),
                 ];
             }
@@ -675,15 +779,48 @@ class DashboardController extends Controller
         }
 
         // Permission check: require explicit allow (deny-by-default)
-        $allowLesson = StudentContentPermission::where([
-            'student_id' => Auth::id(),
-            'course_id' => $lesson->course_id,
-            'content_type' => 'lesson',
-            'content_id' => $lesson->id,
-            'has_access' => true,
-        ])->exists();
-        if (!$allowLesson) {
-            abort(403, 'Access denied for this lesson.');
+        $hasCustomPermissions = StudentContentPermission::where('student_id', Auth::id())
+            ->where('course_id', $lesson->course_id)
+            ->exists();
+
+        if ($hasCustomPermissions) {
+            $allowLesson = StudentContentPermission::where([
+                'student_id' => Auth::id(),
+                'course_id' => $lesson->course_id,
+                'content_type' => 'lesson',
+                'content_id' => $lesson->id,
+                'has_access' => true,
+            ])->exists();
+
+            // Parent Folder Inheritance
+            if (!$allowLesson && $lesson->folder_id) {
+                // Check if the lesson's folder is allowed
+                $allowLesson = StudentContentPermission::where([
+                    'student_id' => Auth::id(),
+                    'course_id' => $lesson->course_id,
+                    'content_type' => 'folder',
+                    'content_id' => $lesson->folder_id,
+                    'has_access' => true,
+                ])->exists();
+
+                // Check if the parent of the lesson's folder is allowed
+                if (!$allowLesson) {
+                    $folder = \App\Models\CourseFolder::find($lesson->folder_id);
+                    if ($folder && $folder->parent_folder_id) {
+                        $allowLesson = StudentContentPermission::where([
+                            'student_id' => Auth::id(),
+                            'course_id' => $lesson->course_id,
+                            'content_type' => 'folder',
+                            'content_id' => $folder->parent_folder_id,
+                            'has_access' => true,
+                        ])->exists();
+                    }
+                }
+            }
+
+            if (!$allowLesson) {
+                abort(403, 'Access denied for this lesson.');
+            }
         }
 
         // Get lesson progress
@@ -828,15 +965,48 @@ class DashboardController extends Controller
         }
 
         // Permission check: require explicit allow (deny-by-default)
-        $allowTest = StudentContentPermission::where([
-            'student_id' => Auth::id(),
-            'course_id' => $test->course_id,
-            'content_type' => 'test',
-            'content_id' => $test->id,
-            'has_access' => true,
-        ])->exists();
-        if (!$allowTest) {
-            abort(403, 'Access denied for this test.');
+        $hasCustomPermissions = StudentContentPermission::where('student_id', Auth::id())
+            ->where('course_id', $test->course_id)
+            ->exists();
+
+        if ($hasCustomPermissions) {
+            $allowTest = StudentContentPermission::where([
+                'student_id' => Auth::id(),
+                'course_id' => $test->course_id,
+                'content_type' => 'test',
+                'content_id' => $test->id,
+                'has_access' => true,
+            ])->exists();
+
+            // Parent Folder Inheritance
+            if (!$allowTest && $test->folder_id) {
+                // Check if the test's folder is allowed
+                $allowTest = StudentContentPermission::where([
+                    'student_id' => Auth::id(),
+                    'course_id' => $test->course_id,
+                    'content_type' => 'folder',
+                    'content_id' => $test->folder_id,
+                    'has_access' => true,
+                ])->exists();
+
+                // Check if the parent of the test's folder is allowed
+                if (!$allowTest) {
+                    $folder = \App\Models\CourseFolder::find($test->folder_id);
+                    if ($folder && $folder->parent_folder_id) {
+                        $allowTest = StudentContentPermission::where([
+                            'student_id' => Auth::id(),
+                            'course_id' => $test->course_id,
+                            'content_type' => 'folder',
+                            'content_id' => $folder->parent_folder_id,
+                            'has_access' => true,
+                        ])->exists();
+                    }
+                }
+            }
+
+            if (!$allowTest) {
+                abort(403, 'Access denied for this test.');
+            }
         }
 
         // Load test questions with options
@@ -1339,18 +1509,40 @@ class DashboardController extends Controller
             // Permission check
             $hasAccess = false;
 
-            if ($file->folder_id) {
-                // Check explicit folder permission
-                $hasAccess = StudentContentPermission::where([
-                    'student_id' => Auth::id(),
-                    'course_id' => $file->course_id,
-                    'content_type' => 'folder',
-                    'content_id' => $file->folder_id,
-                    'has_access' => true,
-                ])->exists();
-            } else {
-                // Root files are accessible if enrolled
+            $hasCustomPermissions = StudentContentPermission::where('student_id', Auth::id())
+                ->where('course_id', $file->course_id)
+                ->exists();
+
+            if (!$hasCustomPermissions) {
                 $hasAccess = true;
+            } else {
+                if ($file->folder_id) {
+                    // Check explicit folder permission
+                    $hasAccess = StudentContentPermission::where([
+                        'student_id' => Auth::id(),
+                        'course_id' => $file->course_id,
+                        'content_type' => 'folder',
+                        'content_id' => $file->folder_id,
+                        'has_access' => true,
+                    ])->exists();
+
+                    // Check if the parent of the folder is explicitly allowed
+                    if (!$hasAccess) {
+                        $folder = \App\Models\CourseFolder::find($file->folder_id);
+                        if ($folder && $folder->parent_folder_id) {
+                            $hasAccess = StudentContentPermission::where([
+                                'student_id' => Auth::id(),
+                                'course_id' => $file->course_id,
+                                'content_type' => 'folder',
+                                'content_id' => $folder->parent_folder_id,
+                                'has_access' => true,
+                            ])->exists();
+                        }
+                    }
+                } else {
+                    // Root files are accessible if enrolled
+                    $hasAccess = true;
+                }
             }
 
             if (!$hasAccess) {
