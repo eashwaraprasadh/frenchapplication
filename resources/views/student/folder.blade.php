@@ -178,7 +178,7 @@
               <div class="content-meta">
                 {{ strtoupper($file->type) }} •
                 @if($file->downloadable)
-                  <a href="{{ $file->download_url }}" class="text-primary text-decoration-none me-2" download>
+                  <a href="{{ route('file.download', $file) }}" class="text-primary text-decoration-none me-2" download>
                     <i class="bi bi-download"></i> Download
                   </a>
                 @endif
@@ -189,13 +189,13 @@
                   @endphp
 
                   @if($isBrowserViewable)
-                    <a href="javascript:void(0)" onclick="openSecureViewer('{{ $file->download_url }}', '{{ $file->type }}')"
+                    <a href="javascript:void(0)" onclick="openSecureViewer('{{ URL::temporarySignedRoute('file.download', now()->addMinutes(2), ['file' => $file->id]) }}', '{{ $file->type }}')"
                       class="text-info text-decoration-none">
                       <i class="bi bi-eye"></i> View
                     </a>
                   @elseif($isGoogleViewable)
                     <a href="javascript:void(0)"
-                      onclick="openSecureViewer('https://docs.google.com/gview?url={{ urlencode($file->download_url) }}&embedded=true', 'google')"
+                      onclick="openSecureViewer('https://docs.google.com/gview?url={{ urlencode(URL::temporarySignedRoute('file.download', now()->addMinutes(2), ['file' => $file->id])) }}&embedded=true', 'google')"
                       class="text-info text-decoration-none">
                       <i class="bi bi-eye"></i> View
                     </a>

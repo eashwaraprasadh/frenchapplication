@@ -1322,39 +1322,45 @@ class DashboardController extends Controller
      */
     public function downloadFile(\App\Models\CourseFile $file)
     {
-        // Check if user is enrolled in the course
-        $enrollment = Enrollment::where('user_id', Auth::id())
-            ->where('course_id', $file->course_id)
-            ->first();
+        // 1. Check if the request is a valid temporary signed request (used by Google preview iframe)
+        $hasValidSignature = request()->hasValidSignature();
 
-        if (!$enrollment) {
-            abort(403, 'You must be enrolled in this course to download files.');
-        }
+        // 2. If it is NOT a signed request, enforce standard student permission checks
+        if (!$hasValidSignature) {
+            // Check if user is enrolled in the course
+            $enrollment = Enrollment::where('user_id', Auth::id())
+                ->where('course_id', $file->course_id)
+                ->first();
 
-        // Permission check
-        $hasAccess = false;
+            if (!$enrollment) {
+                abort(403, 'You must be enrolled in this course to download files.');
+            }
 
-        if ($file->folder_id) {
-            // Check explicit folder permission
-            $hasAccess = StudentContentPermission::where([
-                'student_id' => Auth::id(),
-                'course_id' => $file->course_id,
-                'content_type' => 'folder',
-                'content_id' => $file->folder_id,
-                'has_access' => true,
-            ])->exists();
-        } else {
-            // Root files are accessible if enrolled
-            $hasAccess = true;
-        }
+            // Permission check
+            $hasAccess = false;
 
-        if (!$hasAccess) {
-            abort(403, 'Access denied for this file.');
-        }
+            if ($file->folder_id) {
+                // Check explicit folder permission
+                $hasAccess = StudentContentPermission::where([
+                    'student_id' => Auth::id(),
+                    'course_id' => $file->course_id,
+                    'content_type' => 'folder',
+                    'content_id' => $file->folder_id,
+                    'has_access' => true,
+                ])->exists();
+            } else {
+                // Root files are accessible if enrolled
+                $hasAccess = true;
+            }
 
-        // Check availability
-        if (!$file->downloadable) {
-            abort(403, 'Downloading is disabled for this file.');
+            if (!$hasAccess) {
+                abort(403, 'Access denied for this file.');
+            }
+
+            // Check availability
+            if (!$file->downloadable) {
+                abort(403, 'Downloading is disabled for this file.');
+            }
         }
 
         // Determine file path
