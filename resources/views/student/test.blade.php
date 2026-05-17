@@ -1211,10 +1211,15 @@
                     const now = Date.now();
                     const timeTaken = Math.round((now - startTime) / 1000);
 
+                    // Base64 encode the answers payload to bypass any web application firewalls (e.g. ModSecurity on Hostinger)
+                    // that might trigger a 403 error on French special characters/apostrophes/quotes in essays or passages.
+                    const safeAnswers = btoa(unescape(encodeURIComponent(JSON.stringify(answers))));
+
                     const submissionData = {
                         test_id: {{ $test->id }},
-                        answers: answers,
-                        time_taken: timeTaken
+                        answers: safeAnswers,
+                        time_taken: timeTaken,
+                        is_encoded: true
                     };
 
                     console.log('Submitting test with data:', submissionData);

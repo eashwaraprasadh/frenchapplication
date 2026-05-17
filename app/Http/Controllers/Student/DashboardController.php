@@ -979,6 +979,19 @@ class DashboardController extends Controller
      */
     public function submitTest(Request $request, \App\Models\Test $test)
     {
+        // If answers are base64 encoded to bypass WAF, decode them before validation
+        if ($request->has('is_encoded') && $request->input('is_encoded') === true && is_string($request->input('answers'))) {
+            try {
+                $decodedJson = base64_decode($request->input('answers'));
+                $decodedAnswers = json_decode($decodedJson, true);
+                if (is_array($decodedAnswers)) {
+                    $request->merge(['answers' => $decodedAnswers]);
+                }
+            } catch (\Exception $e) {
+                // Fail gracefully and let validation handle it
+            }
+        }
+
         try {
             $request->validate([
                 'test_id' => 'required|exists:tests,id',
