@@ -493,15 +493,7 @@
                  {{-- The Toolbar Blocker: Covers the top 55px of the iframe --}}
                 <div id="toolbarBlocker" style="position: absolute; top: 0; left: 0; width: 100%; height: 55px; background: transparent; z-index: 1056; cursor: not-allowed;" title="External tools disabled"></div>
                 
-                {{-- Premium Loader Spinner --}}
-                <div id="secureViewerLoader" class="d-flex flex-column align-items-center justify-content-center"
-                    style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); z-index: 1050; text-align: center; width: 100%;">
-                    <div class="spinner-border text-primary mb-3" role="status" style="width: 3.5rem; height: 3.5rem; border-width: 0.25rem;"></div>
-                    <h5 class="text-white fw-bold">Loading Secure Document...</h5>
-                    <p class="text-secondary small">Generating secure preview window, please wait.</p>
-                </div>
-
-                <iframe id="secureFrame" src="" style="width: 100%; height: 100%; border: none; opacity: 0; transition: opacity 0.4s ease;" allowfullscreen></iframe>
+                <iframe id="secureFrame" src="" style="width: 100%; height: 100%; border: none;" allowfullscreen></iframe>
             </div>
         </div>
     </div>
@@ -509,21 +501,11 @@
 
     @push('scripts')
         <script>
-            let secureViewerTimeout = null;
-
             function openSecureViewer(url, type, downloadUrl = '') {
                 const frame = document.getElementById('secureFrame');
                 const blocker = document.getElementById('toolbarBlocker');
-                const loader = document.getElementById('secureViewerLoader');
                 const headerDownload = document.getElementById('secureViewerHeaderDownload');
                 
-                // Clear any existing autohide timeout
-                if (secureViewerTimeout) clearTimeout(secureViewerTimeout);
-
-                // Reset visibility states
-                loader.style.display = 'flex';
-                frame.style.opacity = '0';
-
                 // Set src to blank first to flush memory
                 frame.src = 'about:blank';
                 
@@ -554,22 +536,6 @@
 
                 // Start loading
                 frame.src = finalUrl;
-                
-                // Hide loader when loaded successfully
-                frame.onload = function() {
-                    if (secureViewerTimeout) clearTimeout(secureViewerTimeout);
-                    loader.style.display = 'none';
-                    frame.style.opacity = '1';
-                };
-
-                // Safety Auto-Hide: If cross-origin boundaries block the onload event in the browser,
-                // we automatically hide the loader after 3.5 seconds to ensure the user can read the loaded document.
-                secureViewerTimeout = setTimeout(() => {
-                    if (loader.style.display !== 'none') {
-                        loader.style.display = 'none';
-                        frame.style.opacity = '1';
-                    }
-                }, 3500);
 
                 const modal = new bootstrap.Modal(document.getElementById('secureViewerModal'));
                 modal.show();
