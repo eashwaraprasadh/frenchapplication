@@ -197,6 +197,11 @@ Route::middleware(['auth', 'verified'])->prefix('student')->name('student.')->gr
     Route::post('/attendance/store', [\App\Http\Controllers\Student\AttendanceController::class, 'store'])->name('attendance.store');
 });
 
+// File download route alias with exact 'file.download' name (outside the 'student.' name prefix group)
+Route::middleware(['auth', 'verified'])->group(function () {
+    Route::get('/student/file/download/{file}', [StudentDashboardController::class, 'downloadFile'])->name('file.download');
+});
+
 // Teacher Routes
 Route::middleware(['auth', 'verified'])->prefix('teacher')->name('teacher.')->group(function () {
     Route::get('/dashboard', [TeacherDashboardController::class, 'index'])->name('dashboard');

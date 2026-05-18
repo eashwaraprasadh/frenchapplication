@@ -201,13 +201,13 @@
                   @endphp
 
                   @if($isBrowserViewable)
-                    <a href="javascript:void(0)" onclick="openSecureViewer('{{ URL::temporarySignedRoute('file.download', now()->addMinutes(2), ['file' => $file->id]) }}', '{{ $file->type }}')"
+                    <a href="javascript:void(0)" onclick="openSecureViewer('{{ URL::temporarySignedRoute('file.download', now()->addMinutes(30), ['file' => $file->id]) }}', '{{ $file->type }}', '{{ $file->downloadable ? route('file.download', $file) : '' }}')"
                       class="text-info text-decoration-none">
                       <i class="bi bi-eye"></i> View
                     </a>
                   @elseif($isGoogleViewable)
                     <a href="javascript:void(0)"
-                      onclick="openSecureViewer('https://docs.google.com/gview?url={{ urlencode(URL::temporarySignedRoute('file.download', now()->addMinutes(2), ['file' => $file->id])) }}&embedded=true', 'google')"
+                      onclick="openSecureViewer('https://docs.google.com/gview?url={{ urlencode($file->download_url) }}&embedded=true', 'google', '{{ $file->downloadable ? route('file.download', $file) : '' }}')"
                       class="text-info text-decoration-none">
                       <i class="bi bi-eye"></i> View
                     </a>
@@ -243,11 +243,33 @@
           <h6 class="modal-title text-white"><i class="bi bi-shield-lock me-2"></i>Secure Viewer</h6>
           <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
-        <div class="modal-body p-0 position-relative" style="height: 100%; overflow: hidden; background: #333;">
+        <div class="modal-body p-0 position-relative" style="height: 100%; overflow: hidden; background: #1e293b;">
           {{-- The Toolbar Blocker: Covers the top 55px of the iframe --}}
           <div id="toolbarBlocker"
             style="position: absolute; top: 0; left: 0; width: 100%; height: 55px; background: transparent; z-index: 1056; cursor: not-allowed;"
             title="External tools disabled"></div>
+
+          {{-- Premium Loader Spinner --}}
+          <div id="secureViewerLoader" class="d-flex flex-column align-items-center justify-content-center"
+            style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); z-index: 1050; text-align: center; width: 100%;">
+            <div class="spinner-border text-primary mb-3" role="status" style="width: 3.5rem; height: 3.5rem; border-width: 0.25rem;"></div>
+            <h5 class="text-white fw-bold">Loading Secure Document...</h5>
+            <p class="text-secondary small">Generating secure preview window, please wait.</p>
+          </div>
+
+          {{-- Fallback Options Banner --}}
+          <div id="secureViewerFallback" class="text-center py-4 px-3"
+            style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); z-index: 1050; display: none; width: 90%; max-width: 400px; background: rgba(15, 23, 42, 0.95); border-radius: 16px; border: 1px solid rgba(255,255,255,0.1); box-shadow: 0 20px 25px -5px rgba(0,0,0,0.5);">
+            <i class="bi bi-exclamation-triangle text-warning mb-3" style="font-size: 3rem; display: block;"></i>
+            <h6 class="text-white fw-bold mb-2">Preview taking longer than expected</h6>
+            <p class="text-secondary small mb-4">Google Preview servers are occasionally slow. You can retry loading or download the document below.</p>
+            <a id="secureViewerFallbackBtn" href="" class="btn btn-warning btn-sm fw-bold w-100 mb-2 py-2" style="border-radius: 8px;">
+              <i class="bi bi-download me-2"></i>Download Document
+            </a>
+            <button type="button" class="btn btn-outline-light btn-sm w-100 py-2" onclick="retrySecureViewer()" style="border-radius: 8px;">
+              <i class="bi bi-arrow-clockwise me-2"></i>Retry Preview
+            </button>
+          </div>
 
           <iframe id="secureFrame" src="" style="width: 100%; height: 100%; border: none;" allowfullscreen></iframe>
         </div>
@@ -257,29 +279,83 @@
 
   @push('scripts')
     <script>
-      function openSecureViewer(url, type) {
+      let secureViewerTimeout = null;
+      let currentViewerUrl = '';
+      let currentViewerType = '';
+
+      function openSecureViewer(url, type, downloadUrl = '') {
         const frame = document.getElementById('secureFrame');
         const blocker = document.getElementById('toolbarBlocker');
+        const loader = document.getElementById('secureViewerLoader');
+        const fallback = document.getElementById('secureViewerFallback');
+        const fallbackBtn = document.getElementById('secureViewerFallbackBtn');
 
-        // Reset src
+        // Store active state for retries
+        currentViewerUrl = url;
+        currentViewerType = type;
+
+        // Clear previous timeout
+        if (secureViewerTimeout) clearTimeout(secureViewerTimeout);
+
+        // Reset visibility
+        loader.style.display = 'flex';
+        fallback.style.display = 'none';
+        frame.style.opacity = '0';
+        frame.style.transition = 'opacity 0.4s ease';
+
+        // Set src to empty first
         frame.src = 'about:blank';
 
         // Determine URL to load
         let finalUrl = url;
 
+        // Add outer cache buster to bypass Google rate-limited cached 204 blank pages
+        if (type === 'google') {
+          finalUrl += '&cb=' + new Date().getTime();
+        }
+
         // Show blocker by default for Google/Office
         blocker.style.display = (type === 'google' || type === 'PowerPoint' || type === 'Word' || type === 'Excel') ? 'block' : 'none';
 
-        // If PDF, we can also try to hide toolbar via URL hash parameters
+        // If PDF, hide toolbar via URL hash parameters
         if (type === 'PDF') {
           finalUrl += '#toolbar=0&navpanes=0&scrollbar=0&view=FitH';
           blocker.style.display = 'block';
         }
 
+        // Setup fallback download button if available
+        if (downloadUrl) {
+          fallbackBtn.href = downloadUrl;
+          fallbackBtn.style.display = 'inline-block';
+        } else {
+          fallbackBtn.style.display = 'none';
+        }
+
+        // Start loading
         frame.src = finalUrl;
+
+        // Hide loader and fallback when loaded successfully
+        frame.onload = function() {
+          if (secureViewerTimeout) clearTimeout(secureViewerTimeout);
+          loader.style.display = 'none';
+          fallback.style.display = 'none';
+          frame.style.opacity = '1';
+        };
+
+        // Start safety timeout (show fallback options after 12 seconds)
+        secureViewerTimeout = setTimeout(() => {
+          if (loader.style.display !== 'none') {
+            loader.style.display = 'none';
+            fallback.style.display = 'block';
+          }
+        }, 12000);
 
         const modal = new bootstrap.Modal(document.getElementById('secureViewerModal'));
         modal.show();
+      }
+
+      function retrySecureViewer() {
+        openSecureViewer(currentViewerUrl, currentViewerType, document.getElementById('secureViewerFallbackBtn').href);
       }
     </script>
   @endpush

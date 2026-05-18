@@ -620,38 +620,44 @@
                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
                     <button type="button" class="btn btn-warning" onclick="submitCreateTest()">Create Test</button>
                 </div>
+            </div>
+        </div>
+    </div>
 
-                <!-- Move Folder Modal -->
-                <div class="modal fade" id="moveFolderModal" tabindex="-1">
-                    <div class="modal-dialog">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <h5 class="modal-title">
-                                    <i class="bi bi-arrows-move me-2"></i>
-                                    Move Folder
-                                </h5>
-                                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
-                            </div>
-                            <div class="modal-body">
-                                <div class="mb-3">
-                                    <label for="moveDestinationSelect" class="form-label">Destination</label>
-                                    <select id="moveDestinationSelect" class="form-select">
-                                        <option value="">Root</option>
-                                        <!-- Options will be populated dynamically -->
-                                    </select>
-                                </div>
-                                <div class="small text-muted">
-                                    Note: You cannot move a folder into itself or into one of its subfolders.
-                                </div>
-                            </div>
-                            <div class="modal-footer">
-                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
-                                <button type="button" class="btn btn-primary" onclick="submitMoveFolder()">Move</button>
-                            </div>
+    <!-- Move Folder Modal -->
+    <div class="modal fade" id="moveFolderModal" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">
+                        <i class="bi bi-arrows-move me-2"></i>
+                        Move Folder
+                    </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="alert alert-info py-2 px-3 mb-3 d-flex align-items-center" style="font-size: 0.9rem; border-radius: 8px; border: none; background: #e0f2fe; color: #0369a1;">
+                        <i class="bi bi-info-circle-fill me-2" style="font-size: 1.1rem;"></i>
+                        <div>
+                            Moving folder: <strong id="movingFolderNameDisplay" style="color: #0284c7;">...</strong>
                         </div>
                     </div>
+                    <div class="mb-3">
+                        <label for="moveDestinationSelect" class="form-label fw-semibold" style="font-size: 0.9rem;">Select Destination Folder</label>
+                        <select id="moveDestinationSelect" class="form-select" style="font-family: monospace, system-ui; font-size: 0.95rem;">
+                            <option value="">📁 Root (Top Level)</option>
+                            <!-- Options will be populated dynamically -->
+                        </select>
+                    </div>
+                    <div class="small text-muted" style="font-size: 0.82rem;">
+                        <i class="bi bi-exclamation-triangle me-1"></i>
+                        Note: You cannot move a folder into itself or into one of its subfolders.
+                    </div>
                 </div>
-
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                    <button type="button" class="btn btn-primary" onclick="submitMoveFolder()">Move</button>
+                </div>
             </div>
         </div>
     </div>
@@ -750,17 +756,25 @@
                 moveFolderId = folderId;
                 const select = document.getElementById('moveDestinationSelect');
                 // Reset options
-                select.innerHTML = '<option value="">Root</option>';
+                select.innerHTML = '<option value="">📁 Root (Top Level)</option>';
                 fetch(`/admin/courses/${courseId}/folders/${folderId}/move-options`)
                     .then(r => r.json())
                     .then(data => {
                         if (!data.success) throw new Error(data.message || 'Unable to load destinations');
+                        
+                        // Set folder name display
+                        document.getElementById('movingFolderNameDisplay').textContent = data.folder_name;
+
                         (data.options || []).forEach(opt => {
                             const o = document.createElement('option');
                             o.value = opt.id;
-                            o.textContent = opt.path;
+                            o.textContent = opt.display_name;
                             select.appendChild(o);
                         });
+
+                        // Pre-select current parent folder
+                        select.value = data.current_parent_id || '';
+
                         const modal = new bootstrap.Modal(document.getElementById('moveFolderModal'));
                         modal.show();
                     })

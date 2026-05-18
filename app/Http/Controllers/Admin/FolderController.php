@@ -143,10 +143,24 @@ class FolderController extends Controller
         $options = [];
         foreach ($all as $f) {
             if (isset($excludeIds[$f->id])) continue;
+
+            // Calculate depth for indentation
+            $depth = 0;
+            $curr = $f->parent_folder_id;
+            while ($curr) {
+                $depth++;
+                $curr = $parentMap[$curr] ?? null;
+            }
+
+            // Generate clean indented name for select option display using non-breaking spaces
+            $indent = str_repeat("\u{00A0}\u{00A0}\u{00A0}\u{00A0}", $depth);
+            $prefix = $depth > 0 ? "└─ 📁 " : "📁 ";
+
             $options[] = [
                 'id' => $f->id,
                 'name' => $f->name,
                 'path' => $this->buildPath($f->id, $parentMap, $nameMap),
+                'display_name' => $indent . $prefix . $f->name,
             ];
         }
 
@@ -157,6 +171,8 @@ class FolderController extends Controller
 
         return response()->json([
             'success' => true,
+            'folder_name' => $folder->name,
+            'current_parent_id' => $folder->parent_folder_id,
             'root' => [ 'id' => null, 'name' => 'Root', 'path' => 'Root' ],
             'options' => $options,
         ]);
