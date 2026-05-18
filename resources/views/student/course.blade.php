@@ -479,9 +479,15 @@
   <div class="modal fade" id="secureViewerModal" tabindex="-1" aria-hidden="true" data-bs-backdrop="static">
     <div class="modal-dialog modal-fullscreen">
         <div class="modal-content bg-dark">
-            <div class="modal-header border-secondary py-2">
-                <h6 class="modal-title text-white"><i class="bi bi-shield-lock me-2"></i>Secure Viewer</h6>
-                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+            <div class="modal-header border-secondary py-2 d-flex align-items-center justify-content-between">
+                <h6 class="modal-title text-white mb-0"><i class="bi bi-shield-lock me-2"></i>Secure Viewer</h6>
+                <div class="d-flex align-items-center">
+                    {{-- Non-intrusive Premium Header Download Button --}}
+                    <a id="secureViewerHeaderDownload" href="" class="btn btn-outline-light btn-sm me-3" style="display: none; border-radius: 6px;" download>
+                        <i class="bi bi-download me-1"></i> Download File
+                    </a>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
             </div>
             <div class="modal-body p-0 position-relative" style="height: 100%; overflow: hidden; background: #1e293b;">
                  {{-- The Toolbar Blocker: Covers the top 55px of the iframe --}}
@@ -495,21 +501,7 @@
                     <p class="text-secondary small">Generating secure preview window, please wait.</p>
                 </div>
 
-                {{-- Fallback Options Banner --}}
-                <div id="secureViewerFallback" class="text-center py-4 px-3"
-                    style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); z-index: 1050; display: none; width: 90%; max-width: 400px; background: rgba(15, 23, 42, 0.95); border-radius: 16px; border: 1px solid rgba(255,255,255,0.1); box-shadow: 0 20px 25px -5px rgba(0,0,0,0.5);">
-                    <i class="bi bi-exclamation-triangle text-warning mb-3" style="font-size: 3rem; display: block;"></i>
-                    <h6 class="text-white fw-bold mb-2">Preview taking longer than expected</h6>
-                    <p class="text-secondary small mb-4">Google Preview servers are occasionally slow. You can retry loading or download the document below.</p>
-                    <a id="secureViewerFallbackBtn" href="" class="btn btn-warning btn-sm fw-bold w-100 mb-2 py-2" style="border-radius: 8px;">
-                        <i class="bi bi-download me-2"></i>Download Document
-                    </a>
-                    <button type="button" class="btn btn-outline-light btn-sm w-100 py-2" onclick="retrySecureViewer()" style="border-radius: 8px;">
-                        <i class="bi bi-arrow-clockwise me-2"></i>Retry Preview
-                    </button>
-                </div>
-
-                <iframe id="secureFrame" src="" style="width: 100%; height: 100%; border: none;" allowfullscreen></iframe>
+                <iframe id="secureFrame" src="" style="width: 100%; height: 100%; border: none; opacity: 0; transition: opacity 0.4s ease;" allowfullscreen></iframe>
             </div>
         </div>
     </div>
@@ -518,30 +510,21 @@
     @push('scripts')
         <script>
             let secureViewerTimeout = null;
-            let currentViewerUrl = '';
-            let currentViewerType = '';
 
             function openSecureViewer(url, type, downloadUrl = '') {
                 const frame = document.getElementById('secureFrame');
                 const blocker = document.getElementById('toolbarBlocker');
                 const loader = document.getElementById('secureViewerLoader');
-                const fallback = document.getElementById('secureViewerFallback');
-                const fallbackBtn = document.getElementById('secureViewerFallbackBtn');
+                const headerDownload = document.getElementById('secureViewerHeaderDownload');
                 
-                // Store active state for retries
-                currentViewerUrl = url;
-                currentViewerType = type;
-
-                // Clear previous timeout
+                // Clear any existing autohide timeout
                 if (secureViewerTimeout) clearTimeout(secureViewerTimeout);
 
-                // Reset visibility
+                // Reset visibility states
                 loader.style.display = 'flex';
-                fallback.style.display = 'none';
                 frame.style.opacity = '0';
-                frame.style.transition = 'opacity 0.4s ease';
 
-                // Set src to empty first
+                // Set src to blank first to flush memory
                 frame.src = 'about:blank';
                 
                 // Determine URL to load
@@ -561,39 +544,35 @@
                     blocker.style.display = 'block'; 
                 }
 
-                // Setup fallback download button if available
+                // Setup clean non-intrusive download button in header if available
                 if (downloadUrl) {
-                    fallbackBtn.href = downloadUrl;
-                    fallbackBtn.style.display = 'inline-block';
+                    headerDownload.href = downloadUrl;
+                    headerDownload.style.display = 'inline-block';
                 } else {
-                    fallbackBtn.style.display = 'none';
+                    headerDownload.style.display = 'none';
                 }
 
                 // Start loading
                 frame.src = finalUrl;
                 
-                // Hide loader and fallback when loaded successfully
+                // Hide loader when loaded successfully
                 frame.onload = function() {
                     if (secureViewerTimeout) clearTimeout(secureViewerTimeout);
                     loader.style.display = 'none';
-                    fallback.style.display = 'none';
                     frame.style.opacity = '1';
                 };
 
-                // Start safety timeout (show fallback options after 12 seconds)
+                // Safety Auto-Hide: If cross-origin boundaries block the onload event in the browser,
+                // we automatically hide the loader after 3.5 seconds to ensure the user can read the loaded document.
                 secureViewerTimeout = setTimeout(() => {
                     if (loader.style.display !== 'none') {
                         loader.style.display = 'none';
-                        fallback.style.display = 'block';
+                        frame.style.opacity = '1';
                     }
-                }, 12000);
+                }, 3500);
 
                 const modal = new bootstrap.Modal(document.getElementById('secureViewerModal'));
                 modal.show();
-            }
-
-            function retrySecureViewer() {
-                openSecureViewer(currentViewerUrl, currentViewerType, document.getElementById('secureViewerFallbackBtn').href);
             }
 
             // Load lesson content
